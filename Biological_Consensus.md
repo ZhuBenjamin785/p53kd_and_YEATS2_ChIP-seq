@@ -48,29 +48,5 @@ In this system, p53 and YEATS2 appear to influence the H4K16ac chromatin state, 
 
 9. **The p53 ChIP result is useful context but not a complete mechanism.** The 0-hour p53 ChIP has two replicates with reported FRiP values of 0.22 and 0.17, but the read depths are quite unequal (about 34.7 million versus 9.1 million reads). It supports examining p53 occupancy, but it does not establish that p53 directly controls the H4K16ac changes after knockdown.
 
-## Why Hi-C could be the right next experiment
 
-Hi-C measures DNA regions that are physically near one another in the nucleus. The current H4K16ac data measure a chromatin mark at genomic locations; they cannot distinguish among:
-
-- a local promoter or enhancer change;
-- a change in enhancer–promoter contact;
-- a larger A/B compartment shift;
-- a TAD-boundary or loop change; or
-- a secondary consequence of altered transcription or cell state.
-
-Hi-C would directly test the missing architectural layer. It becomes especially valuable if the intended model is that p53 or YEATS2 redistributes H4K16ac by changing enhancer–promoter communication or broader chromatin organization.
-
-## Why moving directly to Hi-C may be premature
-
-The current results do not contain a specific 3D-genome signature. Zero overlap between the p53KD and YEATS2KD peak sets argues against a simple shared local mechanism, but it does not predict a global architecture change. A Hi-C experiment is also expensive and can be difficult to interpret when there is only one sample per condition or when perturbations alter proliferation, cell composition, or other global states.
-
-Hi-C would not tell us automatically which H4K16ac peak regulates which gene. Nor would a contact change prove that p53 or YEATS2 caused it. Without matched expression and chromatin-state evidence, a contact map could produce an interesting but weakly anchored result.
-
-
-If the immediate goal is simply to explain the current H4K16ac findings, the better next step is to validate the p53KD/YEATS2KD contrasts and connect them to replicated transcriptional changes. Then use targeted 3C/4C or a focused contact assay at selected loci before committing to genome-wide Hi-C.
-
-## Intended Claim
-
-
-> p53 and YEATS2 perturbation are associated with distinct H4K16ac redistribution patterns, with p53 knockdown showing a stronger promoter-proximal loss-dominant response.
 
