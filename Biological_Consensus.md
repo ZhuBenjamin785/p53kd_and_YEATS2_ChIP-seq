@@ -20,6 +20,9 @@ In this system, p53 and YEATS2 appear to influence the H4K16ac chromatin state, 
 
 3. **The p53KD loss is largely promoter-proximal.** Of the 208 annotated loss peaks, 153 are within 1 kb of a TSS, with additional promoter peaks in the 1–2 kb and 2–3 kb windows. This is consistent with p53 knockdown changing H4K16ac at many promoter-associated regulatory regions. It does not by itself prove that transcription changed or that p53 directly binds every affected promoter.
    <img width="1312" height="792" alt="peak_annotation_summary_barplot" src="https://github.com/user-attachments/assets/0839b95a-e223-4e96-a6de-d5a93e79541c" />
+   <img width="1243" height="1167" alt="TSS_centered_heatmap" src="https://github.com/user-attachments/assets/ddaae42e-5fa3-4415-bb2e-7259dd79724e" />
+   <img width="1167" height="792" alt="TSS_average_profile" src="https://github.com/user-attachments/assets/f283ad92-c63a-45c1-9d0d-d21f263c1574" />
+
 
 
 5. **YEATS2 knockdown also changes H4K16ac, but on a smaller and different set of loci.** It has 61 significant peaks: 42 losses and 19 gains. Its significant peaks are distributed across intronic, promoter, distal-intergenic, exon, and UTR categories rather than showing the same strongly promoter-focused pattern.
