@@ -1,0 +1,3 @@
+"ID","Condition","Replicate","Caller","Intervals","Reads","FRiP"
+"p53_0hr_rep1","p53_0hr","1","counts",120788,34734135,0.22
+"p53_0hr_rep2","p53_0hr","2","counts",120788,9094481,0.17

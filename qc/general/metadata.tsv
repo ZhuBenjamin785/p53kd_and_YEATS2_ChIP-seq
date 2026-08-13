@@ -1,0 +1,3 @@
+SampleID	Condition	Replicate	bamReads	bamControl	Spikein	Peaks	PeakCaller
+p53_0hr_rep1	p53_0hr	1	fastqchip_bamfiles/human/SRR5944063.sorted.bam	fastqchip_bamfiles/human/SRR5944081.sorted.bam	fastqchip_bamfiles/dm6/SRR5944063.sorted.bam	fastqchip_macs3_results/peaks/p53_0hr/p53_0hr_peaks.narrowPeak	macs
+p53_0hr_rep2	p53_0hr	2	fastqchip_bamfiles/human/SRR5944064.sorted.bam	fastqchip_bamfiles/human/SRR5944082.sorted.bam	fastqchip_bamfiles/dm6/SRR5944064.sorted.bam	fastqchip_macs3_results/peaks/p53_0hr/p53_0hr_peaks.narrowPeak	macs

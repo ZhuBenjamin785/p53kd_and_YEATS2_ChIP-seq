@@ -1,0 +1,2 @@
+annotated_gene_id,annotated_gene_name,YEATS2KD_median_fold,YEATS2KD_peak_count,YEATS2KD_promoter_within_2kb,p53KD_median_fold,p53KD_peak_count,p53KD_promoter_within_2kb,YEATS2KD_direction,p53KD_direction,directions_match
+ENSG00000188825,LINC00910,-5.78587425773247,1,False,-5.7183486494684,1,True,loss,loss,True

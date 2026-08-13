@@ -1,0 +1,8 @@
+metric	observed	random_mean	fold_enrichment	empirical_p_value	permutations
+any_overlap	0	0.1892	0.0000	1	10000
+gain_gain	0	0.0005	0.0000	1	10000
+gain_loss	0	0.0610	0.0000	1	10000
+loss_gain	0	0.0004	0.0000	1	10000
+loss_loss	0	0.1273	0.0000	1	10000
+concordant	0	0.1278	0.0000	1	10000
+discordant	0	0.0614	0.0000	1	10000

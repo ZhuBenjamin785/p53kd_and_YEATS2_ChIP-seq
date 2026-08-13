@@ -1,0 +1,5 @@
+peak_sample	dm6_alignment_count	target_count	subsampling_fraction
+Scramble_H4K16ac_rep1	903544	592186	0.655403610671
+Scramble_H4K16ac_rep2	761500	592186	0.777657255417
+p53KD_H4K16ac_rep1	592186	592186	1.000000000000
+p53KD_H4K16ac_rep2	815966	592186	0.725748376771

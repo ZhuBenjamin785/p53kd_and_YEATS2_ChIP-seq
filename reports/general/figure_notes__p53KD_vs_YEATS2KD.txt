@@ -1,0 +1,4 @@
+Differential peaks are DiffBind results at FDR < 0.05.
+Nearest genes are assigned by ChIPseeker; gene overlap does not imply exact peak overlap.
+TSS profiles show KD minus Scramble from log2(ChIP/Input) tracks generated from dm6-normalized BAMs.
+The comparison emphasizes H4K16ac redistribution rather than requiring exact peak overlap.
