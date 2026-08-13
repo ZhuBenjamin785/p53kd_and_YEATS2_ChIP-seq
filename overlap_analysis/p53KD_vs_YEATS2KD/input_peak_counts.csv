@@ -1,9 +1,0 @@
-dataset,peak_group,n_peaks
-YEATS2KD,all_tested,31651
-YEATS2KD,significant,61
-YEATS2KD,gain,19
-YEATS2KD,loss,42
-p53KD,all_tested,3222
-p53KD,significant,217
-p53KD,gain,9
-p53KD,loss,208

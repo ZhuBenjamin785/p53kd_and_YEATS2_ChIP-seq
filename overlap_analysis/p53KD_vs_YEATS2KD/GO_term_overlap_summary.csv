@@ -1,4 +1,0 @@
-group_1,group_2,shared_significant_GO_terms,union_significant_GO_terms,jaccard_index
-YEATS2KD_only,p53KD_only,0,0,0.0
-YEATS2KD_only,shared,0,0,0.0
-p53KD_only,shared,0,0,0.0
