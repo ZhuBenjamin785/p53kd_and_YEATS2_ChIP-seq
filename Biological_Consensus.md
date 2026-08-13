@@ -14,19 +14,22 @@ In this system, p53 and YEATS2 appear to influence the H4K16ac chromatin state, 
 
    <img width="436.8" height="316.8" alt="volcano_plot" src="https://github.com/user-attachments/assets/f03ce517-f5d4-4d5d-832c-695f36402810" />
    <img width="436.8" height="316.8" alt="MA_plot" src="https://github.com/user-attachments/assets/02c8888a-2320-4b9a-8316-502da1c8ddbe" />
+   <img width="436.8" height="316.8" alt="peak_intensity_log2FC_distribution" src="https://github.com/user-attachments/assets/59f9ba61-39d8-4ef9-b9d8-6f7c39e05e5d" />
+
 
 
 3. **The p53KD loss is largely promoter-proximal.** Of the 208 annotated loss peaks, 153 are within 1 kb of a TSS, with additional promoter peaks in the 1–2 kb and 2–3 kb windows. This is consistent with p53 knockdown changing H4K16ac at many promoter-associated regulatory regions. It does not by itself prove that transcription changed or that p53 directly binds every affected promoter.
+   
 
-4. **YEATS2 knockdown also changes H4K16ac, but on a smaller and different set of loci.** It has 61 significant peaks: 42 losses and 19 gains. Its significant peaks are distributed across intronic, promoter, distal-intergenic, exon, and UTR categories rather than showing the same strongly promoter-focused pattern.
+5. **YEATS2 knockdown also changes H4K16ac, but on a smaller and different set of loci.** It has 61 significant peaks: 42 losses and 19 gains. Its significant peaks are distributed across intronic, promoter, distal-intergenic, exon, and UTR categories rather than showing the same strongly promoter-focused pattern.
 
-5. **The p53KD and YEATS2KD effects are not the same local program.** The supplied overlap analysis finds 0 exact overlapping peak pairs among 217 p53KD and 61 YEATS2KD significant peaks. It also finds no shared nearby genes within 10 kb and no shared promoter-neighborhood genes. The one shared ChIPseeker-annotated gene is too little to establish biological convergence, and GO testing correctly reports the shared set as too small.
+6. **The p53KD and YEATS2KD effects are not the same local program.** The supplied overlap analysis finds 0 exact overlapping peak pairs among 217 p53KD and 61 YEATS2KD significant peaks. It also finds no shared nearby genes within 10 kb and no shared promoter-neighborhood genes. The one shared ChIPseeker-annotated gene is too little to establish biological convergence, and GO testing correctly reports the shared set as too small.
 
-6. **The safest consensus is therefore “distinct chromatin responses,” not “one common p53–YEATS2 pathway.”** A possible model is that p53 and YEATS2 affect H4K16ac through different locus sets or regulatory routes. They may still converge at a broader chromatin or cellular state, but that is a hypothesis, not a result of the current overlap analysis.
+7. **The safest consensus is therefore “distinct chromatin responses,” not “one common p53–YEATS2 pathway.”** A possible model is that p53 and YEATS2 affect H4K16ac through different locus sets or regulatory routes. They may still converge at a broader chromatin or cellular state, but that is a hypothesis, not a result of the current overlap analysis.
 
-7. **Expression-level conclusions are not currently available from the included exploratory RNA-seq tables.** The RNA metadata lists one sample for each of four conditions, and the exploratory fold-change tables have no p-values or adjusted p-values. They can suggest candidate directions, but they cannot provide replicated differential-expression evidence or establish an H4K16ac-to-expression chain.
+8. **Expression-level conclusions are not currently available from the included exploratory RNA-seq tables.** The RNA metadata lists one sample for each of four conditions, and the exploratory fold-change tables have no p-values or adjusted p-values. They can suggest candidate directions, but they cannot provide replicated differential-expression evidence or establish an H4K16ac-to-expression chain.
 
-8. **The p53 ChIP result is useful context but not a complete mechanism.** The 0-hour p53 ChIP has two replicates with reported FRiP values of 0.22 and 0.17, but the read depths are quite unequal (about 34.7 million versus 9.1 million reads). It supports examining p53 occupancy, but it does not establish that p53 directly controls the H4K16ac changes after knockdown.
+9. **The p53 ChIP result is useful context but not a complete mechanism.** The 0-hour p53 ChIP has two replicates with reported FRiP values of 0.22 and 0.17, but the read depths are quite unequal (about 34.7 million versus 9.1 million reads). It supports examining p53 occupancy, but it does not establish that p53 directly controls the H4K16ac changes after knockdown.
 
 ## Why Hi-C could be the right next experiment
 
