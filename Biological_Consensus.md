@@ -66,37 +66,12 @@ The current results do not contain a specific 3D-genome signature. Zero overlap 
 
 Hi-C would not tell us automatically which H4K16ac peak regulates which gene. Nor would a contact change prove that p53 or YEATS2 caused it. Without matched expression and chromatin-state evidence, a contact map could produce an interesting but weakly anchored result.
 
-## Decision
-
-**Recommendation: conditional go, but do not jump straight to a large Hi-C experiment yet.**
-
-Move toward 3D-genome analysis if the project’s central question is architectural and the experiment can include:
-
-- matched biological replicates for every perturbation and control;
-- the same cell system, knockdown timing, and treatment state across assays;
-- a design powered for the intended resolution, with biological QC before interpretation;
-- RNA-seq with true replication, or another transcriptional readout;
-- an orthogonal chromatin-state assay such as ATAC-seq or validated H4K16ac ChIP-seq; and
-- targeted validation of a few candidate contacts, preferably at loci where H4K16ac, p53/YEATS2 occupancy, and expression point in the same direction.
 
 If the immediate goal is simply to explain the current H4K16ac findings, the better next step is to validate the p53KD/YEATS2KD contrasts and connect them to replicated transcriptional changes. Then use targeted 3C/4C or a focused contact assay at selected loci before committing to genome-wide Hi-C.
 
-## Claims to use and claims to avoid
+## Intended Claim
 
 Use:
 
 > p53 and YEATS2 perturbation are associated with distinct H4K16ac redistribution patterns, with p53 knockdown showing a stronger promoter-proximal loss-dominant response.
 
-Avoid:
-
-> p53 and YEATS2 jointly remodel the 3D genome.
-
-That stronger claim requires contact data and is not established by H4K16ac ChIP-seq, peak overlap, or the current exploratory RNA tables.
-
-## Reconciliation items before finalizing the story
-
-- Resolve why the p53KD summary reports 9 gains while the annotated gain table contains 5.
-- Confirm the exact biological replicate structure and normalization used for every DiffBind contrast.
-- Re-run or verify replicated RNA-seq statistics before making expression claims.
-- Treat GO results based on two genes or very small gene sets as hypothesis-generating only.
-- Keep spike-in-normalized ChIP signal distinct from matched-control log2(ChIP/Input) signal when describing quantitative effects.
