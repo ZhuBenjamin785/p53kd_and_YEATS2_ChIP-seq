@@ -1,0 +1,17 @@
+annotation,peaks,dataset
+Other intron,20,YEATS2KD
+Promoter (<=1 kb),16,YEATS2KD
+Distal intergenic,10,YEATS2KD
+Other exon,5,YEATS2KD
+Promoter (2-3 kb),4,YEATS2KD
+3' UTR,3,YEATS2KD
+Promoter (1-2 kb),3,YEATS2KD
+Promoter (<=1 kb),154,p53KD
+Other intron,23,p53KD
+Other exon,11,p53KD
+Promoter (2-3 kb),9,p53KD
+Distal intergenic,7,p53KD
+Promoter (1-2 kb),6,p53KD
+Unclassified,4,p53KD
+3' UTR,2,p53KD
+Downstream,1,p53KD

@@ -1,0 +1,12 @@
+sample	condition	target	role	input_sample	peak_mode	runs
+input_0hr	0hr	Input	input	.	.	SRR5944081
+input_16hr_TNF	16hr_TNF	Input	input	.	.	SRR5944082
+H3K4me1_0hr	0hr	H3K4me1	chip	input_0hr	broad	SRR5944055,SRR5944056
+H3K4me1_16hr_TNF	16hr_TNF	H3K4me1	chip	input_16hr_TNF	broad	SRR5944057,SRR5944058
+H3K27ac_0hr	0hr	H3K27ac	chip	input_0hr	broad	SRR5944059,SRR5944060
+H3K27ac_16hr_TNF	16hr_TNF	H3K27ac	chip	input_16hr_TNF	broad	SRR5944061,SRR5944062
+p53_0hr	0hr	p53	chip	input_0hr	narrow	SRR5944063,SRR5944064
+p53_16hr_TNF	16hr_TNF	p53	chip	input_16hr_TNF	narrow	SRR5944065,SRR5944066
+p65_0hr	0hr	p65	chip	input_0hr	narrow	SRR5944067,SRR5944068
+p65_16hr_TNF	16hr_TNF	p65	chip	input_16hr_TNF	narrow	SRR5944069,SRR5944070
+RNAPII_16hr_TNF	16hr_TNF	RNAPII	chip	input_16hr_TNF	broad	SRR5944071,SRR5944072
