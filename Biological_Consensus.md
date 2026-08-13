@@ -9,8 +9,7 @@ The current data support a real, perturbation-associated redistribution of H4K16
 
 In this system, p53 and YEATS2 appear to influence the H4K16ac chromatin state, but they do so through largely distinct genomic programs.
 
-1. p53 knockdown has the strongest chromatin effect. The DiffBind summary reports 217 significant H4K16ac peaks at FDR < 0.05: 208 losses and 9 gains. and the annotated files contain 208 losses and 5 gains, suggesting a small  discrepancy that should be reconciled before final report. The direction is nevertheless unambiguous: loss dominates gain.
-
+1. P53 knockdown has the strongest effect on H4K16ac. The DiffBind Summary found 217 significant H4K16ac peaks above 0.05 FDR. the summary found 208 losses and 9 gains, however the annotated files found 208 losses and only 5 gains, which does suggest a discrepancy that should be reviewed, however the it is nevertheless clear that loss dominates gain in p53KD.
    <img width="436.8" height="316.8" alt="volcano_plot" src="https://github.com/user-attachments/assets/f03ce517-f5d4-4d5d-832c-695f36402810" />
    <img width="436.8" height="316.8" alt="MA_plot" src="https://github.com/user-attachments/assets/02c8888a-2320-4b9a-8316-502da1c8ddbe" />
    <img width="436.8" height="316.8" alt="peak_intensity_log2FC_distribution" src="https://github.com/user-attachments/assets/59f9ba61-39d8-4ef9-b9d8-6f7c39e05e5d" />
