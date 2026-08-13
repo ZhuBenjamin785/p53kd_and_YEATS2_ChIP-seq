@@ -1,0 +1,59 @@
+Preflight OK: 8 paired samples, 2 genomes, 16 alignment threads.
+running Bowtie 2 alignment against human using /gpfs/projects/b1042/LauberthLab/BenFolder/index/human/hgenome_index
+43274456 reads; of these:
+  43274456 (100.00%) were paired; of these:
+    1780199 (4.11%) aligned concordantly 0 times
+    35179941 (81.29%) aligned concordantly exactly 1 time
+    6314316 (14.59%) aligned concordantly >1 times
+95.89% overall alignment rate
+running Bowtie 2 alignment against dm6 using /gpfs/projects/b1042/LauberthLab/BenFolder/index/dm6/dm6genome_index
+43274456 reads; of these:
+  43274456 (100.00%) were paired; of these:
+    43245971 (99.93%) aligned concordantly 0 times
+    20465 (0.05%) aligned concordantly exactly 1 time
+    8020 (0.02%) aligned concordantly >1 times
+0.07% overall alignment rate
+running Bowtie 2 alignment against human using /gpfs/projects/b1042/LauberthLab/BenFolder/index/human/hgenome_index
+45522557 reads; of these:
+  45522557 (100.00%) were paired; of these:
+    1960133 (4.31%) aligned concordantly 0 times
+    36914829 (81.09%) aligned concordantly exactly 1 time
+    6647595 (14.60%) aligned concordantly >1 times
+95.69% overall alignment rate
+running Bowtie 2 alignment against dm6 using /gpfs/projects/b1042/LauberthLab/BenFolder/index/dm6/dm6genome_index
+45522557 reads; of these:
+  45522557 (100.00%) were paired; of these:
+    45492173 (99.93%) aligned concordantly 0 times
+    21638 (0.05%) aligned concordantly exactly 1 time
+    8746 (0.02%) aligned concordantly >1 times
+0.07% overall alignment rate
+running Bowtie 2 alignment against human using /gpfs/projects/b1042/LauberthLab/BenFolder/index/human/hgenome_index
+30525217 reads; of these:
+  30525217 (100.00%) were paired; of these:
+    3528573 (11.56%) aligned concordantly 0 times
+    22136531 (72.52%) aligned concordantly exactly 1 time
+    4860113 (15.92%) aligned concordantly >1 times
+88.44% overall alignment rate
+running Bowtie 2 alignment against dm6 using /gpfs/projects/b1042/LauberthLab/BenFolder/index/dm6/dm6genome_index
+30525217 reads; of these:
+  30525217 (100.00%) were paired; of these:
+    30229124 (99.03%) aligned concordantly 0 times
+    239035 (0.78%) aligned concordantly exactly 1 time
+    57058 (0.19%) aligned concordantly >1 times
+0.97% overall alignment rate
+running Bowtie 2 alignment against human using /gpfs/projects/b1042/LauberthLab/BenFolder/index/human/hgenome_index
+43166072 reads; of these:
+  43166072 (100.00%) were paired; of these:
+    3737543 (8.66%) aligned concordantly 0 times
+    32237958 (74.68%) aligned concordantly exactly 1 time
+    7190571 (16.66%) aligned concordantly >1 times
+91.34% overall alignment rate
+running Bowtie 2 alignment against dm6 using /gpfs/projects/b1042/LauberthLab/BenFolder/index/dm6/dm6genome_index
+43166072 reads; of these:
+  43166072 (100.00%) were paired; of these:
+    42758089 (99.05%) aligned concordantly 0 times
+    318210 (0.74%) aligned concordantly exactly 1 time
+    89773 (0.21%) aligned concordantly >1 times
+0.95% overall alignment rate
+running Bowtie 2 alignment against human using /gpfs/projects/b1042/LauberthLab/BenFolder/index/human/hgenome_index
+[2026-08-06T16:38:28.171] error: *** JOB 8694432 ON qnode0704 CANCELLED AT 2026-08-06T16:38:28 DUE to SIGNAL Terminated ***

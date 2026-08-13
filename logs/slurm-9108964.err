@@ -1,0 +1,16 @@
+p53_0hr_rep1   p53_0hr  1 macs
+p53_0hr_rep2   p53_0hr  2 macs
+Genome detected: Hsapiens.UCSC.hg38
+Applying blacklist...
+Loading required namespace: GenomeInfoDb
+Removed: 122 of 280192 intervals.
+Removed: 61 merged (of 140096) and 61 (of 140096) consensus.
+Computing summits...
+Re-centering peaks...
+Reads will be counted as Single-end.
+Reads will be counted as Single-end.
+Reads will be counted as Single-end.
+Reads will be counted as Single-end.
+Generating counts for spike-ins...
+DiffBind results written to: diffbind_results_fastqchip_p53_0hr
+No differential contrast was run: this dataset contains one biological condition.

@@ -1,0 +1,2 @@
+gtfToGenePred: /software/mysql/5.1.67/lib64/libmysqlclient.so.18: version `libmysqlclient_18' not found (required by gtfToGenePred)
+genePredToBed: /software/mysql/5.1.67/lib64/libmysqlclient.so.18: version `libmysqlclient_18' not found (required by genePredToBed)

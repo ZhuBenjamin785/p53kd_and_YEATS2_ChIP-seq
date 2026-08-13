@@ -1,0 +1,2 @@
+Processing H4K16ac_Scrameble_ChIP1_S155_L003
+samtools idxstats: fail to load index for "BAMfiles/dm6/H4K16ac_Scrameble_ChIP1_S155_L003.bam"

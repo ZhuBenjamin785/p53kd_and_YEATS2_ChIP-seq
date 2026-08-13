@@ -1,0 +1,3 @@
+Processing H4K16ac_Scrameble_ChIP1_S155_L003
+[E::hts_idx_push] Unsorted positions on sequence #2: 24958920 followed by 24958650
+samtools index: failed to create index for "spikein_results/filtered_bam/H4K16ac_Scrameble_ChIP1_S155_L003.filtered.bam": No such file or directory

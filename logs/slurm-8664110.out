@@ -1,0 +1,13 @@
+(ERR): "hgenome_index" does not exist or is not a Bowtie 2 index
+Exiting now ...
+running HISAT2 alignment now
+Traceback (most recent call last):
+  File "/gpfs/projects/b1042/LauberthLab/BenFolder/alignment.py", line 236, in <module>
+    main()
+  File "/gpfs/projects/b1042/LauberthLab/BenFolder/alignment.py", line 218, in main
+    runalignment(
+  File "/gpfs/projects/b1042/LauberthLab/BenFolder/alignment.py", line 126, in runalignment
+    subprocess.check_call(cmd1)
+  File "/software/bowtie2/2.5.4/lib/python3.12/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['bowtie2', '-p', '16', '--very-sensitive', '-X', '2000', '--no-mixed', '--no-discordant', '-x', 'hgenome_index', '-1', 'p53kdtrimmeddir/MutP53_Input1_S0_L001_R1_001_val_1.fq.gz', '-2', 'p53kdtrimmeddir/MutP53_Input1_S0_L001_R2_001_val_2.fq.gz', '-S', 'p53kdsamfiles/human/MutP53_Input1_S0_L001.sam']' returned non-zero exit status 255.

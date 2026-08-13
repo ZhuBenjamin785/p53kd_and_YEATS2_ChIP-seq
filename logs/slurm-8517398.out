@@ -1,0 +1,1280 @@
+Using an excessive number of cores has a diminishing return! It is recommended not to exceed 8 cores per trimming process (you asked for 16 cores). Please consider re-specifying
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 4.2
+Could not detect version of Python used by Cutadapt from the first line of Cutadapt (but found this: >>>#!/bin/sh<<<)
+Letting the (modified) Cutadapt deal with the Python version instead
+pigz 2.6
+Parallel gzip (pigz) detected. Proceeding with multicore (de)compression using 16 cores
+
+igzip command line interface 2.30.0
+igzip detected. Using igzip for decompressing
+
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /gpfs/projects/b1042/LauberthLab/BenFolder/trimmeddir/
+Writing report to '/gpfs/projects/b1042/LauberthLab/BenFolder/trimmeddir/21161D-57-03_S155_L003_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: aaa/21161D-57-03_S155_L003_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.2
+Python version: could not detect
+Number of cores used for trimming: 16
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 4.2). Setting -j 16
+Writing final adapter and quality trimmed output to 21161D-57-03_S155_L003_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file aaa/21161D-57-03_S155_L003_R1_001.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+This is cutadapt 4.2 with Python 3.8.16
+Command line parameters: -j 16 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC aaa/21161D-57-03_S155_L003_R1_001.fastq.gz
+Processing single-end reads on 16 cores ...
+Finished in 97.594 s (2.394 µs/read; 25.06 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              40,761,640
+Reads with adapters:                15,478,047 (38.0%)
+Reads written (passing filters):    40,761,640 (100.0%)
+
+Total basepairs processed: 6,155,007,640 bp
+Quality-trimmed:              52,509,185 bp (0.9%)
+Total written (filtered):  6,041,788,472 bp (98.2%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 15478047 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 31.8%
+  C: 28.1%
+  G: 19.8%
+  T: 20.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	9835058	10190410.0	0	9835058
+2	2874958	2547602.5	0	2874958
+3	878923	636900.6	0	878923
+4	225795	159225.2	0	225795
+5	91428	39806.3	0	91428
+6	66308	9951.6	0	66308
+7	55667	2487.9	0	55667
+8	57087	622.0	0	57087
+9	70245	155.5	0	69697 548
+10	43838	38.9	1	41293 2545
+11	60905	9.7	1	57778 3127
+12	46978	2.4	1	44989 1989
+13	53237	0.6	1	50758 2479
+14	47325	0.6	1	45116 2209
+15	47342	0.6	1	45107 2235
+16	44691	0.6	1	42741 1950
+17	44077	0.6	1	41753 2324
+18	39454	0.6	1	38031 1423
+19	41304	0.6	1	39653 1651
+20	37472	0.6	1	35852 1620
+21	41079	0.6	1	39109 1970
+22	33846	0.6	1	32641 1205
+23	36712	0.6	1	35158 1554
+24	31971	0.6	1	30656 1315
+25	38129	0.6	1	36499 1630
+26	25541	0.6	1	24664 877
+27	30970	0.6	1	29665 1305
+28	30852	0.6	1	29362 1490
+29	28878	0.6	1	27630 1248
+30	25401	0.6	1	24551 850
+31	23982	0.6	1	23002 980
+32	28420	0.6	1	27131 1289
+33	21811	0.6	1	20928 883
+34	23305	0.6	1	22328 977
+35	19388	0.6	1	18614 774
+36	25003	0.6	1	23918 1085
+37	14302	0.6	1	13692 610
+38	18912	0.6	1	18064 848
+39	16913	0.6	1	16202 711
+40	16464	0.6	1	15709 755
+41	17642	0.6	1	16863 779
+42	14191	0.6	1	13578 613
+43	14145	0.6	1	13509 636
+44	23243	0.6	1	22500 743
+45	6639	0.6	1	6266 373
+46	7247	0.6	1	6965 282
+47	11342	0.6	1	10968 374
+48	10918	0.6	1	10496 422
+49	10407	0.6	1	9962 445
+50	10503	0.6	1	10033 470
+51	9883	0.6	1	9504 379
+52	10864	0.6	1	10393 471
+53	11103	0.6	1	10674 429
+54	8707	0.6	1	8371 336
+55	11304	0.6	1	10990 314
+56	14502	0.6	1	14151 351
+57	12931	0.6	1	12658 273
+58	8336	0.6	1	8113 223
+59	4360	0.6	1	4181 179
+60	2698	0.6	1	2560 138
+61	1824	0.6	1	1718 106
+62	1926	0.6	1	1828 98
+63	1646	0.6	1	1549 97
+64	1191	0.6	1	1118 73
+65	1009	0.6	1	937 72
+66	792	0.6	1	715 77
+67	1128	0.6	1	1042 86
+68	1653	0.6	1	1580 73
+69	1881	0.6	1	1773 108
+70	1760	0.6	1	1671 89
+71	1662	0.6	1	1552 110
+72	1673	0.6	1	1550 123
+73	1847	0.6	1	1727 120
+74	1790	0.6	1	1715 75
+75	1823	0.6	1	1720 103
+76	1847	0.6	1	1742 105
+77	1805	0.6	1	1698 107
+78	1780	0.6	1	1667 113
+79	1595	0.6	1	1481 114
+80	1470	0.6	1	1387 83
+81	1411	0.6	1	1323 88
+82	1414	0.6	1	1331 83
+83	1373	0.6	1	1262 111
+84	1234	0.6	1	1128 106
+85	1267	0.6	1	1183 84
+86	1163	0.6	1	1063 100
+87	1058	0.6	1	998 60
+88	980	0.6	1	895 85
+89	868	0.6	1	802 66
+90	877	0.6	1	801 76
+91	873	0.6	1	809 64
+92	783	0.6	1	710 73
+93	749	0.6	1	690 59
+94	735	0.6	1	659 76
+95	742	0.6	1	661 81
+96	639	0.6	1	587 52
+97	624	0.6	1	558 66
+98	619	0.6	1	563 56
+99	564	0.6	1	491 73
+100	544	0.6	1	477 67
+101	492	0.6	1	415 77
+102	519	0.6	1	434 85
+103	489	0.6	1	401 88
+104	478	0.6	1	407 71
+105	380	0.6	1	323 57
+106	411	0.6	1	350 61
+107	366	0.6	1	293 73
+108	407	0.6	1	340 67
+109	347	0.6	1	285 62
+110	256	0.6	1	209 47
+111	313	0.6	1	250 63
+112	257	0.6	1	215 42
+113	280	0.6	1	226 54
+114	234	0.6	1	194 40
+115	218	0.6	1	191 27
+116	211	0.6	1	159 52
+117	208	0.6	1	158 50
+118	155	0.6	1	122 33
+119	207	0.6	1	148 59
+120	156	0.6	1	118 38
+121	172	0.6	1	130 42
+122	150	0.6	1	116 34
+123	186	0.6	1	142 44
+124	141	0.6	1	104 37
+125	161	0.6	1	123 38
+126	118	0.6	1	94 24
+127	129	0.6	1	102 27
+128	109	0.6	1	72 37
+129	119	0.6	1	96 23
+130	97	0.6	1	69 28
+131	123	0.6	1	90 33
+132	69	0.6	1	53 16
+133	89	0.6	1	68 21
+134	54	0.6	1	34 20
+135	42	0.6	1	27 15
+136	49	0.6	1	24 25
+137	39	0.6	1	23 16
+138	48	0.6	1	19 29
+139	35	0.6	1	14 21
+140	45	0.6	1	21 24
+141	27	0.6	1	12 15
+142	29	0.6	1	11 18
+143	18	0.6	1	8 10
+144	26	0.6	1	10 16
+145	56	0.6	1	29 27
+146	35	0.6	1	14 21
+147	40	0.6	1	25 15
+148	31	0.6	1	15 16
+149	38	0.6	1	15 23
+150	61	0.6	1	32 29
+151	3772	0.6	1	269 3503
+
+RUN STATISTICS FOR INPUT FILE: aaa/21161D-57-03_S155_L003_R1_001.fastq.gz
+=============================================
+40761640 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/gpfs/projects/b1042/LauberthLab/BenFolder/trimmeddir/21161D-57-03_S155_L003_R2_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: aaa/21161D-57-03_S155_L003_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.2
+Python version: could not detect
+Number of cores used for trimming: 16
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 4.2). Setting -j -j 16
+Writing final adapter and quality trimmed output to 21161D-57-03_S155_L003_R2_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file aaa/21161D-57-03_S155_L003_R2_001.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+This is cutadapt 4.2 with Python 3.8.16
+Command line parameters: -j 16 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC aaa/21161D-57-03_S155_L003_R2_001.fastq.gz
+Processing single-end reads on 16 cores ...
+Finished in 97.394 s (2.389 µs/read; 25.11 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              40,761,640
+Reads with adapters:                14,402,055 (35.3%)
+Reads written (passing filters):    40,761,640 (100.0%)
+
+Total basepairs processed: 6,155,007,640 bp
+Quality-trimmed:             130,068,793 bp (2.1%)
+Total written (filtered):  5,967,407,081 bp (97.0%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 14402055 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 31.5%
+  C: 27.9%
+  G: 20.1%
+  T: 20.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	9028668	10190410.0	0	9028668
+2	2683662	2547602.5	0	2683662
+3	804011	636900.6	0	804011
+4	210539	159225.2	0	210539
+5	89404	39806.3	0	89404
+6	64778	9951.6	0	64778
+7	57774	2487.9	0	57774
+8	58107	622.0	0	58107
+9	65971	155.5	0	65331 640
+10	49714	38.9	1	46999 2715
+11	57496	9.7	1	54544 2952
+12	63471	2.4	1	60708 2763
+13	38856	0.6	1	37154 1702
+14	48490	0.6	1	45841 2649
+15	50498	0.6	1	47479 3019
+16	45632	0.6	1	43073 2559
+17	45450	0.6	1	42764 2686
+18	43261	0.6	1	40722 2539
+19	91329	0.6	1	87039 4290
+20	23830	0.6	1	22130 1700
+21	10614	0.6	1	9829 785
+22	32357	0.6	1	30983 1374
+23	35944	0.6	1	34087 1857
+24	57983	0.6	1	54669 3314
+25	17753	0.6	1	16684 1069
+26	33844	0.6	1	32233 1611
+27	72777	0.6	1	69957 2820
+28	13834	0.6	1	12880 954
+29	44382	0.6	1	43018 1364
+30	28943	0.6	1	27891 1052
+31	17485	0.6	1	16887 598
+32	19435	0.6	1	18590 845
+33	34898	0.6	1	33868 1030
+34	21272	0.6	1	20564 708
+35	11686	0.6	1	11200 486
+36	41529	0.6	1	40558 971
+37	14207	0.6	1	13634 573
+38	5278	0.6	1	4993 285
+39	23575	0.6	1	22987 588
+40	9862	0.6	1	9470 392
+41	31064	0.6	1	30437 627
+42	3507	0.6	1	3193 314
+43	25648	0.6	1	25123 525
+44	2794	0.6	1	2529 265
+45	33406	0.6	1	32851 555
+46	2821	0.6	1	2597 224
+47	5401	0.6	1	5178 223
+48	13067	0.6	1	12806 261
+49	3198	0.6	1	3006 192
+50	6370	0.6	1	6161 209
+51	3710	0.6	1	3526 184
+52	7534	0.6	1	7339 195
+53	1086	0.6	1	949 137
+54	2805	0.6	1	2641 164
+55	7106	0.6	1	6894 212
+56	2268	0.6	1	2100 168
+57	4195	0.6	1	4005 190
+58	7159	0.6	1	6938 221
+59	2329	0.6	1	2173 156
+60	995	0.6	1	881 114
+61	2115	0.6	1	2001 114
+62	5930	0.6	1	5782 148
+63	617	0.6	1	495 122
+64	2780	0.6	1	2647 133
+65	1083	0.6	1	974 109
+66	1309	0.6	1	1194 115
+67	2847	0.6	1	2730 117
+68	1928	0.6	1	1815 113
+69	948	0.6	1	820 128
+70	1943	0.6	1	1825 118
+71	1433	0.6	1	1309 124
+72	1365	0.6	1	1245 120
+73	2045	0.6	1	1924 121
+74	2417	0.6	1	2304 113
+75	2575	0.6	1	2470 105
+76	757	0.6	1	654 103
+77	530	0.6	1	466 64
+78	972	0.6	1	879 93
+79	1266	0.6	1	1173 93
+80	1343	0.6	1	1264 79
+81	1438	0.6	1	1331 107
+82	1417	0.6	1	1307 110
+83	1397	0.6	1	1302 95
+84	1361	0.6	1	1240 121
+85	1297	0.6	1	1217 80
+86	1263	0.6	1	1159 104
+87	1185	0.6	1	1083 102
+88	1107	0.6	1	998 109
+89	958	0.6	1	873 85
+90	1026	0.6	1	918 108
+91	978	0.6	1	896 82
+92	929	0.6	1	843 86
+93	874	0.6	1	779 95
+94	823	0.6	1	742 81
+95	852	0.6	1	757 95
+96	776	0.6	1	695 81
+97	708	0.6	1	629 79
+98	743	0.6	1	643 100
+99	666	0.6	1	575 91
+100	656	0.6	1	584 72
+101	612	0.6	1	520 92
+102	609	0.6	1	530 79
+103	589	0.6	1	509 80
+104	561	0.6	1	478 83
+105	473	0.6	1	400 73
+106	500	0.6	1	438 62
+107	415	0.6	1	354 61
+108	458	0.6	1	402 56
+109	427	0.6	1	347 80
+110	343	0.6	1	289 54
+111	368	0.6	1	296 72
+112	356	0.6	1	290 66
+113	347	0.6	1	278 69
+114	326	0.6	1	258 68
+115	308	0.6	1	242 66
+116	271	0.6	1	211 60
+117	261	0.6	1	199 62
+118	199	0.6	1	145 54
+119	234	0.6	1	167 67
+120	203	0.6	1	156 47
+121	197	0.6	1	160 37
+122	207	0.6	1	169 38
+123	221	0.6	1	177 44
+124	170	0.6	1	140 30
+125	178	0.6	1	146 32
+126	152	0.6	1	118 34
+127	144	0.6	1	101 43
+128	114	0.6	1	85 29
+129	114	0.6	1	92 22
+130	84	0.6	1	65 19
+131	121	0.6	1	96 25
+132	63	0.6	1	35 28
+133	76	0.6	1	59 17
+134	47	0.6	1	31 16
+135	41	0.6	1	27 14
+136	50	0.6	1	22 28
+137	38	0.6	1	22 16
+138	49	0.6	1	12 37
+139	33	0.6	1	14 19
+140	29	0.6	1	13 16
+141	32	0.6	1	7 25
+142	25	0.6	1	7 18
+143	12	0.6	1	5 7
+144	15	0.6	1	4 11
+145	26	0.6	1	12 14
+146	22	0.6	1	6 16
+147	15	0.6	1	9 6
+148	17	0.6	1	5 12
+149	14	0.6	1	2 12
+150	15	0.6	1	8 7
+151	155	0.6	1	125 30
+
+RUN STATISTICS FOR INPUT FILE: aaa/21161D-57-03_S155_L003_R2_001.fastq.gz
+=============================================
+40761640 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 21161D-57-03_S155_L003_R1_001_trimmed.fq.gz and 21161D-57-03_S155_L003_R2_001_trimmed.fq.gz
+file_1: 21161D-57-03_S155_L003_R1_001_trimmed.fq.gz, file_2: 21161D-57-03_S155_L003_R2_001_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 21161D-57-03_S155_L003_R1_001_trimmed.fq.gz and 21161D-57-03_S155_L003_R2_001_trimmed.fq.gz <<<<<
+Writing validated paired-end Read 1 reads to 21161D-57-03_S155_L003_R1_001_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 21161D-57-03_S155_L003_R2_001_val_2.fq.gz
+
+Total number of sequences analysed: 40761640
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 48073 (0.12%)
+
+Deleting both intermediate output files 21161D-57-03_S155_L003_R1_001_trimmed.fq.gz and 21161D-57-03_S155_L003_R2_001_trimmed.fq.gz
+
+====================================================================================================
+
+Using an excessive number of cores has a diminishing return! It is recommended not to exceed 8 cores per trimming process (you asked for 16 cores). Please consider re-specifying
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 4.2
+Could not detect version of Python used by Cutadapt from the first line of Cutadapt (but found this: >>>#!/bin/sh<<<)
+Letting the (modified) Cutadapt deal with the Python version instead
+pigz 2.6
+Parallel gzip (pigz) detected. Proceeding with multicore (de)compression using 16 cores
+
+igzip command line interface 2.30.0
+igzip detected. Using igzip for decompressing
+
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /gpfs/projects/b1042/LauberthLab/BenFolder/trimmeddir/
+Writing report to '/gpfs/projects/b1042/LauberthLab/BenFolder/trimmeddir/21161D-57-05_S153_L003_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: aaa/21161D-57-05_S153_L003_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.2
+Python version: could not detect
+Number of cores used for trimming: 16
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 4.2). Setting -j 16
+Writing final adapter and quality trimmed output to 21161D-57-05_S153_L003_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file aaa/21161D-57-05_S153_L003_R1_001.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+This is cutadapt 4.2 with Python 3.8.16
+Command line parameters: -j 16 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC aaa/21161D-57-05_S153_L003_R1_001.fastq.gz
+Processing single-end reads on 16 cores ...
+Finished in 110.256 s (2.377 µs/read; 25.24 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              46,383,901
+Reads with adapters:                18,739,183 (40.4%)
+Reads written (passing filters):    46,383,901 (100.0%)
+
+Total basepairs processed: 7,003,969,051 bp
+Quality-trimmed:              44,505,368 bp (0.6%)
+Total written (filtered):  6,872,355,049 bp (98.1%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 18739183 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 33.3%
+  C: 24.1%
+  G: 18.9%
+  T: 23.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	12190194	11595975.2	0	12190194
+2	3016861	2898993.8	0	3016861
+3	1045702	724748.5	0	1045702
+4	277047	181187.1	0	277047
+5	101220	45296.8	0	101220
+6	70581	11324.2	0	70581
+7	60500	2831.0	0	60500
+8	62766	707.8	0	62766
+9	76102	176.9	0	75509 593
+10	48009	44.2	1	45569 2440
+11	66612	11.1	1	63465 3147
+12	52044	2.8	1	49971 2073
+13	59766	0.7	1	57066 2700
+14	53585	0.7	1	51289 2296
+15	54651	0.7	1	52261 2390
+16	50580	0.7	1	48620 1960
+17	51456	0.7	1	49051 2405
+18	45648	0.7	1	44178 1470
+19	48076	0.7	1	46214 1862
+20	45466	0.7	1	43699 1767
+21	48728	0.7	1	46555 2173
+22	41180	0.7	1	39815 1365
+23	45046	0.7	1	43320 1726
+24	39549	0.7	1	38175 1374
+25	46531	0.7	1	44691 1840
+26	32024	0.7	1	31048 976
+27	38752	0.7	1	37407 1345
+28	39251	0.7	1	37668 1583
+29	37179	0.7	1	35831 1348
+30	33259	0.7	1	32224 1035
+31	32948	0.7	1	31791 1157
+32	37272	0.7	1	35740 1532
+33	29615	0.7	1	28618 997
+34	31922	0.7	1	30803 1119
+35	27738	0.7	1	26873 865
+36	35776	0.7	1	34377 1399
+37	21450	0.7	1	20711 739
+38	28026	0.7	1	26989 1037
+39	24771	0.7	1	23917 854
+40	25131	0.7	1	24135 996
+41	27545	0.7	1	26498 1047
+42	22529	0.7	1	21772 757
+43	22904	0.7	1	21991 913
+44	38698	0.7	1	37663 1035
+45	10756	0.7	1	10243 513
+46	12381	0.7	1	11963 418
+47	19027	0.7	1	18475 552
+48	19313	0.7	1	18672 641
+49	18808	0.7	1	18176 632
+50	19183	0.7	1	18498 685
+51	18288	0.7	1	17652 636
+52	20578	0.7	1	19966 612
+53	22035	0.7	1	21426 609
+54	17606	0.7	1	17076 530
+55	25065	0.7	1	24477 588
+56	33198	0.7	1	32568 630
+57	30050	0.7	1	29563 487
+58	19073	0.7	1	18694 379
+59	9998	0.7	1	9760 238
+60	6242	0.7	1	6062 180
+61	4147	0.7	1	3987 160
+62	4253	0.7	1	4122 131
+63	3825	0.7	1	3700 125
+64	2875	0.7	1	2730 145
+65	2280	0.7	1	2145 135
+66	1751	0.7	1	1666 85
+67	2714	0.7	1	2602 112
+68	4328	0.7	1	4203 125
+69	4865	0.7	1	4749 116
+70	4468	0.7	1	4355 113
+71	4446	0.7	1	4318 128
+72	4451	0.7	1	4302 149
+73	4946	0.7	1	4798 148
+74	5147	0.7	1	5008 139
+75	5400	0.7	1	5234 166
+76	5449	0.7	1	5265 184
+77	5204	0.7	1	5053 151
+78	5049	0.7	1	4916 133
+79	4705	0.7	1	4584 121
+80	4555	0.7	1	4425 130
+81	4418	0.7	1	4292 126
+82	4151	0.7	1	4014 137
+83	3835	0.7	1	3741 94
+84	3645	0.7	1	3542 103
+85	3540	0.7	1	3428 112
+86	3347	0.7	1	3242 105
+87	3236	0.7	1	3150 86
+88	3124	0.7	1	3026 98
+89	2853	0.7	1	2774 79
+90	2627	0.7	1	2550 77
+91	2483	0.7	1	2419 64
+92	2421	0.7	1	2336 85
+93	2291	0.7	1	2207 84
+94	2076	0.7	1	1994 82
+95	1930	0.7	1	1870 60
+96	1896	0.7	1	1840 56
+97	1746	0.7	1	1670 76
+98	1689	0.7	1	1631 58
+99	1495	0.7	1	1435 60
+100	1395	0.7	1	1345 50
+101	1339	0.7	1	1271 68
+102	1187	0.7	1	1139 48
+103	1072	0.7	1	1029 43
+104	998	0.7	1	956 42
+105	926	0.7	1	882 44
+106	863	0.7	1	816 47
+107	712	0.7	1	671 41
+108	662	0.7	1	623 39
+109	591	0.7	1	557 34
+110	549	0.7	1	503 46
+111	425	0.7	1	403 22
+112	404	0.7	1	369 35
+113	311	0.7	1	276 35
+114	249	0.7	1	221 28
+115	218	0.7	1	188 30
+116	175	0.7	1	154 21
+117	165	0.7	1	136 29
+118	126	0.7	1	102 24
+119	101	0.7	1	72 29
+120	111	0.7	1	82 29
+121	103	0.7	1	68 35
+122	79	0.7	1	57 22
+123	74	0.7	1	56 18
+124	73	0.7	1	56 17
+125	60	0.7	1	44 16
+126	60	0.7	1	37 23
+127	84	0.7	1	55 29
+128	58	0.7	1	35 23
+129	76	0.7	1	49 27
+130	37	0.7	1	23 14
+131	49	0.7	1	33 16
+132	36	0.7	1	16 20
+133	43	0.7	1	25 18
+134	26	0.7	1	8 18
+135	33	0.7	1	20 13
+136	33	0.7	1	17 16
+137	57	0.7	1	22 35
+138	37	0.7	1	15 22
+139	37	0.7	1	13 24
+140	27	0.7	1	8 19
+141	31	0.7	1	16 15
+142	21	0.7	1	2 19
+143	28	0.7	1	11 17
+144	12	0.7	1	0 12
+145	27	0.7	1	8 19
+146	22	0.7	1	9 13
+147	25	0.7	1	9 16
+148	12	0.7	1	1 11
+149	17	0.7	1	4 13
+150	11	0.7	1	0 11
+151	1364	0.7	1	3 1361
+
+RUN STATISTICS FOR INPUT FILE: aaa/21161D-57-05_S153_L003_R1_001.fastq.gz
+=============================================
+46383901 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/gpfs/projects/b1042/LauberthLab/BenFolder/trimmeddir/21161D-57-05_S153_L003_R2_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: aaa/21161D-57-05_S153_L003_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.2
+Python version: could not detect
+Number of cores used for trimming: 16
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 4.2). Setting -j -j 16
+Writing final adapter and quality trimmed output to 21161D-57-05_S153_L003_R2_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file aaa/21161D-57-05_S153_L003_R2_001.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+This is cutadapt 4.2 with Python 3.8.16
+Command line parameters: -j 16 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC aaa/21161D-57-05_S153_L003_R2_001.fastq.gz
+Processing single-end reads on 16 cores ...
+Finished in 111.005 s (2.393 µs/read; 25.07 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              46,383,901
+Reads with adapters:                18,098,283 (39.0%)
+Reads written (passing filters):    46,383,901 (100.0%)
+
+Total basepairs processed: 7,003,969,051 bp
+Quality-trimmed:             101,504,722 bp (1.4%)
+Total written (filtered):  6,819,872,176 bp (97.4%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 18098283 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 33.0%
+  C: 23.9%
+  G: 19.2%
+  T: 23.9%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	11693184	11595975.2	0	11693184
+2	2919006	2898993.8	0	2919006
+3	1002785	724748.5	0	1002785
+4	265894	181187.1	0	265894
+5	100509	45296.8	0	100509
+6	69392	11324.2	0	69392
+7	62512	2831.0	0	62512
+8	63363	707.8	0	63363
+9	73340	176.9	0	72588 752
+10	52343	44.2	1	49862 2481
+11	63721	11.1	1	60827 2894
+12	67328	2.8	1	64843 2485
+13	45688	0.7	1	43924 1764
+14	55028	0.7	1	52530 2498
+15	57327	0.7	1	54447 2880
+16	52040	0.7	1	49621 2419
+17	52619	0.7	1	50046 2573
+18	49999	0.7	1	47497 2502
+19	109497	0.7	1	105135 4362
+20	29004	0.7	1	27358 1646
+21	12342	0.7	1	11552 790
+22	40143	0.7	1	38741 1402
+23	44523	0.7	1	42513 2010
+24	76247	0.7	1	72699 3548
+25	22869	0.7	1	21691 1178
+26	42736	0.7	1	40920 1816
+27	101401	0.7	1	97997 3404
+28	20407	0.7	1	19308 1099
+29	58020	0.7	1	56527 1493
+30	46003	0.7	1	44707 1296
+31	18490	0.7	1	17759 731
+32	37656	0.7	1	36546 1110
+33	82362	0.7	1	80824 1538
+34	34637	0.7	1	33857 780
+35	14689	0.7	1	14233 456
+36	39804	0.7	1	39230 574
+37	8872	0.7	1	8544 328
+38	9471	0.7	1	9074 397
+39	22602	0.7	1	21919 683
+40	60748	0.7	1	59727 1021
+41	17702	0.7	1	17179 523
+42	6099	0.7	1	5707 392
+43	40043	0.7	1	39377 666
+44	4565	0.7	1	4162 403
+45	50873	0.7	1	50116 757
+46	6282	0.7	1	5990 292
+47	7422	0.7	1	7151 271
+48	22257	0.7	1	21970 287
+49	7669	0.7	1	7422 247
+50	11040	0.7	1	10791 249
+51	6507	0.7	1	6282 225
+52	13449	0.7	1	13225 224
+53	2014	0.7	1	1854 160
+54	6044	0.7	1	5839 205
+55	16029	0.7	1	15747 282
+56	4863	0.7	1	4664 199
+57	9212	0.7	1	8945 267
+58	17696	0.7	1	17425 271
+59	4947	0.7	1	4752 195
+60	2501	0.7	1	2347 154
+61	5873	0.7	1	5714 159
+62	14143	0.7	1	13908 235
+63	1515	0.7	1	1355 160
+64	8170	0.7	1	8022 148
+65	2813	0.7	1	2666 147
+66	3404	0.7	1	3269 135
+67	7730	0.7	1	7597 133
+68	4046	0.7	1	3902 144
+69	2092	0.7	1	1953 139
+70	5649	0.7	1	5517 132
+71	3197	0.7	1	3063 134
+72	3998	0.7	1	3892 106
+73	5878	0.7	1	5729 149
+74	7287	0.7	1	7143 144
+75	6603	0.7	1	6460 143
+76	1450	0.7	1	1368 82
+77	1348	0.7	1	1275 73
+78	2853	0.7	1	2757 96
+79	3720	0.7	1	3609 111
+80	3887	0.7	1	3792 95
+81	4160	0.7	1	4020 140
+82	3970	0.7	1	3829 141
+83	3677	0.7	1	3582 95
+84	3634	0.7	1	3534 100
+85	3459	0.7	1	3365 94
+86	3310	0.7	1	3211 99
+87	3224	0.7	1	3143 81
+88	3114	0.7	1	3008 106
+89	2863	0.7	1	2778 85
+90	2629	0.7	1	2542 87
+91	2536	0.7	1	2439 97
+92	2408	0.7	1	2342 66
+93	2339	0.7	1	2269 70
+94	2090	0.7	1	2024 66
+95	1912	0.7	1	1847 65
+96	1948	0.7	1	1878 70
+97	1751	0.7	1	1688 63
+98	1721	0.7	1	1658 63
+99	1527	0.7	1	1444 83
+100	1460	0.7	1	1378 82
+101	1346	0.7	1	1281 65
+102	1234	0.7	1	1171 63
+103	1121	0.7	1	1062 59
+104	1044	0.7	1	996 48
+105	962	0.7	1	906 56
+106	875	0.7	1	825 50
+107	752	0.7	1	713 39
+108	694	0.7	1	658 36
+109	632	0.7	1	588 44
+110	546	0.7	1	518 28
+111	449	0.7	1	424 25
+112	442	0.7	1	401 41
+113	333	0.7	1	309 24
+114	278	0.7	1	246 32
+115	235	0.7	1	209 26
+116	194	0.7	1	164 30
+117	201	0.7	1	168 33
+118	138	0.7	1	118 20
+119	113	0.7	1	92 21
+120	126	0.7	1	94 32
+121	116	0.7	1	94 22
+122	90	0.7	1	72 18
+123	98	0.7	1	68 30
+124	91	0.7	1	60 31
+125	76	0.7	1	55 21
+126	61	0.7	1	47 14
+127	81	0.7	1	63 18
+128	71	0.7	1	45 26
+129	70	0.7	1	52 18
+130	42	0.7	1	24 18
+131	54	0.7	1	32 22
+132	42	0.7	1	20 22
+133	40	0.7	1	28 12
+134	31	0.7	1	8 23
+135	44	0.7	1	23 21
+136	38	0.7	1	17 21
+137	39	0.7	1	21 18
+138	32	0.7	1	16 16
+139	29	0.7	1	13 16
+140	33	0.7	1	9 24
+141	30	0.7	1	16 14
+142	18	0.7	1	3 15
+143	21	0.7	1	10 11
+144	7	0.7	1	0 7
+145	24	0.7	1	7 17
+146	20	0.7	1	9 11
+147	18	0.7	1	9 9
+148	16	0.7	1	2 14
+149	8	0.7	1	4 4
+150	11	0.7	1	0 11
+151	14	0.7	1	0 14
+
+RUN STATISTICS FOR INPUT FILE: aaa/21161D-57-05_S153_L003_R2_001.fastq.gz
+=============================================
+46383901 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 21161D-57-05_S153_L003_R1_001_trimmed.fq.gz and 21161D-57-05_S153_L003_R2_001_trimmed.fq.gz
+file_1: 21161D-57-05_S153_L003_R1_001_trimmed.fq.gz, file_2: 21161D-57-05_S153_L003_R2_001_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 21161D-57-05_S153_L003_R1_001_trimmed.fq.gz and 21161D-57-05_S153_L003_R2_001_trimmed.fq.gz <<<<<
+Writing validated paired-end Read 1 reads to 21161D-57-05_S153_L003_R1_001_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 21161D-57-05_S153_L003_R2_001_val_2.fq.gz
+
+Total number of sequences analysed: 46383901
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 33392 (0.07%)
+
+Deleting both intermediate output files 21161D-57-05_S153_L003_R1_001_trimmed.fq.gz and 21161D-57-05_S153_L003_R2_001_trimmed.fq.gz
+
+====================================================================================================
+
+Started analysis of 21161D-57-01_S151_L003_R1_001_val_1.fq.gz
+Started analysis of 21161D-57-01_S151_L003_R2_001_val_2.fq.gz
+Started analysis of 21161D-57-02_S152_L003_R1_001_val_1.fq.gz
+Started analysis of 21161D-57-02_S152_L003_R2_001_val_2.fq.gz
+Started analysis of 21161D-57-03_S155_L003_R1_001_val_1.fq.gz
+Started analysis of 21161D-57-03_S155_L003_R2_001_val_2.fq.gz
+Started analysis of 21161D-57-04_S156_L003_R1_001_val_1.fq.gz
+Started analysis of 21161D-57-04_S156_L003_R2_001_val_2.fq.gz
+Started analysis of 21161D-57-05_S153_L003_R1_001_val_1.fq.gz
+Started analysis of 21161D-57-05_S153_L003_R2_001_val_2.fq.gz
+Approx 5% complete for 21161D-57-01_S151_L003_R1_001_val_1.fq.gz
+Approx 5% complete for 21161D-57-01_S151_L003_R2_001_val_2.fq.gz
+Approx 5% complete for 21161D-57-02_S152_L003_R1_001_val_1.fq.gz
+Approx 5% complete for 21161D-57-02_S152_L003_R2_001_val_2.fq.gz
+Approx 5% complete for 21161D-57-04_S156_L003_R1_001_val_1.fq.gz
+Approx 5% complete for 21161D-57-04_S156_L003_R2_001_val_2.fq.gz
+Approx 5% complete for 21161D-57-03_S155_L003_R2_001_val_2.fq.gz
+Approx 5% complete for 21161D-57-03_S155_L003_R1_001_val_1.fq.gz
+Approx 5% complete for 21161D-57-05_S153_L003_R1_001_val_1.fq.gz
+Approx 5% complete for 21161D-57-05_S153_L003_R2_001_val_2.fq.gz
+Approx 10% complete for 21161D-57-01_S151_L003_R1_001_val_1.fq.gz
+Approx 10% complete for 21161D-57-01_S151_L003_R2_001_val_2.fq.gz
+Approx 10% complete for 21161D-57-02_S152_L003_R1_001_val_1.fq.gz
+Approx 10% complete for 21161D-57-02_S152_L003_R2_001_val_2.fq.gz
+Approx 10% complete for 21161D-57-04_S156_L003_R2_001_val_2.fq.gz
+Approx 10% complete for 21161D-57-04_S156_L003_R1_001_val_1.fq.gz
+Approx 10% complete for 21161D-57-03_S155_L003_R2_001_val_2.fq.gz
+Approx 10% complete for 21161D-57-03_S155_L003_R1_001_val_1.fq.gz
+Approx 15% complete for 21161D-57-01_S151_L003_R2_001_val_2.fq.gz
+Approx 15% complete for 21161D-57-01_S151_L003_R1_001_val_1.fq.gz
+Approx 10% complete for 21161D-57-05_S153_L003_R1_001_val_1.fq.gz
+Approx 10% complete for 21161D-57-05_S153_L003_R2_001_val_2.fq.gz
+Approx 15% complete for 21161D-57-02_S152_L003_R2_001_val_2.fq.gz
+Approx 15% complete for 21161D-57-02_S152_L003_R1_001_val_1.fq.gz
+Approx 15% complete for 21161D-57-04_S156_L003_R2_001_val_2.fq.gz
+Approx 15% complete for 21161D-57-04_S156_L003_R1_001_val_1.fq.gz
+Approx 15% complete for 21161D-57-03_S155_L003_R2_001_val_2.fq.gz
+Approx 20% complete for 21161D-57-01_S151_L003_R2_001_val_2.fq.gz
+Approx 20% complete for 21161D-57-01_S151_L003_R1_001_val_1.fq.gz
+Approx 15% complete for 21161D-57-03_S155_L003_R1_001_val_1.fq.gz
+Approx 20% complete for 21161D-57-02_S152_L003_R2_001_val_2.fq.gz
+Approx 20% complete for 21161D-57-02_S152_L003_R1_001_val_1.fq.gz
+Approx 15% complete for 21161D-57-05_S153_L003_R2_001_val_2.fq.gz
+Approx 15% complete for 21161D-57-05_S153_L003_R1_001_val_1.fq.gz
+Approx 20% complete for 21161D-57-04_S156_L003_R2_001_val_2.fq.gz
+Approx 20% complete for 21161D-57-04_S156_L003_R1_001_val_1.fq.gz
+Approx 25% complete for 21161D-57-01_S151_L003_R2_001_val_2.fq.gz
+Approx 25% complete for 21161D-57-01_S151_L003_R1_001_val_1.fq.gz
+Approx 20% complete for 21161D-57-03_S155_L003_R2_001_val_2.fq.gz
+Approx 20% complete for 21161D-57-03_S155_L003_R1_001_val_1.fq.gz
+Approx 25% complete for 21161D-57-02_S152_L003_R2_001_val_2.fq.gz
+Approx 25% complete for 21161D-57-02_S152_L003_R1_001_val_1.fq.gz
+Approx 25% complete for 21161D-57-04_S156_L003_R2_001_val_2.fq.gz
+Approx 30% complete for 21161D-57-01_S151_L003_R2_001_val_2.fq.gz
+Approx 30% complete for 21161D-57-01_S151_L003_R1_001_val_1.fq.gz
+Approx 20% complete for 21161D-57-05_S153_L003_R2_001_val_2.fq.gz
+Approx 25% complete for 21161D-57-04_S156_L003_R1_001_val_1.fq.gz
+Approx 20% complete for 21161D-57-05_S153_L003_R1_001_val_1.fq.gz
+Approx 25% complete for 21161D-57-03_S155_L003_R2_001_val_2.fq.gz
+Approx 30% complete for 21161D-57-02_S152_L003_R2_001_val_2.fq.gz
+Approx 30% complete for 21161D-57-02_S152_L003_R1_001_val_1.fq.gz
+Approx 25% complete for 21161D-57-03_S155_L003_R1_001_val_1.fq.gz
+Approx 35% complete for 21161D-57-01_S151_L003_R2_001_val_2.fq.gz
+Approx 35% complete for 21161D-57-01_S151_L003_R1_001_val_1.fq.gz
+Approx 30% complete for 21161D-57-04_S156_L003_R2_001_val_2.fq.gz
+Approx 30% complete for 21161D-57-04_S156_L003_R1_001_val_1.fq.gz
+Approx 25% complete for 21161D-57-05_S153_L003_R2_001_val_2.fq.gz
+Approx 35% complete for 21161D-57-02_S152_L003_R2_001_val_2.fq.gz
+Approx 25% complete for 21161D-57-05_S153_L003_R1_001_val_1.fq.gz
+Approx 35% complete for 21161D-57-02_S152_L003_R1_001_val_1.fq.gz
+Approx 30% complete for 21161D-57-03_S155_L003_R2_001_val_2.fq.gz
+Approx 40% complete for 21161D-57-01_S151_L003_R2_001_val_2.fq.gz
+Approx 30% complete for 21161D-57-03_S155_L003_R1_001_val_1.fq.gz
+Approx 40% complete for 21161D-57-01_S151_L003_R1_001_val_1.fq.gz
+Approx 35% complete for 21161D-57-04_S156_L003_R2_001_val_2.fq.gz
+Approx 35% complete for 21161D-57-04_S156_L003_R1_001_val_1.fq.gz
+Approx 40% complete for 21161D-57-02_S152_L003_R2_001_val_2.fq.gz
+Approx 40% complete for 21161D-57-02_S152_L003_R1_001_val_1.fq.gz
+Approx 30% complete for 21161D-57-05_S153_L003_R2_001_val_2.fq.gz
+Approx 35% complete for 21161D-57-03_S155_L003_R2_001_val_2.fq.gz
+Approx 45% complete for 21161D-57-01_S151_L003_R2_001_val_2.fq.gz
+Approx 30% complete for 21161D-57-05_S153_L003_R1_001_val_1.fq.gz
+Approx 45% complete for 21161D-57-01_S151_L003_R1_001_val_1.fq.gz
+Approx 35% complete for 21161D-57-03_S155_L003_R1_001_val_1.fq.gz
+Approx 40% complete for 21161D-57-04_S156_L003_R2_001_val_2.fq.gz
+Approx 40% complete for 21161D-57-04_S156_L003_R1_001_val_1.fq.gz
+Approx 45% complete for 21161D-57-02_S152_L003_R2_001_val_2.fq.gz
+Approx 45% complete for 21161D-57-02_S152_L003_R1_001_val_1.fq.gz
+Approx 50% complete for 21161D-57-01_S151_L003_R2_001_val_2.fq.gz
+Approx 50% complete for 21161D-57-01_S151_L003_R1_001_val_1.fq.gz
+Approx 40% complete for 21161D-57-03_S155_L003_R2_001_val_2.fq.gz
+Approx 35% complete for 21161D-57-05_S153_L003_R2_001_val_2.fq.gz
+Approx 35% complete for 21161D-57-05_S153_L003_R1_001_val_1.fq.gz
+Approx 45% complete for 21161D-57-04_S156_L003_R2_001_val_2.fq.gz
+Approx 40% complete for 21161D-57-03_S155_L003_R1_001_val_1.fq.gz
+Approx 50% complete for 21161D-57-02_S152_L003_R2_001_val_2.fq.gz
+Approx 45% complete for 21161D-57-04_S156_L003_R1_001_val_1.fq.gz
+Approx 55% complete for 21161D-57-01_S151_L003_R2_001_val_2.fq.gz
+Approx 50% complete for 21161D-57-02_S152_L003_R1_001_val_1.fq.gz
+Approx 55% complete for 21161D-57-01_S151_L003_R1_001_val_1.fq.gz
+Approx 45% complete for 21161D-57-03_S155_L003_R2_001_val_2.fq.gz
+Approx 55% complete for 21161D-57-02_S152_L003_R2_001_val_2.fq.gz
+Approx 50% complete for 21161D-57-04_S156_L003_R2_001_val_2.fq.gz
+Approx 60% complete for 21161D-57-01_S151_L003_R2_001_val_2.fq.gz
+Approx 40% complete for 21161D-57-05_S153_L003_R2_001_val_2.fq.gz
+Approx 60% complete for 21161D-57-01_S151_L003_R1_001_val_1.fq.gz
+Approx 55% complete for 21161D-57-02_S152_L003_R1_001_val_1.fq.gz
+Approx 40% complete for 21161D-57-05_S153_L003_R1_001_val_1.fq.gz
+Approx 45% complete for 21161D-57-03_S155_L003_R1_001_val_1.fq.gz
+Approx 50% complete for 21161D-57-04_S156_L003_R1_001_val_1.fq.gz
+Approx 65% complete for 21161D-57-01_S151_L003_R2_001_val_2.fq.gz
+Approx 60% complete for 21161D-57-02_S152_L003_R2_001_val_2.fq.gz
+Approx 55% complete for 21161D-57-04_S156_L003_R2_001_val_2.fq.gz
+Approx 65% complete for 21161D-57-01_S151_L003_R1_001_val_1.fq.gz
+Approx 50% complete for 21161D-57-03_S155_L003_R2_001_val_2.fq.gz
+Approx 60% complete for 21161D-57-02_S152_L003_R1_001_val_1.fq.gz
+Approx 55% complete for 21161D-57-04_S156_L003_R1_001_val_1.fq.gz
+Approx 45% complete for 21161D-57-05_S153_L003_R2_001_val_2.fq.gz
+Approx 50% complete for 21161D-57-03_S155_L003_R1_001_val_1.fq.gz
+Approx 45% complete for 21161D-57-05_S153_L003_R1_001_val_1.fq.gz
+Approx 70% complete for 21161D-57-01_S151_L003_R2_001_val_2.fq.gz
+Approx 65% complete for 21161D-57-02_S152_L003_R2_001_val_2.fq.gz
+Approx 70% complete for 21161D-57-01_S151_L003_R1_001_val_1.fq.gz
+Approx 60% complete for 21161D-57-04_S156_L003_R2_001_val_2.fq.gz
+Approx 65% complete for 21161D-57-02_S152_L003_R1_001_val_1.fq.gz
+Approx 55% complete for 21161D-57-03_S155_L003_R2_001_val_2.fq.gz
+Approx 60% complete for 21161D-57-04_S156_L003_R1_001_val_1.fq.gz
+Approx 75% complete for 21161D-57-01_S151_L003_R2_001_val_2.fq.gz
+Approx 55% complete for 21161D-57-03_S155_L003_R1_001_val_1.fq.gz
+Approx 70% complete for 21161D-57-02_S152_L003_R2_001_val_2.fq.gz
+Approx 75% complete for 21161D-57-01_S151_L003_R1_001_val_1.fq.gz
+Approx 65% complete for 21161D-57-04_S156_L003_R2_001_val_2.fq.gz
+Approx 70% complete for 21161D-57-02_S152_L003_R1_001_val_1.fq.gz
+Approx 50% complete for 21161D-57-05_S153_L003_R2_001_val_2.fq.gz
+Approx 50% complete for 21161D-57-05_S153_L003_R1_001_val_1.fq.gz
+Approx 60% complete for 21161D-57-03_S155_L003_R2_001_val_2.fq.gz
+Approx 65% complete for 21161D-57-04_S156_L003_R1_001_val_1.fq.gz
+Approx 80% complete for 21161D-57-01_S151_L003_R2_001_val_2.fq.gz
+Approx 75% complete for 21161D-57-02_S152_L003_R2_001_val_2.fq.gz
+Approx 80% complete for 21161D-57-01_S151_L003_R1_001_val_1.fq.gz
+Approx 60% complete for 21161D-57-03_S155_L003_R1_001_val_1.fq.gz
+Approx 75% complete for 21161D-57-02_S152_L003_R1_001_val_1.fq.gz
+Approx 70% complete for 21161D-57-04_S156_L003_R2_001_val_2.fq.gz
+Approx 55% complete for 21161D-57-05_S153_L003_R2_001_val_2.fq.gz
+Approx 85% complete for 21161D-57-01_S151_L003_R2_001_val_2.fq.gz
+Approx 65% complete for 21161D-57-03_S155_L003_R2_001_val_2.fq.gz
+Approx 70% complete for 21161D-57-04_S156_L003_R1_001_val_1.fq.gz
+Approx 55% complete for 21161D-57-05_S153_L003_R1_001_val_1.fq.gz
+Approx 85% complete for 21161D-57-01_S151_L003_R1_001_val_1.fq.gz
+Approx 80% complete for 21161D-57-02_S152_L003_R2_001_val_2.fq.gz
+Approx 80% complete for 21161D-57-02_S152_L003_R1_001_val_1.fq.gz
+Approx 75% complete for 21161D-57-04_S156_L003_R2_001_val_2.fq.gz
+Approx 65% complete for 21161D-57-03_S155_L003_R1_001_val_1.fq.gz
+Approx 90% complete for 21161D-57-01_S151_L003_R2_001_val_2.fq.gz
+Approx 90% complete for 21161D-57-01_S151_L003_R1_001_val_1.fq.gz
+Approx 75% complete for 21161D-57-04_S156_L003_R1_001_val_1.fq.gz
+Approx 70% complete for 21161D-57-03_S155_L003_R2_001_val_2.fq.gz
+Approx 85% complete for 21161D-57-02_S152_L003_R2_001_val_2.fq.gz
+Approx 60% complete for 21161D-57-05_S153_L003_R2_001_val_2.fq.gz
+Approx 60% complete for 21161D-57-05_S153_L003_R1_001_val_1.fq.gz
+Approx 85% complete for 21161D-57-02_S152_L003_R1_001_val_1.fq.gz
+Approx 80% complete for 21161D-57-04_S156_L003_R2_001_val_2.fq.gz
+Approx 95% complete for 21161D-57-01_S151_L003_R2_001_val_2.fq.gz
+Approx 70% complete for 21161D-57-03_S155_L003_R1_001_val_1.fq.gz
+Approx 95% complete for 21161D-57-01_S151_L003_R1_001_val_1.fq.gz
+Approx 80% complete for 21161D-57-04_S156_L003_R1_001_val_1.fq.gz
+Approx 90% complete for 21161D-57-02_S152_L003_R2_001_val_2.fq.gz
+Approx 75% complete for 21161D-57-03_S155_L003_R2_001_val_2.fq.gz
+Approx 90% complete for 21161D-57-02_S152_L003_R1_001_val_1.fq.gz
+Approx 65% complete for 21161D-57-05_S153_L003_R2_001_val_2.fq.gz
+Analysis complete for 21161D-57-01_S151_L003_R2_001_val_2.fq.gz
+Approx 85% complete for 21161D-57-04_S156_L003_R2_001_val_2.fq.gz
+Started analysis of 21161D-57-06_S154_L003_R1_001_val_1.fq.gz
+Approx 65% complete for 21161D-57-05_S153_L003_R1_001_val_1.fq.gz
+Analysis complete for 21161D-57-01_S151_L003_R1_001_val_1.fq.gz
+Started analysis of 21161D-57-06_S154_L003_R2_001_val_2.fq.gz
+Approx 75% complete for 21161D-57-03_S155_L003_R1_001_val_1.fq.gz
+Approx 95% complete for 21161D-57-02_S152_L003_R2_001_val_2.fq.gz
+Approx 85% complete for 21161D-57-04_S156_L003_R1_001_val_1.fq.gz
+Approx 95% complete for 21161D-57-02_S152_L003_R1_001_val_1.fq.gz
+Approx 80% complete for 21161D-57-03_S155_L003_R2_001_val_2.fq.gz
+Approx 90% complete for 21161D-57-04_S156_L003_R2_001_val_2.fq.gz
+Approx 70% complete for 21161D-57-05_S153_L003_R2_001_val_2.fq.gz
+Analysis complete for 21161D-57-02_S152_L003_R2_001_val_2.fq.gz
+Approx 70% complete for 21161D-57-05_S153_L003_R1_001_val_1.fq.gz
+Started analysis of 21161D-57-07_S157_L003_R1_001_val_1.fq.gz
+Approx 80% complete for 21161D-57-03_S155_L003_R1_001_val_1.fq.gz
+Approx 90% complete for 21161D-57-04_S156_L003_R1_001_val_1.fq.gz
+Approx 5% complete for 21161D-57-06_S154_L003_R1_001_val_1.fq.gz
+Analysis complete for 21161D-57-02_S152_L003_R1_001_val_1.fq.gz
+Approx 5% complete for 21161D-57-06_S154_L003_R2_001_val_2.fq.gz
+Started analysis of 21161D-57-07_S157_L003_R2_001_val_2.fq.gz
+Approx 85% complete for 21161D-57-03_S155_L003_R2_001_val_2.fq.gz
+Approx 95% complete for 21161D-57-04_S156_L003_R2_001_val_2.fq.gz
+Approx 75% complete for 21161D-57-05_S153_L003_R2_001_val_2.fq.gz
+Approx 5% complete for 21161D-57-07_S157_L003_R1_001_val_1.fq.gz
+Approx 95% complete for 21161D-57-04_S156_L003_R1_001_val_1.fq.gz
+Approx 85% complete for 21161D-57-03_S155_L003_R1_001_val_1.fq.gz
+Approx 75% complete for 21161D-57-05_S153_L003_R1_001_val_1.fq.gz
+Approx 5% complete for 21161D-57-07_S157_L003_R2_001_val_2.fq.gz
+Approx 90% complete for 21161D-57-03_S155_L003_R2_001_val_2.fq.gz
+Analysis complete for 21161D-57-04_S156_L003_R2_001_val_2.fq.gz
+Approx 10% complete for 21161D-57-06_S154_L003_R1_001_val_1.fq.gz
+Started analysis of 21161D-57-08_S158_L003_R1_001_val_1.fq.gz
+Approx 10% complete for 21161D-57-06_S154_L003_R2_001_val_2.fq.gz
+Analysis complete for 21161D-57-04_S156_L003_R1_001_val_1.fq.gz
+Approx 10% complete for 21161D-57-07_S157_L003_R1_001_val_1.fq.gz
+Started analysis of 21161D-57-08_S158_L003_R2_001_val_2.fq.gz
+Approx 80% complete for 21161D-57-05_S153_L003_R2_001_val_2.fq.gz
+Approx 90% complete for 21161D-57-03_S155_L003_R1_001_val_1.fq.gz
+Approx 10% complete for 21161D-57-07_S157_L003_R2_001_val_2.fq.gz
+Approx 80% complete for 21161D-57-05_S153_L003_R1_001_val_1.fq.gz
+Approx 95% complete for 21161D-57-03_S155_L003_R2_001_val_2.fq.gz
+Approx 5% complete for 21161D-57-08_S158_L003_R1_001_val_1.fq.gz
+Approx 15% complete for 21161D-57-06_S154_L003_R1_001_val_1.fq.gz
+Approx 15% complete for 21161D-57-06_S154_L003_R2_001_val_2.fq.gz
+Approx 15% complete for 21161D-57-07_S157_L003_R1_001_val_1.fq.gz
+Approx 15% complete for 21161D-57-07_S157_L003_R2_001_val_2.fq.gz
+Approx 95% complete for 21161D-57-03_S155_L003_R1_001_val_1.fq.gz
+Approx 85% complete for 21161D-57-05_S153_L003_R2_001_val_2.fq.gz
+Approx 5% complete for 21161D-57-08_S158_L003_R2_001_val_2.fq.gz
+Analysis complete for 21161D-57-03_S155_L003_R2_001_val_2.fq.gz
+Approx 85% complete for 21161D-57-05_S153_L003_R1_001_val_1.fq.gz
+Approx 20% complete for 21161D-57-07_S157_L003_R1_001_val_1.fq.gz
+Approx 10% complete for 21161D-57-08_S158_L003_R1_001_val_1.fq.gz
+Approx 20% complete for 21161D-57-07_S157_L003_R2_001_val_2.fq.gz
+Analysis complete for 21161D-57-03_S155_L003_R1_001_val_1.fq.gz
+Approx 20% complete for 21161D-57-06_S154_L003_R1_001_val_1.fq.gz
+Approx 20% complete for 21161D-57-06_S154_L003_R2_001_val_2.fq.gz
+Approx 90% complete for 21161D-57-05_S153_L003_R2_001_val_2.fq.gz
+Approx 10% complete for 21161D-57-08_S158_L003_R2_001_val_2.fq.gz
+Approx 90% complete for 21161D-57-05_S153_L003_R1_001_val_1.fq.gz
+Approx 25% complete for 21161D-57-07_S157_L003_R1_001_val_1.fq.gz
+Approx 25% complete for 21161D-57-07_S157_L003_R2_001_val_2.fq.gz
+Approx 15% complete for 21161D-57-08_S158_L003_R1_001_val_1.fq.gz
+Approx 95% complete for 21161D-57-05_S153_L003_R2_001_val_2.fq.gz
+Approx 25% complete for 21161D-57-06_S154_L003_R1_001_val_1.fq.gz
+Approx 25% complete for 21161D-57-06_S154_L003_R2_001_val_2.fq.gz
+Approx 15% complete for 21161D-57-08_S158_L003_R2_001_val_2.fq.gz
+Approx 95% complete for 21161D-57-05_S153_L003_R1_001_val_1.fq.gz
+Approx 30% complete for 21161D-57-07_S157_L003_R1_001_val_1.fq.gz
+Approx 30% complete for 21161D-57-07_S157_L003_R2_001_val_2.fq.gz
+Analysis complete for 21161D-57-05_S153_L003_R2_001_val_2.fq.gz
+Approx 20% complete for 21161D-57-08_S158_L003_R1_001_val_1.fq.gz
+Approx 35% complete for 21161D-57-07_S157_L003_R1_001_val_1.fq.gz
+Approx 35% complete for 21161D-57-07_S157_L003_R2_001_val_2.fq.gz
+Approx 30% complete for 21161D-57-06_S154_L003_R2_001_val_2.fq.gz
+Analysis complete for 21161D-57-05_S153_L003_R1_001_val_1.fq.gz
+Approx 30% complete for 21161D-57-06_S154_L003_R1_001_val_1.fq.gz
+Approx 20% complete for 21161D-57-08_S158_L003_R2_001_val_2.fq.gz
+Approx 40% complete for 21161D-57-07_S157_L003_R2_001_val_2.fq.gz
+Approx 40% complete for 21161D-57-07_S157_L003_R1_001_val_1.fq.gz
+Approx 25% complete for 21161D-57-08_S158_L003_R1_001_val_1.fq.gz
+Approx 25% complete for 21161D-57-08_S158_L003_R2_001_val_2.fq.gz
+Approx 35% complete for 21161D-57-06_S154_L003_R2_001_val_2.fq.gz
+Approx 35% complete for 21161D-57-06_S154_L003_R1_001_val_1.fq.gz
+Approx 45% complete for 21161D-57-07_S157_L003_R2_001_val_2.fq.gz
+Approx 45% complete for 21161D-57-07_S157_L003_R1_001_val_1.fq.gz
+Approx 30% complete for 21161D-57-08_S158_L003_R1_001_val_1.fq.gz
+Approx 30% complete for 21161D-57-08_S158_L003_R2_001_val_2.fq.gz
+Approx 40% complete for 21161D-57-06_S154_L003_R2_001_val_2.fq.gz
+Approx 40% complete for 21161D-57-06_S154_L003_R1_001_val_1.fq.gz
+Approx 50% complete for 21161D-57-07_S157_L003_R2_001_val_2.fq.gz
+Approx 50% complete for 21161D-57-07_S157_L003_R1_001_val_1.fq.gz
+Approx 35% complete for 21161D-57-08_S158_L003_R1_001_val_1.fq.gz
+Approx 35% complete for 21161D-57-08_S158_L003_R2_001_val_2.fq.gz
+Approx 55% complete for 21161D-57-07_S157_L003_R2_001_val_2.fq.gz
+Approx 55% complete for 21161D-57-07_S157_L003_R1_001_val_1.fq.gz
+Approx 45% complete for 21161D-57-06_S154_L003_R2_001_val_2.fq.gz
+Approx 45% complete for 21161D-57-06_S154_L003_R1_001_val_1.fq.gz
+Approx 60% complete for 21161D-57-07_S157_L003_R2_001_val_2.fq.gz
+Approx 60% complete for 21161D-57-07_S157_L003_R1_001_val_1.fq.gz
+Approx 40% complete for 21161D-57-08_S158_L003_R1_001_val_1.fq.gz
+Approx 40% complete for 21161D-57-08_S158_L003_R2_001_val_2.fq.gz
+Approx 65% complete for 21161D-57-07_S157_L003_R2_001_val_2.fq.gz
+Approx 50% complete for 21161D-57-06_S154_L003_R2_001_val_2.fq.gz
+Approx 65% complete for 21161D-57-07_S157_L003_R1_001_val_1.fq.gz
+Approx 50% complete for 21161D-57-06_S154_L003_R1_001_val_1.fq.gz
+Approx 45% complete for 21161D-57-08_S158_L003_R1_001_val_1.fq.gz
+Approx 70% complete for 21161D-57-07_S157_L003_R2_001_val_2.fq.gz
+Approx 45% complete for 21161D-57-08_S158_L003_R2_001_val_2.fq.gz
+Approx 70% complete for 21161D-57-07_S157_L003_R1_001_val_1.fq.gz
+Approx 55% complete for 21161D-57-06_S154_L003_R2_001_val_2.fq.gz
+Approx 55% complete for 21161D-57-06_S154_L003_R1_001_val_1.fq.gz
+Approx 75% complete for 21161D-57-07_S157_L003_R2_001_val_2.fq.gz
+Approx 75% complete for 21161D-57-07_S157_L003_R1_001_val_1.fq.gz
+Approx 50% complete for 21161D-57-08_S158_L003_R1_001_val_1.fq.gz
+Approx 50% complete for 21161D-57-08_S158_L003_R2_001_val_2.fq.gz
+Approx 60% complete for 21161D-57-06_S154_L003_R2_001_val_2.fq.gz
+Approx 80% complete for 21161D-57-07_S157_L003_R2_001_val_2.fq.gz
+Approx 60% complete for 21161D-57-06_S154_L003_R1_001_val_1.fq.gz
+Approx 80% complete for 21161D-57-07_S157_L003_R1_001_val_1.fq.gz
+Approx 55% complete for 21161D-57-08_S158_L003_R2_001_val_2.fq.gz
+Approx 55% complete for 21161D-57-08_S158_L003_R1_001_val_1.fq.gz
+Approx 85% complete for 21161D-57-07_S157_L003_R2_001_val_2.fq.gz
+Approx 85% complete for 21161D-57-07_S157_L003_R1_001_val_1.fq.gz
+Approx 65% complete for 21161D-57-06_S154_L003_R2_001_val_2.fq.gz
+Approx 65% complete for 21161D-57-06_S154_L003_R1_001_val_1.fq.gz
+Approx 90% complete for 21161D-57-07_S157_L003_R2_001_val_2.fq.gz
+Approx 60% complete for 21161D-57-08_S158_L003_R2_001_val_2.fq.gz
+Approx 60% complete for 21161D-57-08_S158_L003_R1_001_val_1.fq.gz
+Approx 90% complete for 21161D-57-07_S157_L003_R1_001_val_1.fq.gz
+Approx 70% complete for 21161D-57-06_S154_L003_R2_001_val_2.fq.gz
+Approx 95% complete for 21161D-57-07_S157_L003_R2_001_val_2.fq.gz
+Approx 70% complete for 21161D-57-06_S154_L003_R1_001_val_1.fq.gz
+Approx 95% complete for 21161D-57-07_S157_L003_R1_001_val_1.fq.gz
+Approx 65% complete for 21161D-57-08_S158_L003_R2_001_val_2.fq.gz
+Approx 65% complete for 21161D-57-08_S158_L003_R1_001_val_1.fq.gz
+Analysis complete for 21161D-57-07_S157_L003_R2_001_val_2.fq.gz
+Approx 75% complete for 21161D-57-06_S154_L003_R2_001_val_2.fq.gz
+Analysis complete for 21161D-57-07_S157_L003_R1_001_val_1.fq.gz
+Approx 75% complete for 21161D-57-06_S154_L003_R1_001_val_1.fq.gz
+Approx 70% complete for 21161D-57-08_S158_L003_R2_001_val_2.fq.gz
+Approx 70% complete for 21161D-57-08_S158_L003_R1_001_val_1.fq.gz
+Approx 80% complete for 21161D-57-06_S154_L003_R2_001_val_2.fq.gz
+Approx 75% complete for 21161D-57-08_S158_L003_R2_001_val_2.fq.gz
+Approx 80% complete for 21161D-57-06_S154_L003_R1_001_val_1.fq.gz
+Approx 75% complete for 21161D-57-08_S158_L003_R1_001_val_1.fq.gz
+Approx 85% complete for 21161D-57-06_S154_L003_R2_001_val_2.fq.gz
+Approx 80% complete for 21161D-57-08_S158_L003_R2_001_val_2.fq.gz
+Approx 85% complete for 21161D-57-06_S154_L003_R1_001_val_1.fq.gz
+Approx 80% complete for 21161D-57-08_S158_L003_R1_001_val_1.fq.gz
+Approx 85% complete for 21161D-57-08_S158_L003_R2_001_val_2.fq.gz
+Approx 90% complete for 21161D-57-06_S154_L003_R2_001_val_2.fq.gz
+Approx 85% complete for 21161D-57-08_S158_L003_R1_001_val_1.fq.gz
+Approx 90% complete for 21161D-57-06_S154_L003_R1_001_val_1.fq.gz
+Approx 90% complete for 21161D-57-08_S158_L003_R2_001_val_2.fq.gz
+Approx 95% complete for 21161D-57-06_S154_L003_R2_001_val_2.fq.gz
+Approx 90% complete for 21161D-57-08_S158_L003_R1_001_val_1.fq.gz
+Approx 95% complete for 21161D-57-06_S154_L003_R1_001_val_1.fq.gz
+Approx 95% complete for 21161D-57-08_S158_L003_R2_001_val_2.fq.gz
+Analysis complete for 21161D-57-06_S154_L003_R2_001_val_2.fq.gz
+Approx 95% complete for 21161D-57-08_S158_L003_R1_001_val_1.fq.gz
+Analysis complete for 21161D-57-06_S154_L003_R1_001_val_1.fq.gz
+Analysis complete for 21161D-57-08_S158_L003_R2_001_val_2.fq.gz
+Analysis complete for 21161D-57-08_S158_L003_R1_001_val_1.fq.gz
+
+/// MultiQC 🔍 v1.25.1
+
+     version_check | MultiQC Version v1.35 now available!
+       file_search | Search path: /gpfs/projects/b1042/LauberthLab/BenFolder/fastqcdir
+
+            fastqc | Found 19 reports
+            fastqc | Sample had zero reads: '21161D-57-05_S153_L003_R2_001'
+            fastqc | Sample had zero reads: '21161D-57-03_S155_L003_R1_001'
+
+     write_results | Data        : results/multiqc_data   (overwritten)
+     write_results | Report      : results/multiqc_report.html   (overwritten)
+           multiqc | MultiQC complete
+trimming 21161D-57-03_S155_L003_R1_001.fastq.gz and 21161D-57-03_S155_L003_R2_001.fastq.gz
+trimming 21161D-57-05_S153_L003_R1_001.fastq.gz and 21161D-57-05_S153_L003_R2_001.fastq.gz
+Running FastQC on FASTQ files
+Running MultiQC
+reports are in fastqcdir/ and results/.

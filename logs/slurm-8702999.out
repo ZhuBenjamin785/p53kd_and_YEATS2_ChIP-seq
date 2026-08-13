@@ -1,0 +1,181 @@
+[bam_sort_core] merging from 16 files and 8 in-memory blocks...
+[bam_sort_core] merging from 24 files and 8 in-memory blocks...
+bamFilesList: ['macs3_results/tracks/H4K16ac_YEATS2_shRNA#3_ChIP1_S157_L003_sorted_downsampled.bam']
+binLength: 50
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 8
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 50
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+bamFilesList: ['macs3_results/tracks/YEATS2_shRNA#3_Input1_S153_L003_sorted_downsampled.bam']
+binLength: 50
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 8
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 50
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+INFO  @ 06 Aug 2026 12:00:12: [30 MB] 
+# Command line: callpeak -t macs3_results/tracks/H4K16ac_YEATS2_shRNA#3_ChIP1_S157_L003_sorted_downsampled.bam -c macs3_results/tracks/YEATS2_shRNA#3_Input1_S153_L003_sorted_downsampled.bam -f BAMPE -g hs -n YEATS2KD_H4K16ac_rep1 --outdir macs3_results/peaks/YEATS2KD_H4K16ac_rep1 --broad --broad-cutoff 0.1
+# ARGUMENTS LIST:
+# name = YEATS2KD_H4K16ac_rep1
+# format = BAMPE
+# ChIP-seq file = ['macs3_results/tracks/H4K16ac_YEATS2_shRNA#3_ChIP1_S157_L003_sorted_downsampled.bam']
+# control file = ['macs3_results/tracks/YEATS2_shRNA#3_Input1_S153_L003_sorted_downsampled.bam']
+# effective genome size = 2.91e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is on
+# Paired-End mode is on
+ 
+INFO  @ 06 Aug 2026 12:00:12: [30 MB] #1 read fragment files... 
+INFO  @ 06 Aug 2026 12:00:12: [30 MB] #1 read treatment fragments... 
+INFO  @ 06 Aug 2026 12:00:16: [75 MB]  1000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:00:19: [83 MB]  2000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:00:23: [91 MB]  3000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:00:26: [101 MB]  4000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:00:30: [109 MB]  5000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:00:33: [117 MB]  6000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:00:36: [125 MB]  7000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:00:40: [133 MB]  8000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:00:43: [140 MB]  9000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:00:47: [150 MB]  10000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:00:50: [158 MB]  11000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:00:53: [166 MB]  12000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:00:57: [173 MB]  13000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:01:00: [181 MB]  14000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:01:04: [190 MB]  15000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:01:07: [199 MB]  16000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:01:10: [207 MB]  17000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:01:14: [215 MB]  18000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:01:17: [224 MB]  19000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:01:27: [311 MB] 19682696 fragments have been read. 
+INFO  @ 06 Aug 2026 12:01:38: [311 MB] #1.2 read input fragments... 
+INFO  @ 06 Aug 2026 12:01:42: [319 MB]  1000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:01:46: [327 MB]  2000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:01:49: [335 MB]  3000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:01:53: [343 MB]  4000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:01:56: [350 MB]  5000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:02:00: [358 MB]  6000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:02:04: [366 MB]  7000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:02:07: [375 MB]  8000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:02:11: [382 MB]  9000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:02:15: [390 MB]  10000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:02:18: [398 MB]  11000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:02:22: [406 MB]  12000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:02:25: [413 MB]  13000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:02:29: [421 MB]  14000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:02:33: [429 MB]  15000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:02:36: [436 MB]  16000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:02:40: [444 MB]  17000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:02:43: [453 MB]  18000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:02:47: [460 MB]  19000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:02:51: [466 MB]  20000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:02:54: [476 MB]  21000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:02:58: [484 MB]  22000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:03:01: [492 MB]  23000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:03:05: [500 MB]  24000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:03:09: [509 MB]  25000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:03:12: [517 MB]  26000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:03:16: [526 MB]  27000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:03:20: [535 MB]  28000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:03:23: [560 MB]  29000000 fragments parsed 
+INFO  @ 06 Aug 2026 12:03:32: [630 MB] 29511880 fragments have been read. 
+INFO  @ 06 Aug 2026 12:03:48: [630 MB] #1 mean fragment size is determined as 377.2 bp from treatment 
+INFO  @ 06 Aug 2026 12:03:48: [630 MB] #1 note: mean fragment size in control is 345.2 bp -- value ignored 
+INFO  @ 06 Aug 2026 12:03:48: [630 MB] #1 fragment size = 377.2 
+INFO  @ 06 Aug 2026 12:03:48: [630 MB] #1  total fragments in treatment: 19682696 
+INFO  @ 06 Aug 2026 12:03:48: [630 MB] #1 user defined the maximum fragments... 
+INFO  @ 06 Aug 2026 12:03:48: [630 MB] #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ 06 Aug 2026 12:04:10: [633 MB] #1  fragments after filtering in treatment: 7584267 
+INFO  @ 06 Aug 2026 12:04:10: [633 MB] #1  Redundant rate of treatment: 0.61 
+INFO  @ 06 Aug 2026 12:04:10: [633 MB] #1  total fragments in control: 29511880 
+INFO  @ 06 Aug 2026 12:04:10: [633 MB] #1 user defined the maximum fragments... 
+INFO  @ 06 Aug 2026 12:04:10: [633 MB] #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ 06 Aug 2026 12:04:41: [633 MB] #1  fragments after filtering in control: 25022588 
+INFO  @ 06 Aug 2026 12:04:41: [633 MB] #1  Redundant rate of control: 0.15 
+INFO  @ 06 Aug 2026 12:04:41: [633 MB] #1 finished! 
+INFO  @ 06 Aug 2026 12:04:41: [633 MB] #2 Build Peak Model... 
+INFO  @ 06 Aug 2026 12:04:41: [633 MB] #2 Skipped... 
+INFO  @ 06 Aug 2026 12:04:41: [633 MB] #3 Call peaks... 
+INFO  @ 06 Aug 2026 12:04:41: [633 MB] #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ 06 Aug 2026 12:04:41: [633 MB] #3 Pre-compute pvalue-qvalue table... 
+INFO  @ 06 Aug 2026 12:07:08: [2781 MB] #3 Call peaks for each chromosome... 
+INFO  @ 06 Aug 2026 12:08:00: [2781 MB] #4 Write output xls file... macs3_results/peaks/YEATS2KD_H4K16ac_rep1/YEATS2KD_H4K16ac_rep1_peaks.xls 
+INFO  @ 06 Aug 2026 12:08:00: [2781 MB] #4 Write broad peak in broadPeak format file... macs3_results/peaks/YEATS2KD_H4K16ac_rep1/YEATS2KD_H4K16ac_rep1_peaks.broadPeak 
+INFO  @ 06 Aug 2026 12:08:00: [2781 MB] #4 Write broad peak in bed12/gappedPeak format file... macs3_results/peaks/YEATS2KD_H4K16ac_rep1/YEATS2KD_H4K16ac_rep1_peaks.gappedPeak 
+INFO  @ 06 Aug 2026 12:08:00: [2781 MB] Done! 
+
+
+>> loading peak file...				 2026-08-06 12:08:17 PM 
+>> preparing features information...		 2026-08-06 12:08:17 PM 
+>> Using Genome: hg38 ...
+>> identifying nearest features...		 2026-08-06 12:08:20 PM 
+>> calculating distance from peak to TSS...	 2026-08-06 12:08:21 PM 
+>> assigning genomic annotation...		 2026-08-06 12:08:21 PM 
+>> Using Genome: hg38 ...
+>> Using Genome: hg38 ...
+>> adding gene annotation...			 2026-08-06 12:08:57 PM 
+'select()' returned 1:many mapping between keys and columns
+>> assigning chromosome lengths			 2026-08-06 12:08:58 PM 
+>> done...					 2026-08-06 12:08:58 PM 
+Warning messages:
+1: In .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': GL000195.1, GL000205.2, GL000214.1, GL000216.2, GL000225.1, GL000226.1, GL000250.2, GL000251.2, GL000252.2, GL000253.2, GL000254.2, GL000255.2, GL000256.2, GL000258.2, GL339449.2, GL383518.1, GL383519.1, GL383534.2, GL383550.2, GL383557.1, GL383563.3, GL383566.1, GL383574.1, GL877875.1, GL949752.1, JH159146.1, JH636055.2, KI270303.1, KI270304.1, KI270317.1, KI270411.1, KI270438.1, KI270442.1, KI270709.1, KI270712.1, KI270713.1, KI270715.1, KI270716.1, KI270721.1, KI270733.1, KI270744.1, KI270747.1, KI270748.1, KI270762.1, KI270769.1, KI270773.1, KI270776.1, KI270782.1, KI270784.1, KI270789.1, KI270791.1, KI270792.1, KI270795.1, KI270798.1, KI270804.1, KI270806.1, KI270809.1, KI270810.1, KI270815.1, KI270816.1, KI270825.1, KI270831.1, KI270832.1, KI270835.1, KI270844.1, KI270847.1, KI270849.1, KI270850.1, KI270853.1, KI270854.1, KI270855.1, KI270857.1, KI270861.1, KI270862.1, KI270863.1, KI270865.1, KI27086 [... truncated]
+2: In .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': GL000195.1, GL000205.2, GL000214.1, GL000216.2, GL000225.1, GL000226.1, GL000250.2, GL000251.2, GL000252.2, GL000253.2, GL000254.2, GL000255.2, GL000256.2, GL000258.2, GL339449.2, GL383518.1, GL383519.1, GL383534.2, GL383550.2, GL383557.1, GL383563.3, GL383566.1, GL383574.1, GL877875.1, GL949752.1, JH159146.1, JH636055.2, KI270303.1, KI270304.1, KI270317.1, KI270411.1, KI270438.1, KI270442.1, KI270709.1, KI270712.1, KI270713.1, KI270715.1, KI270716.1, KI270721.1, KI270733.1, KI270744.1, KI270747.1, KI270748.1, KI270762.1, KI270769.1, KI270773.1, KI270776.1, KI270782.1, KI270784.1, KI270789.1, KI270791.1, KI270792.1, KI270795.1, KI270798.1, KI270804.1, KI270806.1, KI270809.1, KI270810.1, KI270815.1, KI270816.1, KI270825.1, KI270831.1, KI270832.1, KI270835.1, KI270844.1, KI270847.1, KI270849.1, KI270850.1, KI270853.1, KI270854.1, KI270855.1, KI270857.1, KI270861.1, KI270862.1, KI270863.1, KI270865.1, KI27086 [... truncated]
+3: In .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': GL000195.1, GL000205.2, GL000214.1, GL000216.2, GL000225.1, GL000226.1, GL000250.2, GL000251.2, GL000252.2, GL000253.2, GL000254.2, GL000255.2, GL000256.2, GL000258.2, GL339449.2, GL383518.1, GL383519.1, GL383534.2, GL383550.2, GL383557.1, GL383563.3, GL383566.1, GL383574.1, GL877875.1, GL949752.1, JH159146.1, JH636055.2, KI270303.1, KI270304.1, KI270317.1, KI270411.1, KI270438.1, KI270442.1, KI270709.1, KI270712.1, KI270713.1, KI270715.1, KI270716.1, KI270721.1, KI270733.1, KI270744.1, KI270747.1, KI270748.1, KI270762.1, KI270769.1, KI270773.1, KI270776.1, KI270782.1, KI270784.1, KI270789.1, KI270791.1, KI270792.1, KI270795.1, KI270798.1, KI270804.1, KI270806.1, KI270809.1, KI270810.1, KI270815.1, KI270816.1, KI270825.1, KI270831.1, KI270832.1, KI270835.1, KI270844.1, KI270847.1, KI270849.1, KI270850.1, KI270853.1, KI270854.1, KI270855.1, KI270857.1, KI270861.1, KI270862.1, KI270863.1, KI270865.1, KI27086 [... truncated]
+4: In .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': GL000195.1, GL000205.2, GL000214.1, GL000216.2, GL000225.1, GL000226.1, GL000250.2, GL000251.2, GL000252.2, GL000253.2, GL000254.2, GL000255.2, GL000256.2, GL000258.2, GL339449.2, GL383518.1, GL383519.1, GL383534.2, GL383550.2, GL383557.1, GL383563.3, GL383566.1, GL383574.1, GL877875.1, GL949752.1, JH159146.1, JH636055.2, KI270303.1, KI270304.1, KI270317.1, KI270411.1, KI270438.1, KI270442.1, KI270709.1, KI270712.1, KI270713.1, KI270715.1, KI270716.1, KI270721.1, KI270733.1, KI270744.1, KI270747.1, KI270748.1, KI270762.1, KI270769.1, KI270773.1, KI270776.1, KI270782.1, KI270784.1, KI270789.1, KI270791.1, KI270792.1, KI270795.1, KI270798.1, KI270804.1, KI270806.1, KI270809.1, KI270810.1, KI270815.1, KI270816.1, KI270825.1, KI270831.1, KI270832.1, KI270835.1, KI270844.1, KI270847.1, KI270849.1, KI270850.1, KI270853.1, KI270854.1, KI270855.1, KI270857.1, KI270861.1, KI270862.1, KI270863.1, KI270865.1, KI27086 [... truncated]
+5: In .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': GL000195.1, GL000205.2, GL000214.1, GL000216.2, GL000225.1, GL000226.1, GL000250.2, GL000251.2, GL000252.2, GL000253.2, GL000254.2, GL000255.2, GL000256.2, GL000258.2, GL339449.2, GL383518.1, GL383519.1, GL383534.2, GL383550.2, GL383557.1, GL383563.3, GL383566.1, GL383574.1, GL877875.1, GL949752.1, JH159146.1, JH636055.2, KI270303.1, KI270304.1, KI270317.1, KI270411.1, KI270438.1, KI270442.1, KI270709.1, KI270712.1, KI270713.1, KI270715.1, KI270716.1, KI270721.1, KI270733.1, KI270744.1, KI270747.1, KI270748.1, KI270762.1, KI270769.1, KI270773.1, KI270776.1, KI270782.1, KI270784.1, KI270789.1, KI270791.1, KI270792.1, KI270795.1, KI270798.1, KI270804.1, KI270806.1, KI270809.1, KI270810.1, KI270815.1, KI270816.1, KI270825.1, KI270831.1, KI270832.1, KI270835.1, KI270844.1, KI270847.1, KI270849.1, KI270850.1, KI270853.1, KI270854.1, KI270855.1, KI270857.1, KI270861.1, KI270862.1, KI270863.1, KI270865.1, KI27086 [... truncated]
+Wrote: macs3_results/peaks/YEATS2KD_H4K16ac_rep1/YEATS2KD_H4K16ac_rep1_peaks_annotated.txt

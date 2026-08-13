@@ -1,0 +1,128 @@
+Aligning MutP53_Input1_S0_L001 against human and writing p53kdbamfiles/human/MutP53_Input1_S0_L001.sorted.bam
+43274456 reads; of these:
+  43274456 (100.00%) were paired; of these:
+    1780199 (4.11%) aligned concordantly 0 times
+    35179941 (81.29%) aligned concordantly exactly 1 time
+    6314316 (14.59%) aligned concordantly >1 times
+95.89% overall alignment rate
+[bam_sort_core] merging from 40 files and 4 in-memory blocks...
+Aligning MutP53_Input1_S0_L001 against dm6 and writing p53kdbamfiles/dm6/MutP53_Input1_S0_L001.sorted.bam
+43274456 reads; of these:
+  43274456 (100.00%) were paired; of these:
+    43245971 (99.93%) aligned concordantly 0 times
+    20465 (0.05%) aligned concordantly exactly 1 time
+    8020 (0.02%) aligned concordantly >1 times
+0.07% overall alignment rate
+[bam_sort_core] merging from 36 files and 4 in-memory blocks...
+Aligning MutP53_Input2_S0_L001 against human and writing p53kdbamfiles/human/MutP53_Input2_S0_L001.sorted.bam
+45522557 reads; of these:
+  45522557 (100.00%) were paired; of these:
+    1960133 (4.31%) aligned concordantly 0 times
+    36914829 (81.09%) aligned concordantly exactly 1 time
+    6647595 (14.60%) aligned concordantly >1 times
+95.69% overall alignment rate
+[bam_sort_core] merging from 44 files and 4 in-memory blocks...
+Aligning MutP53_Input2_S0_L001 against dm6 and writing p53kdbamfiles/dm6/MutP53_Input2_S0_L001.sorted.bam
+45522557 reads; of these:
+  45522557 (100.00%) were paired; of these:
+    45492173 (99.93%) aligned concordantly 0 times
+    21638 (0.05%) aligned concordantly exactly 1 time
+    8746 (0.02%) aligned concordantly >1 times
+0.07% overall alignment rate
+[bam_sort_core] merging from 36 files and 4 in-memory blocks...
+Aligning P53_H4K16ac_1_S0_L001 against human and writing p53kdbamfiles/human/P53_H4K16ac_1_S0_L001.sorted.bam
+30525217 reads; of these:
+  30525217 (100.00%) were paired; of these:
+    3528573 (11.56%) aligned concordantly 0 times
+    22136531 (72.52%) aligned concordantly exactly 1 time
+    4860113 (15.92%) aligned concordantly >1 times
+88.44% overall alignment rate
+[bam_sort_core] merging from 28 files and 4 in-memory blocks...
+Aligning P53_H4K16ac_1_S0_L001 against dm6 and writing p53kdbamfiles/dm6/P53_H4K16ac_1_S0_L001.sorted.bam
+30525217 reads; of these:
+  30525217 (100.00%) were paired; of these:
+    30229124 (99.03%) aligned concordantly 0 times
+    239035 (0.78%) aligned concordantly exactly 1 time
+    57058 (0.19%) aligned concordantly >1 times
+0.97% overall alignment rate
+[bam_sort_core] merging from 24 files and 4 in-memory blocks...
+Aligning P53_H4K16ac_2_S0_L001 against human and writing p53kdbamfiles/human/P53_H4K16ac_2_S0_L001.sorted.bam
+43166072 reads; of these:
+  43166072 (100.00%) were paired; of these:
+    3737543 (8.66%) aligned concordantly 0 times
+    32237958 (74.68%) aligned concordantly exactly 1 time
+    7190571 (16.66%) aligned concordantly >1 times
+91.34% overall alignment rate
+[bam_sort_core] merging from 40 files and 4 in-memory blocks...
+Aligning P53_H4K16ac_2_S0_L001 against dm6 and writing p53kdbamfiles/dm6/P53_H4K16ac_2_S0_L001.sorted.bam
+43166072 reads; of these:
+  43166072 (100.00%) were paired; of these:
+    42758089 (99.05%) aligned concordantly 0 times
+    318210 (0.74%) aligned concordantly exactly 1 time
+    89773 (0.21%) aligned concordantly >1 times
+0.95% overall alignment rate
+[bam_sort_core] merging from 36 files and 4 in-memory blocks...
+Aligning Scr_H4K16ac_1_S0_L001 against human and writing p53kdbamfiles/human/Scr_H4K16ac_1_S0_L001.sorted.bam
+35741265 reads; of these:
+  35741265 (100.00%) were paired; of these:
+    4872600 (13.63%) aligned concordantly 0 times
+    25894765 (72.45%) aligned concordantly exactly 1 time
+    4973900 (13.92%) aligned concordantly >1 times
+86.37% overall alignment rate
+[bam_sort_core] merging from 32 files and 4 in-memory blocks...
+Aligning Scr_H4K16ac_1_S0_L001 against dm6 and writing p53kdbamfiles/dm6/Scr_H4K16ac_1_S0_L001.sorted.bam
+35741265 reads; of these:
+  35741265 (100.00%) were paired; of these:
+    35289493 (98.74%) aligned concordantly 0 times
+    362505 (1.01%) aligned concordantly exactly 1 time
+    89267 (0.25%) aligned concordantly >1 times
+1.26% overall alignment rate
+[bam_sort_core] merging from 28 files and 4 in-memory blocks...
+Aligning Scr_H4K16ac_2_S0_L001 against human and writing p53kdbamfiles/human/Scr_H4K16ac_2_S0_L001.sorted.bam
+35995014 reads; of these:
+  35995014 (100.00%) were paired; of these:
+    4719054 (13.11%) aligned concordantly 0 times
+    25844901 (71.80%) aligned concordantly exactly 1 time
+    5431059 (15.09%) aligned concordantly >1 times
+86.89% overall alignment rate
+[bam_sort_core] merging from 32 files and 4 in-memory blocks...
+Aligning Scr_H4K16ac_2_S0_L001 against dm6 and writing p53kdbamfiles/dm6/Scr_H4K16ac_2_S0_L001.sorted.bam
+35995014 reads; of these:
+  35995014 (100.00%) were paired; of these:
+    35614264 (98.94%) aligned concordantly 0 times
+    303800 (0.84%) aligned concordantly exactly 1 time
+    76950 (0.21%) aligned concordantly >1 times
+1.06% overall alignment rate
+[bam_sort_core] merging from 28 files and 4 in-memory blocks...
+Aligning Scr_Input1_S0_L001 against human and writing p53kdbamfiles/human/Scr_Input1_S0_L001.sorted.bam
+39861702 reads; of these:
+  39861702 (100.00%) were paired; of these:
+    1518783 (3.81%) aligned concordantly 0 times
+    32717903 (82.08%) aligned concordantly exactly 1 time
+    5625016 (14.11%) aligned concordantly >1 times
+96.19% overall alignment rate
+[bam_sort_core] merging from 36 files and 4 in-memory blocks...
+Aligning Scr_Input1_S0_L001 against dm6 and writing p53kdbamfiles/dm6/Scr_Input1_S0_L001.sorted.bam
+39861702 reads; of these:
+  39861702 (100.00%) were paired; of these:
+    39860538 (100.00%) aligned concordantly 0 times
+    796 (0.00%) aligned concordantly exactly 1 time
+    368 (0.00%) aligned concordantly >1 times
+0.00% overall alignment rate
+[bam_sort_core] merging from 32 files and 4 in-memory blocks...
+Aligning Scr_Input2_S0_L001 against human and writing p53kdbamfiles/human/Scr_Input2_S0_L001.sorted.bam
+44409608 reads; of these:
+  44409608 (100.00%) were paired; of these:
+    1755310 (3.95%) aligned concordantly 0 times
+    36465943 (82.11%) aligned concordantly exactly 1 time
+    6188355 (13.93%) aligned concordantly >1 times
+96.05% overall alignment rate
+[bam_sort_core] merging from 40 files and 4 in-memory blocks...
+Aligning Scr_Input2_S0_L001 against dm6 and writing p53kdbamfiles/dm6/Scr_Input2_S0_L001.sorted.bam
+44409608 reads; of these:
+  44409608 (100.00%) were paired; of these:
+    44408447 (100.00%) aligned concordantly 0 times
+    854 (0.00%) aligned concordantly exactly 1 time
+    307 (0.00%) aligned concordantly >1 times
+0.00% overall alignment rate
+[bam_sort_core] merging from 36 files and 4 in-memory blocks...

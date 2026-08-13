@@ -1,0 +1,28 @@
+normalization: BPM
+normalization: BPM
+bamFilesList: ['fastqchip_macs3_results/normalized_bams/p53_0hr.spikein_normalized.bam', 'fastqchip_macs3_results/normalized_bams/input_0hr.spikein_normalized.bam']
+binLength: 25
+numberOfSamples: 0
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 32
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 25
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000

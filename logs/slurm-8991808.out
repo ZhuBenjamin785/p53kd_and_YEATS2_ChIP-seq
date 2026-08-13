@@ -1,0 +1,5 @@
+
+EnvironmentNameNotFound: Could not find conda environment: pybwY2
+You can list all discoverable environments with `conda info --envs`.
+
+

@@ -1,0 +1,31 @@
+Using R: /home/nqp9093/.conda/envs/chipseeker/bin/Rscript
+null device 
+          1 
+null device 
+          1 
+>> preparing features information...		 2026-08-10 05:16:40 PM 
+>> Using Genome: hg38 ...
+>> identifying nearest features...		 2026-08-10 05:16:42 PM 
+>> calculating distance from peak to TSS...	 2026-08-10 05:16:43 PM 
+>> assigning genomic annotation...		 2026-08-10 05:16:43 PM 
+>> Using Genome: hg38 ...
+>> Using Genome: hg38 ...
+>> adding gene annotation...			 2026-08-10 05:17:34 PM 
+>> assigning chromosome lengths			 2026-08-10 05:17:34 PM 
+>> done...					 2026-08-10 05:17:34 PM 
+>> preparing features information...		 2026-08-10 05:17:34 PM 
+>> Using Genome: hg38 ...
+>> identifying nearest features...		 2026-08-10 05:17:34 PM 
+>> calculating distance from peak to TSS...	 2026-08-10 05:17:35 PM 
+>> assigning genomic annotation...		 2026-08-10 05:17:35 PM 
+>> Using Genome: hg38 ...
+>> Using Genome: hg38 ...
+>> adding gene annotation...			 2026-08-10 05:17:44 PM 
+>> assigning chromosome lengths			 2026-08-10 05:17:44 PM 
+>> done...					 2026-08-10 05:17:44 PM 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 

@@ -1,0 +1,199 @@
+Loading required package: GenomicRanges
+Loading required package: stats4
+Loading required package: BiocGenerics
+Loading required package: generics
+
+Attaching package: ‘generics’
+
+The following objects are masked from ‘package:base’:
+
+    as.difftime, as.factor, as.ordered, intersect, is.element, setdiff,
+    setequal, union
+
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, saveRDS, table, tapply, unique,
+    unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+Loading required package: Seqinfo
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+ >>> DiffBind 3.20.0
+
+ChIPseeker v1.46.1 Learn more at https://yulab-smu.top/contribution-knowledge-mining/
+
+Please cite:
+
+Qianwen Wang, Ming Li, Tianzhi Wu, Li Zhan, Lin Li, Meijun Chen, Wenqin
+Xie, Zijing Xie, Erqiang Hu, Shuangbin Xu, Guangchuang Yu. Exploring
+epigenomic datasets by ChIPseeker. Current Protocols. 2022, 2(10): e585
+Loading required package: GenomicFeatures
+Loading required package: AnnotationDbi
+
+Scramble_rep1   Scramble  1 macs
+Scramble_rep2   Scramble  2 macs
+p53KD_rep1   p53KD  1 macs
+p53KD_rep2   p53KD  2 macs
+Genome detected: Hsapiens.UCSC.hg38
+Applying blacklist...
+Removed: 28541 of 57422 intervals.
+Removed: 11020 merged (of 32474) and 6580 (of 11105) consensus.
+Computing summits...
+Re-centering peaks...
+Reads will be counted as Paired-end.
+Reads will be counted as Paired-end.
+Reads will be counted as Paired-end.
+Reads will be counted as Paired-end.
+Reads will be counted as Paired-end.
+Reads will be counted as Paired-end.
+Reads will be counted as Paired-end.
+Reads will be counted as Paired-end.
+Generating counts for spike-ins...
+Computing results names...
+Analyzing...
+gene-wise dispersion estimates
+mean-dispersion relationship
+final dispersion estimates
+'select()' returned 1:1 mapping between keys and columns
+Warning messages:
+1: In .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': GL000008.2, GL000194.1, GL000214.1, GL000216.2, GL000218.1, GL000224.1, GL000225.1, GL000226.1, GL877875.1, KI270310.1, KI270330.1, KI270333.1, KI270337.1, KI270411.1, KI270435.1, KI270438.1, KI270442.1, KI270465.1, KI270466.1, KI270467.1, KI270512.1, KI270519.1, KI270544.1, KI270712.1, KI270715.1, KI270728.1, KI270729.1, KI270733.1, KI270735.1, KI270736.1, KI270743.1, KI270744.1, KI270751.1, KI270754.1, KI270772.1, KI270782.1, KI270804.1, KI270862.1, KI270879.1, KN196487.1, KN538372.1, KQ031384.1, KV880768.1, KZ208915.1, ML143377.1, ML143380.1, MU273333.1
+  - in 'y': chrY, chrM, chr1_GL383518v1_alt, chr1_GL383519v1_alt, chr1_GL383520v2_alt, chr1_KI270759v1_alt, chr1_KI270760v1_alt, chr1_KI270761v1_alt, chr1_KI270762v1_alt, chr1_KI270763v1_alt, chr1_KI270764v1_alt, chr1_KI270765v1_alt, chr1_KI270766v1_alt, chr1_KI270892v1_alt, chr2_GL383521v1_alt, chr2_GL383522v1_alt, chr2_GL582966v2_alt, chr2_KI270767v1_a [... truncated]
+2: In .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': GL000008.2, GL000194.1, GL000214.1, GL000216.2, GL000218.1, GL000224.1, GL000225.1, GL000226.1, GL877875.1, KI270310.1, KI270330.1, KI270333.1, KI270337.1, KI270411.1, KI270435.1, KI270438.1, KI270442.1, KI270465.1, KI270466.1, KI270467.1, KI270512.1, KI270519.1, KI270544.1, KI270712.1, KI270715.1, KI270728.1, KI270729.1, KI270733.1, KI270735.1, KI270736.1, KI270743.1, KI270744.1, KI270751.1, KI270754.1, KI270772.1, KI270782.1, KI270804.1, KI270862.1, KI270879.1, KN196487.1, KN538372.1, KQ031384.1, KV880768.1, KZ208915.1, ML143377.1, ML143380.1, MU273333.1
+  - in 'y': chrY, chrM, chr1_GL383518v1_alt, chr1_GL383519v1_alt, chr1_GL383520v2_alt, chr1_KI270759v1_alt, chr1_KI270760v1_alt, chr1_KI270761v1_alt, chr1_KI270762v1_alt, chr1_KI270763v1_alt, chr1_KI270764v1_alt, chr1_KI270765v1_alt, chr1_KI270766v1_alt, chr1_KI270892v1_alt, chr2_GL383521v1_alt, chr2_GL383522v1_alt, chr2_GL582966v2_alt, chr2_KI270767v1_a [... truncated]
+3: In .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': GL000008.2, GL000194.1, GL000214.1, GL000216.2, GL000218.1, GL000224.1, GL000225.1, GL000226.1, GL877875.1, KI270310.1, KI270330.1, KI270333.1, KI270337.1, KI270411.1, KI270435.1, KI270438.1, KI270442.1, KI270465.1, KI270466.1, KI270467.1, KI270512.1, KI270519.1, KI270544.1, KI270712.1, KI270715.1, KI270728.1, KI270729.1, KI270733.1, KI270735.1, KI270736.1, KI270743.1, KI270744.1, KI270751.1, KI270754.1, KI270772.1, KI270782.1, KI270804.1, KI270862.1, KI270879.1, KN196487.1, KN538372.1, KQ031384.1, KV880768.1, KZ208915.1, ML143377.1, ML143380.1, MU273333.1
+  - in 'y': chrY, chrM, chr1_GL383518v1_alt, chr1_GL383519v1_alt, chr1_GL383520v2_alt, chr1_KI270759v1_alt, chr1_KI270760v1_alt, chr1_KI270761v1_alt, chr1_KI270762v1_alt, chr1_KI270763v1_alt, chr1_KI270764v1_alt, chr1_KI270765v1_alt, chr1_KI270766v1_alt, chr1_KI270892v1_alt, chr2_GL383521v1_alt, chr2_GL383522v1_alt, chr2_GL582966v2_alt, chr2_KI270767v1_a [... truncated]
+4: In .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': GL000008.2, GL000194.1, GL000214.1, GL000216.2, GL000218.1, GL000224.1, GL000225.1, GL000226.1, GL877875.1, KI270310.1, KI270330.1, KI270333.1, KI270337.1, KI270411.1, KI270435.1, KI270438.1, KI270442.1, KI270465.1, KI270466.1, KI270467.1, KI270512.1, KI270519.1, KI270544.1, KI270712.1, KI270715.1, KI270728.1, KI270729.1, KI270733.1, KI270735.1, KI270736.1, KI270743.1, KI270744.1, KI270751.1, KI270754.1, KI270772.1, KI270782.1, KI270804.1, KI270862.1, KI270879.1, KN196487.1, KN538372.1, KQ031384.1, KV880768.1, KZ208915.1, ML143377.1, ML143380.1, MU273333.1
+  - in 'y': chrY, chrM, chr1_GL383518v1_alt, chr1_GL383519v1_alt, chr1_GL383520v2_alt, chr1_KI270759v1_alt, chr1_KI270760v1_alt, chr1_KI270761v1_alt, chr1_KI270762v1_alt, chr1_KI270763v1_alt, chr1_KI270764v1_alt, chr1_KI270765v1_alt, chr1_KI270766v1_alt, chr1_KI270892v1_alt, chr2_GL383521v1_alt, chr2_GL383522v1_alt, chr2_GL582966v2_alt, chr2_KI270767v1_a [... truncated]
+5: In .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': GL000008.2, GL000194.1, GL000214.1, GL000216.2, GL000218.1, GL000224.1, GL000225.1, GL000226.1, GL877875.1, KI270310.1, KI270330.1, KI270333.1, KI270337.1, KI270411.1, KI270435.1, KI270438.1, KI270442.1, KI270465.1, KI270466.1, KI270467.1, KI270512.1, KI270519.1, KI270544.1, KI270712.1, KI270715.1, KI270728.1, KI270729.1, KI270733.1, KI270735.1, KI270736.1, KI270743.1, KI270744.1, KI270751.1, KI270754.1, KI270772.1, KI270782.1, KI270804.1, KI270862.1, KI270879.1, KN196487.1, KN538372.1, KQ031384.1, KV880768.1, KZ208915.1, ML143377.1, ML143380.1, MU273333.1
+  - in 'y': chrY, chrM, chr1_GL383518v1_alt, chr1_GL383519v1_alt, chr1_GL383520v2_alt, chr1_KI270759v1_alt, chr1_KI270760v1_alt, chr1_KI270761v1_alt, chr1_KI270762v1_alt, chr1_KI270763v1_alt, chr1_KI270764v1_alt, chr1_KI270765v1_alt, chr1_KI270766v1_alt, chr1_KI270892v1_alt, chr2_GL383521v1_alt, chr2_GL383522v1_alt, chr2_GL582966v2_alt, chr2_KI270767v1_a [... truncated]
+'select()' returned 1:many mapping between keys and columns
+Warning messages:
+1: In .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': GL000008.2, GL000194.1, GL000214.1, GL000216.2, GL000218.1, GL000224.1, GL000225.1, GL000226.1, GL877875.1, KI270310.1, KI270330.1, KI270333.1, KI270337.1, KI270411.1, KI270435.1, KI270438.1, KI270442.1, KI270465.1, KI270466.1, KI270467.1, KI270512.1, KI270519.1, KI270544.1, KI270712.1, KI270715.1, KI270728.1, KI270729.1, KI270733.1, KI270735.1, KI270736.1, KI270743.1, KI270744.1, KI270751.1, KI270754.1, KI270772.1, KI270782.1, KI270804.1, KI270862.1, KI270879.1, KN196487.1, KN538372.1, KQ031384.1, KV880768.1, KZ208915.1, ML143377.1, ML143380.1, MU273333.1
+  - in 'y': chrY, chrM, chr1_GL383518v1_alt, chr1_GL383519v1_alt, chr1_GL383520v2_alt, chr1_KI270759v1_alt, chr1_KI270760v1_alt, chr1_KI270761v1_alt, chr1_KI270762v1_alt, chr1_KI270763v1_alt, chr1_KI270764v1_alt, chr1_KI270765v1_alt, chr1_KI270766v1_alt, chr1_KI270892v1_alt, chr2_GL383521v1_alt, chr2_GL383522v1_alt, chr2_GL582966v2_alt, chr2_KI270767v1_a [... truncated]
+2: In .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': GL000008.2, GL000194.1, GL000214.1, GL000216.2, GL000218.1, GL000224.1, GL000225.1, GL000226.1, GL877875.1, KI270310.1, KI270330.1, KI270333.1, KI270337.1, KI270411.1, KI270435.1, KI270438.1, KI270442.1, KI270465.1, KI270466.1, KI270467.1, KI270512.1, KI270519.1, KI270544.1, KI270712.1, KI270715.1, KI270728.1, KI270729.1, KI270733.1, KI270735.1, KI270736.1, KI270743.1, KI270744.1, KI270751.1, KI270754.1, KI270772.1, KI270782.1, KI270804.1, KI270862.1, KI270879.1, KN196487.1, KN538372.1, KQ031384.1, KV880768.1, KZ208915.1, ML143377.1, ML143380.1, MU273333.1
+  - in 'y': chrY, chrM, chr1_GL383518v1_alt, chr1_GL383519v1_alt, chr1_GL383520v2_alt, chr1_KI270759v1_alt, chr1_KI270760v1_alt, chr1_KI270761v1_alt, chr1_KI270762v1_alt, chr1_KI270763v1_alt, chr1_KI270764v1_alt, chr1_KI270765v1_alt, chr1_KI270766v1_alt, chr1_KI270892v1_alt, chr2_GL383521v1_alt, chr2_GL383522v1_alt, chr2_GL582966v2_alt, chr2_KI270767v1_a [... truncated]
+3: In .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': GL000008.2, GL000194.1, GL000214.1, GL000216.2, GL000218.1, GL000224.1, GL000225.1, GL000226.1, GL877875.1, KI270310.1, KI270330.1, KI270333.1, KI270337.1, KI270411.1, KI270435.1, KI270438.1, KI270442.1, KI270465.1, KI270466.1, KI270467.1, KI270512.1, KI270519.1, KI270544.1, KI270712.1, KI270715.1, KI270728.1, KI270729.1, KI270733.1, KI270735.1, KI270736.1, KI270743.1, KI270744.1, KI270751.1, KI270754.1, KI270772.1, KI270782.1, KI270804.1, KI270862.1, KI270879.1, KN196487.1, KN538372.1, KQ031384.1, KV880768.1, KZ208915.1, ML143377.1, ML143380.1, MU273333.1
+  - in 'y': chrY, chrM, chr1_GL383518v1_alt, chr1_GL383519v1_alt, chr1_GL383520v2_alt, chr1_KI270759v1_alt, chr1_KI270760v1_alt, chr1_KI270761v1_alt, chr1_KI270762v1_alt, chr1_KI270763v1_alt, chr1_KI270764v1_alt, chr1_KI270765v1_alt, chr1_KI270766v1_alt, chr1_KI270892v1_alt, chr2_GL383521v1_alt, chr2_GL383522v1_alt, chr2_GL582966v2_alt, chr2_KI270767v1_a [... truncated]
+4: In .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': GL000008.2, GL000194.1, GL000214.1, GL000216.2, GL000218.1, GL000224.1, GL000225.1, GL000226.1, GL877875.1, KI270310.1, KI270330.1, KI270333.1, KI270337.1, KI270411.1, KI270435.1, KI270438.1, KI270442.1, KI270465.1, KI270466.1, KI270467.1, KI270512.1, KI270519.1, KI270544.1, KI270712.1, KI270715.1, KI270728.1, KI270729.1, KI270733.1, KI270735.1, KI270736.1, KI270743.1, KI270744.1, KI270751.1, KI270754.1, KI270772.1, KI270782.1, KI270804.1, KI270862.1, KI270879.1, KN196487.1, KN538372.1, KQ031384.1, KV880768.1, KZ208915.1, ML143377.1, ML143380.1, MU273333.1
+  - in 'y': chrY, chrM, chr1_GL383518v1_alt, chr1_GL383519v1_alt, chr1_GL383520v2_alt, chr1_KI270759v1_alt, chr1_KI270760v1_alt, chr1_KI270761v1_alt, chr1_KI270762v1_alt, chr1_KI270763v1_alt, chr1_KI270764v1_alt, chr1_KI270765v1_alt, chr1_KI270766v1_alt, chr1_KI270892v1_alt, chr2_GL383521v1_alt, chr2_GL383522v1_alt, chr2_GL582966v2_alt, chr2_KI270767v1_a [... truncated]
+5: In .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': GL000008.2, GL000194.1, GL000214.1, GL000216.2, GL000218.1, GL000224.1, GL000225.1, GL000226.1, GL877875.1, KI270310.1, KI270330.1, KI270333.1, KI270337.1, KI270411.1, KI270435.1, KI270438.1, KI270442.1, KI270465.1, KI270466.1, KI270467.1, KI270512.1, KI270519.1, KI270544.1, KI270712.1, KI270715.1, KI270728.1, KI270729.1, KI270733.1, KI270735.1, KI270736.1, KI270743.1, KI270744.1, KI270751.1, KI270754.1, KI270772.1, KI270782.1, KI270804.1, KI270862.1, KI270879.1, KN196487.1, KN538372.1, KQ031384.1, KV880768.1, KZ208915.1, ML143377.1, ML143380.1, MU273333.1
+  - in 'y': chrY, chrM, chr1_GL383518v1_alt, chr1_GL383519v1_alt, chr1_GL383520v2_alt, chr1_KI270759v1_alt, chr1_KI270760v1_alt, chr1_KI270761v1_alt, chr1_KI270762v1_alt, chr1_KI270763v1_alt, chr1_KI270764v1_alt, chr1_KI270765v1_alt, chr1_KI270766v1_alt, chr1_KI270892v1_alt, chr2_GL383521v1_alt, chr2_GL383522v1_alt, chr2_GL582966v2_alt, chr2_KI270767v1_a [... truncated]
+clusterProfiler v4.18.4 Learn more at https://yulab-smu.top/contribution-knowledge-mining/
+
+Please cite:
+
+Guangchuang Yu, Li-Gen Wang, Yanyan Han and Qing-Yu He.
+clusterProfiler: an R package for comparing biological themes among
+gene clusters. OMICS: A Journal of Integrative Biology. 2012,
+16(5):284-287
+
+Attaching package: ‘clusterProfiler’
+
+The following object is masked from ‘package:AnnotationDbi’:
+
+    select
+
+The following object is masked from ‘package:IRanges’:
+
+    slice
+
+The following object is masked from ‘package:S4Vectors’:
+
+    rename
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+enrichplot v1.30.4 Learn more at https://yulab-smu.top/contribution-knowledge-mining/
+
+Please cite:
+
+T Wu, E Hu, S Xu, M Chen, P Guo, Z Dai, T Feng, L Zhou, W Tang, L Zhan,
+X Fu, S Liu, X Bo, and G Yu. clusterProfiler 4.0: A universal
+enrichment tool for interpreting omics data. The Innovation. 2021,
+2(3):100141

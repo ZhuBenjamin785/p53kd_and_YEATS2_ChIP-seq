@@ -1,0 +1,13 @@
+spots read      : 15,288,573
+reads read      : 30,577,146
+reads written   : 15,288,573
+reads 0-length  : 15,288,573
+spots read      : 28,608,288
+reads read      : 57,216,576
+reads written   : 28,608,288
+reads 0-length  : 28,608,288
+spots read      : 23,670,304
+reads read      : 47,340,608
+reads written   : 23,670,304
+reads 0-length  : 23,670,304
+[2026-08-11T17:34:28.890] error: *** JOB 9088016 ON qnode3111 CANCELLED AT 2026-08-11T17:34:28 DUE to SIGNAL Terminated ***

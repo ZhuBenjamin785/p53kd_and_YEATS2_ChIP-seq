@@ -1,0 +1,92 @@
+Merging SRR5944073 and SRR5944074 into GSM2746544_SW480_shLacZ_0hr
+Merging SRR5944075 and SRR5944076 into GSM2746545_SW480_shLacZ_16hr_TNF
+Merging SRR5944077 and SRR5944078 into GSM2746546_SW480_shp53_0hr
+Merging SRR5944079 and SRR5944080 into GSM2746547_SW480_shp53_16hr_TNF
+Running RSeQC strandedness for GSM2746544_SW480_shLacZ_0hr
+Reading reference gene model rna_seq_featurecounts/reference/all_rseqc.bed12 ... Done
+Loading SAM/BAM file ...  Total 200000 usable reads were sampled
+Running RSeQC strandedness for GSM2746545_SW480_shLacZ_16hr_TNF
+Reading reference gene model rna_seq_featurecounts/reference/all_rseqc.bed12 ... Done
+Loading SAM/BAM file ...  Total 200000 usable reads were sampled
+Running RSeQC strandedness for GSM2746546_SW480_shp53_0hr
+Reading reference gene model rna_seq_featurecounts/reference/all_rseqc.bed12 ... Done
+Loading SAM/BAM file ...  Total 200000 usable reads were sampled
+Running RSeQC strandedness for GSM2746547_SW480_shp53_16hr_TNF
+Reading reference gene model rna_seq_featurecounts/reference/all_rseqc.bed12 ... Done
+Loading SAM/BAM file ...  Total 200000 usable reads were sampled
+Running featureCounts on 4 single-end BAM files
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.3
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 4 BAM files                                      ||
+||                                                                            ||
+||                           GSM2746544_SW480_shLacZ_0hr.sorted.bam           ||
+||                           GSM2746545_SW480_shLacZ_16hr_TNF.sorted.bam      ||
+||                           GSM2746546_SW480_shp53_0hr.sorted.bam            ||
+||                           GSM2746547_SW480_shp53_16hr_TNF.sorted.bam       ||
+||                                                                            ||
+||             Output file : rna_seq_featureCounts.txt                        ||
+||                 Summary : rna_seq_featureCounts.txt.summary                ||
+||              Paired-end : no                                               ||
+||        Count read pairs : no                                               ||
+||              Annotation : all_exons.saf (SAF)                              ||
+||      Dir for temp files : rna_seq_featurecounts                            ||
+||                                                                            ||
+||                 Threads : 16                                               ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file all_exons.saf ...                                     ||
+||    Features : 1650704                                                      ||
+||    Meta-features : 63187                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file GSM2746544_SW480_shLacZ_0hr.sorted.bam...                 ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 46193906                                             ||
+||    Successfully assigned alignments : 19975170 (43.2%)                     ||
+||    Running time : 0.04 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GSM2746545_SW480_shLacZ_16hr_TNF.sorted.bam...            ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 39001137                                             ||
+||    Successfully assigned alignments : 16874041 (43.3%)                     ||
+||    Running time : 0.03 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GSM2746546_SW480_shp53_0hr.sorted.bam...                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 44171700                                             ||
+||    Successfully assigned alignments : 21065663 (47.7%)                     ||
+||    Running time : 0.04 minutes                                             ||
+||                                                                            ||
+|| Process BAM file GSM2746547_SW480_shp53_16hr_TNF.sorted.bam...             ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 42096503                                             ||
+||    Successfully assigned alignments : 18968468 (45.1%)                     ||
+||    Running time : 0.03 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "rna_seq_featurecounts/r  ||
+|| na_seq_featureCounts.txt.summary"                                          ||
+||                                                                            ||
+\\============================================================================//
+
+RNA-seq strandedness reports: rna_seq_featurecounts/strandedness
+Raw featureCounts output: rna_seq_featurecounts/rna_seq_featureCounts.txt
+Cleaned featureCounts output: rna_seq_featurecounts/rna_seq_featureCounts_cleaned.txt

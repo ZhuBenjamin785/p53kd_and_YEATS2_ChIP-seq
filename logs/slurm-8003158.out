@@ -1,0 +1,80 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.3
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 4 BAM files                                      ||
+||                                                                            ||
+||                           21161R-62-01_S274_L008.bam                       ||
+||                           21161R-62-02_S275_L008.bam                       ||
+||                           21161R-62-03_S276_L008.bam                       ||
+||                           21161R-62-04_S277_L008.bam                       ||
+||                                                                            ||
+||             Output file : featureCounts.txt                                ||
+||                 Summary : featureCounts.txt.summary                        ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : gencode.v50.basic.annotation.gtf (GTF)           ||
+||      Dir for temp files : results                                          ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file gencode.v50.basic.annotation.gtf ...                  ||
+||    Features : 3122490                                                      ||
+||    Meta-features : 78733                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file 21161R-62-01_S274_L008.bam...                             ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 75803331                                             ||
+||    Successfully assigned alignments : 52040900 (68.7%)                     ||
+||    Running time : 0.33 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 21161R-62-02_S275_L008.bam...                             ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 69470898                                             ||
+||    Successfully assigned alignments : 46517215 (67.0%)                     ||
+||    Running time : 0.30 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 21161R-62-03_S276_L008.bam...                             ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 67168660                                             ||
+||    Successfully assigned alignments : 45024555 (67.0%)                     ||
+||    Running time : 0.29 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 21161R-62-04_S277_L008.bam...                             ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 68410816                                             ||
+||    Successfully assigned alignments : 46769744 (68.4%)                     ||
+||    Running time : 0.30 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "results/featureCounts.t  ||
+|| xt.summary"                                                                ||
+||                                                                            ||
+\\============================================================================//
+

@@ -1,0 +1,10 @@
+samtools: /gpfs/home/nqp9093/.conda/envs/rseqc_env/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /gpfs/home/nqp9093/.conda/envs/rseqc_env/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /gpfs/home/nqp9093/.conda/envs/rseqc_env/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /gpfs/home/nqp9093/.conda/envs/rseqc_env/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+[bam_sort_core] merging from 1 files and 16 in-memory blocks...
+samtools: /gpfs/home/nqp9093/.conda/envs/rseqc_env/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /gpfs/home/nqp9093/.conda/envs/rseqc_env/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /gpfs/home/nqp9093/.conda/envs/rseqc_env/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /gpfs/home/nqp9093/.conda/envs/rseqc_env/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+[bam_sort_core] merging from 2 files and 16 in-memory blocks...

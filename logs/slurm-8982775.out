@@ -1,0 +1,7 @@
+WARNING: ignoring environment value of R_HOME
+4 Samples, 11105 sites in matrix (32474 total):
+             ID Condition Replicate Intervals
+1 Scramble_rep1  Scramble         1     12274
+2 Scramble_rep2  Scramble         2     17913
+3    p53KD_rep1     p53KD         1     13667
+4    p53KD_rep2     p53KD         2     13568

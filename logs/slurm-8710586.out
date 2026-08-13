@@ -1,0 +1,173 @@
+bamFilesList: ['BAMfiles/human/H4K16ac_YEATS2_shRNA#3_ChIP1_S157_L003_sorted.bam']
+binLength: 50
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 8
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 50
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+bamFilesList: ['BAMfiles/human/YEATS2_shRNA#3_Input1_S153_L003_sorted.bam']
+binLength: 50
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 8
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 50
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+INFO  @ 06 Aug 2026 16:00:00: [30 MB] 
+# Command line: callpeak -t BAMfiles/human/H4K16ac_YEATS2_shRNA#3_ChIP1_S157_L003_sorted.bam -c BAMfiles/human/YEATS2_shRNA#3_Input1_S153_L003_sorted.bam -f BAMPE -g hs -n YEATS2KD_H4K16ac_rep1 --outdir macs3_results/peaks/YEATS2KD_H4K16ac_rep1 --broad --broad-cutoff 0.1
+# ARGUMENTS LIST:
+# name = YEATS2KD_H4K16ac_rep1
+# format = BAMPE
+# ChIP-seq file = ['BAMfiles/human/H4K16ac_YEATS2_shRNA#3_ChIP1_S157_L003_sorted.bam']
+# control file = ['BAMfiles/human/YEATS2_shRNA#3_Input1_S153_L003_sorted.bam']
+# effective genome size = 2.91e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is on
+# Paired-End mode is on
+ 
+INFO  @ 06 Aug 2026 16:00:00: [30 MB] #1 read fragment files... 
+INFO  @ 06 Aug 2026 16:00:00: [30 MB] #1 read treatment fragments... 
+INFO  @ 06 Aug 2026 16:00:03: [75 MB]  1000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:00:06: [83 MB]  2000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:00:10: [92 MB]  3000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:00:13: [99 MB]  4000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:00:16: [107 MB]  5000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:00:20: [115 MB]  6000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:00:23: [121 MB]  7000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:00:26: [132 MB]  8000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:00:30: [140 MB]  9000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:00:33: [147 MB]  10000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:00:36: [155 MB]  11000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:00:40: [163 MB]  12000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:00:43: [169 MB]  13000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:00:46: [179 MB]  14000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:00:50: [186 MB]  15000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:00:53: [195 MB]  16000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:00:56: [202 MB]  17000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:01:00: [211 MB]  18000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:01:03: [219 MB]  19000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:01:06: [227 MB]  20000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:01:09: [235 MB]  21000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:01:13: [243 MB]  22000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:01:16: [251 MB]  23000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:01:19: [259 MB]  24000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:01:23: [267 MB]  25000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:01:26: [276 MB]  26000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:01:29: [285 MB]  27000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:01:33: [298 MB]  28000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:01:46: [380 MB] 28734092 fragments have been read. 
+INFO  @ 06 Aug 2026 16:02:03: [380 MB] #1.2 read input fragments... 
+INFO  @ 06 Aug 2026 16:02:06: [384 MB]  1000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:02:10: [390 MB]  2000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:02:13: [398 MB]  3000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:02:17: [408 MB]  4000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:02:20: [414 MB]  5000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:02:24: [421 MB]  6000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:02:27: [429 MB]  7000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:02:31: [438 MB]  8000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:02:34: [446 MB]  9000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:02:38: [452 MB]  10000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:02:41: [462 MB]  11000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:02:45: [468 MB]  12000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:02:48: [476 MB]  13000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:02:52: [485 MB]  14000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:02:55: [491 MB]  15000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:02:59: [498 MB]  16000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:03:02: [508 MB]  17000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:03:06: [514 MB]  18000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:03:09: [523 MB]  19000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:03:13: [529 MB]  20000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:03:16: [537 MB]  21000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:03:20: [547 MB]  22000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:03:23: [552 MB]  23000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:03:27: [561 MB]  24000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:03:30: [568 MB]  25000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:03:34: [578 MB]  26000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:03:37: [586 MB]  27000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:03:41: [593 MB]  28000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:03:44: [600 MB]  29000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:03:48: [609 MB]  30000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:03:51: [615 MB]  31000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:03:55: [624 MB]  32000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:03:58: [633 MB]  33000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:04:02: [640 MB]  34000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:04:05: [648 MB]  35000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:04:09: [657 MB]  36000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:04:12: [665 MB]  37000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:04:16: [674 MB]  38000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:04:20: [682 MB]  39000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:04:23: [690 MB]  40000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:04:27: [698 MB]  41000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:04:30: [708 MB]  42000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:04:34: [785 MB]  43000000 fragments parsed 
+INFO  @ 06 Aug 2026 16:04:43: [797 MB] 43085477 fragments have been read. 
+INFO  @ 06 Aug 2026 16:05:08: [797 MB] #1 mean fragment size is determined as 377.2 bp from treatment 
+INFO  @ 06 Aug 2026 16:05:08: [797 MB] #1 note: mean fragment size in control is 345.1 bp -- value ignored 
+INFO  @ 06 Aug 2026 16:05:08: [797 MB] #1 fragment size = 377.2 
+INFO  @ 06 Aug 2026 16:05:08: [797 MB] #1  total fragments in treatment: 28734092 
+INFO  @ 06 Aug 2026 16:05:08: [797 MB] #1 user defined the maximum fragments... 
+INFO  @ 06 Aug 2026 16:05:08: [797 MB] #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ 06 Aug 2026 16:05:39: [797 MB] #1  fragments after filtering in treatment: 8551174 
+INFO  @ 06 Aug 2026 16:05:39: [797 MB] #1  Redundant rate of treatment: 0.70 
+INFO  @ 06 Aug 2026 16:05:39: [797 MB] #1  total fragments in control: 43085477 
+INFO  @ 06 Aug 2026 16:05:39: [797 MB] #1 user defined the maximum fragments... 
+INFO  @ 06 Aug 2026 16:05:39: [797 MB] #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ 06 Aug 2026 16:06:24: [797 MB] #1  fragments after filtering in control: 34233407 
+INFO  @ 06 Aug 2026 16:06:24: [797 MB] #1  Redundant rate of control: 0.21 
+INFO  @ 06 Aug 2026 16:06:24: [797 MB] #1 finished! 
+INFO  @ 06 Aug 2026 16:06:24: [797 MB] #2 Build Peak Model... 
+INFO  @ 06 Aug 2026 16:06:24: [797 MB] #2 Skipped... 
+INFO  @ 06 Aug 2026 16:06:24: [797 MB] #3 Call peaks... 
+INFO  @ 06 Aug 2026 16:06:24: [797 MB] #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ 06 Aug 2026 16:06:24: [797 MB] #3 Pre-compute pvalue-qvalue table... 
+INFO  @ 06 Aug 2026 16:09:41: [3380 MB] #3 Call peaks for each chromosome... 
+INFO  @ 06 Aug 2026 16:10:52: [3380 MB] #4 Write output xls file... macs3_results/peaks/YEATS2KD_H4K16ac_rep1/YEATS2KD_H4K16ac_rep1_peaks.xls 
+INFO  @ 06 Aug 2026 16:10:52: [3380 MB] #4 Write broad peak in broadPeak format file... macs3_results/peaks/YEATS2KD_H4K16ac_rep1/YEATS2KD_H4K16ac_rep1_peaks.broadPeak 
+INFO  @ 06 Aug 2026 16:10:52: [3380 MB] #4 Write broad peak in bed12/gappedPeak format file... macs3_results/peaks/YEATS2KD_H4K16ac_rep1/YEATS2KD_H4K16ac_rep1_peaks.gappedPeak 
+INFO  @ 06 Aug 2026 16:10:52: [3380 MB] Done! 
+Error: Usage: Rscript chipseekerannotation.r <bed1> <bed2> <bed3> <bed4>
+Execution halted

@@ -1,0 +1,89 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"pandas"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "pandas"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.3
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 4 BAM files                                      ||
+||                                                                            ||
+||                           21161R-62-01_S274_L008.bam                       ||
+||                           21161R-62-02_S275_L008.bam                       ||
+||                           21161R-62-03_S276_L008.bam                       ||
+||                           21161R-62-04_S277_L008.bam                       ||
+||                                                                            ||
+||             Output file : featureCounts.txt                                ||
+||                 Summary : featureCounts.txt.summary                        ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : yes                                              ||
+||              Annotation : gencode.v50.basic.annotation.gtf (GTF)           ||
+||      Dir for temp files : results                                          ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file gencode.v50.basic.annotation.gtf ...                  ||
+||    Features : 3122490                                                      ||
+||    Meta-features : 78733                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file 21161R-62-01_S274_L008.bam...                             ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 38060684                                             ||
+||    Successfully assigned alignments : 25796397 (67.8%)                     ||
+||    Running time : 0.30 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 21161R-62-02_S275_L008.bam...                             ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 34873093                                             ||
+||    Successfully assigned alignments : 23090768 (66.2%)                     ||
+||    Running time : 0.27 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 21161R-62-03_S276_L008.bam...                             ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 33727940                                             ||
+||    Successfully assigned alignments : 22341841 (66.2%)                     ||
+||    Running time : 0.26 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 21161R-62-04_S277_L008.bam...                             ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 34329134                                             ||
+||    Successfully assigned alignments : 23203028 (67.6%)                     ||
+||    Running time : 0.27 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "results/featureCounts.t  ||
+|| xt.summary"                                                                ||
+||                                                                            ||
+\\============================================================================//
+
+Usage: python script_name.py <input_file> <output_file>

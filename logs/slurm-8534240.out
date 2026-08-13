@@ -1,0 +1,63 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.3
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 8 BAM files                                      ||
+||                                                                            ||
+||                           21161D-57-01_S151_L003.bam                       ||
+||                           21161D-57-02_S152_L003.bam                       ||
+||                           21161D-57-03_S155_L003.bam                       ||
+||                           21161D-57-04_S156_L003.bam                       ||
+||                           21161D-57-05_S153_L003.bam                       ||
+||                           21161D-57-06_S154_L003.bam                       ||
+||                           21161D-57-07_S157_L003.bam                       ||
+||                           21161D-57-08_S158_L003.bam                       ||
+||                                                                            ||
+||             Output file : featureCounts.txt                                ||
+||                 Summary : featureCounts.txt.summary                        ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : gencode.v50.basic.annotation.gtf (GTF)           ||
+||      Dir for temp files : results                                          ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file gencode.v50.basic.annotation.gtf ...                  ||
+||    Features : 3122490                                                      ||
+||    Meta-features : 78733                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file 21161D-57-01_S151_L003.bam...                             ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 63357478                                             ||
+||    Successfully assigned alignments : 2231794 (3.5%)                       ||
+||    Running time : 0.22 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 21161D-57-02_S152_L003.bam...                             ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 68189682                                             ||
+||    Successfully assigned alignments : 2400927 (3.5%)                       ||
+||    Running time : 0.23 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 21161D-57-03_S155_L003.bam...                             ||
+||    Strand specific : reversely stranded                                    ||
+[2026-08-04T10:39:34.422] error: *** JOB 8534240 ON qnode3114 CANCELLED AT 2026-08-04T10:39:34 DUE to SIGNAL Terminated ***

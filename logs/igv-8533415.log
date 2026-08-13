@@ -1,0 +1,2 @@
+NODE=qdtn01 PORT=23415
+/var/spool/slurmd/job8533415/slurm_script: line 17: node: command not found

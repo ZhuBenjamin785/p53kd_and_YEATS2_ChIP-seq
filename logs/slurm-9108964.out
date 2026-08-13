@@ -1,0 +1,26 @@
+Using R: /home/nqp9093/.conda/envs/chipseeker/bin/Rscript
+null device 
+          1 
+             p53_0hr_rep1 p53_0hr_rep2
+p53_0hr_rep1         1.00         0.41
+p53_0hr_rep2         0.41         1.00
+null device 
+          1 
+GRanges object with 1000 ranges and 2 metadata columns:
+         seqnames              ranges strand | p53_0hr_rep2 p53_0hr_rep1
+            <Rle>           <IRanges>  <Rle> |    <numeric>    <numeric>
+   67077     chr2 182980037-182980537      * |      7.20409      1.56659
+  105638     chr7 122528754-122529254      * |      7.43542      1.56659
+   91391     chr5 133179207-133179707      * |      6.88998      1.24466
+  101202     chr7   12199273-12199773      * |      7.46189      1.24466
+  100206     chr7       488653-489153      * |      7.51342      1.24466
+     ...      ...                 ...    ... .          ...          ...
+  105988     chr7 130369085-130369585      * |            0      6.79155
+   71750    chr20   36871974-36872474      * |            0      7.12118
+       5     chr1       778511-779011      * |            0      6.29994
+   74065    chr20   62361125-62361625      * |            0      6.77604
+   92103     chr5 139671426-139671926      * |            0      6.89571
+  -------
+  seqinfo: 24 sequences from an unspecified genome; no seqlengths
+null device 
+          1 

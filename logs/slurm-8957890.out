@@ -1,0 +1,9 @@
+Loaded 20,107 protein-coding genes
+Finished Scramble_rep1
+Finished Scramble_rep2
+Finished KD_rep1
+Finished KD_rep2
+QC filter retained 18,748/20,107 genes
+Wrote promoter results for 14,708 genes
+Wrote genebody results for 11,052 genes
+Finished. Results are in shift_results/

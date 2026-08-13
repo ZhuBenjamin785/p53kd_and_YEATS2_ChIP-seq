@@ -1,0 +1,8 @@
+Reading reference gene model all.bed ... Done
+Loading SAM/BAM file ...  Total 200000 usable reads were sampled
+
+
+This is PairEnd Data
+Fraction of reads failed to determine: 0.1229
+Fraction of reads explained by "1++,1--,2+-,2-+": 0.0086
+Fraction of reads explained by "1+-,1-+,2++,2--": 0.8686

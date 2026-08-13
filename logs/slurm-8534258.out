@@ -1,0 +1,112 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.3
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 8 BAM files                                      ||
+||                                                                            ||
+||                           21161D-57-01_S151_L003.bam                       ||
+||                           21161D-57-02_S152_L003.bam                       ||
+||                           21161D-57-03_S155_L003.bam                       ||
+||                           21161D-57-04_S156_L003.bam                       ||
+||                           21161D-57-05_S153_L003.bam                       ||
+||                           21161D-57-06_S154_L003.bam                       ||
+||                           21161D-57-07_S157_L003.bam                       ||
+||                           21161D-57-08_S158_L003.bam                       ||
+||                                                                            ||
+||             Output file : featureCounts.txt                                ||
+||                 Summary : featureCounts.txt.summary                        ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : gencode.v50.basic.annotation.gtf (GTF)           ||
+||      Dir for temp files : results                                          ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file gencode.v50.basic.annotation.gtf ...                  ||
+||    Features : 3122490                                                      ||
+||    Meta-features : 78733                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file 21161D-57-01_S151_L003.bam...                             ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 63357478                                             ||
+||    Successfully assigned alignments : 4120123 (6.5%)                       ||
+||    Running time : 0.22 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 21161D-57-02_S152_L003.bam...                             ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 68189682                                             ||
+||    Successfully assigned alignments : 4436337 (6.5%)                       ||
+||    Running time : 0.23 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 21161D-57-03_S155_L003.bam...                             ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 81427134                                             ||
+||    Successfully assigned alignments : 7828530 (9.6%)                       ||
+||    Running time : 0.28 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 21161D-57-04_S156_L003.bam...                             ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 73332022                                             ||
+||    Successfully assigned alignments : 6904667 (9.4%)                       ||
+||    Running time : 0.26 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 21161D-57-05_S153_L003.bam...                             ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 92701018                                             ||
+||    Successfully assigned alignments : 6140708 (6.6%)                       ||
+||    Running time : 0.32 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 21161D-57-06_S154_L003.bam...                             ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 93470332                                             ||
+||    Successfully assigned alignments : 6228935 (6.7%)                       ||
+||    Running time : 0.32 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 21161D-57-07_S157_L003.bam...                             ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 65017112                                             ||
+||    Successfully assigned alignments : 6184663 (9.5%)                       ||
+||    Running time : 0.23 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 21161D-57-08_S158_L003.bam...                             ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 84505580                                             ||
+||    Successfully assigned alignments : 8133768 (9.6%)                       ||
+||    Running time : 0.29 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "results/featureCounts.t  ||
+|| xt.summary"                                                                ||
+||                                                                            ||
+\\============================================================================//
+
+Traceback (most recent call last):
+  File "featureCountscleanup.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'

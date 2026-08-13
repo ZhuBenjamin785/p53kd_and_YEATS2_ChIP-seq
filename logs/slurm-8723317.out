@@ -1,0 +1,35 @@
+A region that is shorter than the bin size (possibly only after accounting for unscaled regions) was found: (39) ENSG00000289325 chr10:66926307:66926346. Skipping...
+A region that is shorter than the bin size (possibly only after accounting for unscaled regions) was found: (27) ENSG00000310590 chr16:84101969:84101996. Skipping...
+Skipping ENSG00000289325, due to being absent in the computeMatrix output.
+Skipping ENSG00000310590, due to being absent in the computeMatrix output.
+Skipping SRY, due to being absent in the computeMatrix output.
+Skipping TSPY2, due to being absent in the computeMatrix output.
+Skipping TBL1Y, due to being absent in the computeMatrix output.
+Skipping TSPY4, due to being absent in the computeMatrix output.
+Skipping TSPY8, due to being absent in the computeMatrix output.
+Skipping TSPY3, due to being absent in the computeMatrix output.
+Skipping TSPY1, due to being absent in the computeMatrix output.
+Skipping TSPY9, due to being absent in the computeMatrix output.
+Skipping TSPY10, due to being absent in the computeMatrix output.
+Skipping DDX3Y, due to being absent in the computeMatrix output.
+Skipping TMSB4Y, due to being absent in the computeMatrix output.
+Skipping VCY, due to being absent in the computeMatrix output.
+Skipping VCY1B, due to being absent in the computeMatrix output.
+Skipping CDY2B, due to being absent in the computeMatrix output.
+Skipping CDY2A, due to being absent in the computeMatrix output.
+Skipping HSFY1, due to being absent in the computeMatrix output.
+Skipping HSFY2, due to being absent in the computeMatrix output.
+Skipping KDM5D, due to being absent in the computeMatrix output.
+Skipping RPS4Y2, due to being absent in the computeMatrix output.
+Skipping RBMY1B, due to being absent in the computeMatrix output.
+Skipping RBMY1A1, due to being absent in the computeMatrix output.
+Skipping RBMY1D, due to being absent in the computeMatrix output.
+Skipping RBMY1E, due to being absent in the computeMatrix output.
+Skipping RBMY1F, due to being absent in the computeMatrix output.
+Skipping RBMY1J, due to being absent in the computeMatrix output.
+Skipping BPY2, due to being absent in the computeMatrix output.
+Skipping CDY1B, due to being absent in the computeMatrix output.
+Skipping BPY2B, due to being absent in the computeMatrix output.
+Skipping BPY2C, due to being absent in the computeMatrix output.
+Skipping CDY1, due to being absent in the computeMatrix output.
+Wrote matrix, profile, and heatmap outputs successfully.

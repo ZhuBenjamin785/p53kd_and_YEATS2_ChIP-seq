@@ -1,0 +1,15 @@
+A region that is shorter than the bin size (possibly only after accounting for unscaled regions) was found: (27) ENSG00000310590 chr16:84101969:84101996. Skipping...
+A region that is shorter than the bin size (possibly only after accounting for unscaled regions) was found: (39) ENSG00000289325 chr10:66926307:66926346. Skipping...
+Skipping ENSG00000289325, due to being absent in the computeMatrix output.
+Skipping ENSG00000310590, due to being absent in the computeMatrix output.
+Skipping SRY, due to being absent in the computeMatrix output.
+Skipping TSPY2, due to being absent in the computeMatrix output.
+Skipping TSPY3, due to being absent in the computeMatrix output.
+Skipping TSPY1, due to being absent in the computeMatrix output.
+Skipping TMSB4Y, due to being absent in the computeMatrix output.
+Skipping VCY, due to being absent in the computeMatrix output.
+Skipping CDY2A, due to being absent in the computeMatrix output.
+Skipping RBMY1F, due to being absent in the computeMatrix output.
+Skipping RBMY1J, due to being absent in the computeMatrix output.
+Skipping CDY1B, due to being absent in the computeMatrix output.
+Wrote matrix, profile, and heatmap outputs successfully.

@@ -1,0 +1,11 @@
+Using /home/nqp9093/.conda/envs/pybw/bin/python
+pyBigWig: /home/nqp9093/.conda/envs/pybw/lib/python3.13/site-packages/pyBigWig.cpython-313-x86_64-linux-gnu.so
+Loaded 20,107 protein-coding genes
+Promoter filter: both conditions > 0.5
+Finished Scramble_rep1
+Finished Scramble_rep2
+Finished KD_rep1
+Finished KD_rep2
+Wrote promoter results for 19,626 genes
+Wrote genebody results for 19,624 genes
+Finished. Results are in shift_results/

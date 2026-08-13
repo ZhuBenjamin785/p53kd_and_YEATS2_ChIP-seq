@@ -1,0 +1,252 @@
+[bam_sort_core] merging from 8 files and 8 in-memory blocks...
+[bam_sort_core] merging from 8 files and 8 in-memory blocks...
+normalization: CPM
+bamFilesList: ['/gpfs/projects/b1042/LauberthLab/BenFolder/fastqchip_macs3_results/normalized_bams/p53_0hr.spikein_normalized.bam']
+binLength: 10
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 8
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 10
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+normalization: CPM
+bamFilesList: ['/gpfs/projects/b1042/LauberthLab/BenFolder/fastqchip_macs3_results/normalized_bams/input_0hr.spikein_normalized.bam']
+binLength: 10
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 8
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 10
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+INFO  @ 12 Aug 2026 09:35:26: [30 MB] 
+# Command line: callpeak -t /gpfs/projects/b1042/LauberthLab/BenFolder/fastqchip_macs3_results/normalized_bams/p53_0hr.spikein_normalized.bam -c /gpfs/projects/b1042/LauberthLab/BenFolder/fastqchip_macs3_results/normalized_bams/input_0hr.spikein_normalized.bam -f BAM -g hs -n p53_0hr --outdir /gpfs/projects/b1042/LauberthLab/BenFolder/fastqchip_macs3_results/peaks/p53_0hr -q 0.05
+# ARGUMENTS LIST:
+# name = p53_0hr
+# format = BAM
+# ChIP-seq file = ['/gpfs/projects/b1042/LauberthLab/BenFolder/fastqchip_macs3_results/normalized_bams/p53_0hr.spikein_normalized.bam']
+# control file = ['/gpfs/projects/b1042/LauberthLab/BenFolder/fastqchip_macs3_results/normalized_bams/input_0hr.spikein_normalized.bam']
+# effective genome size = 2.91e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+# Paired-End mode is off
+ 
+INFO  @ 12 Aug 2026 09:35:26: [30 MB] #1 read tag files... 
+INFO  @ 12 Aug 2026 09:35:26: [30 MB] #1 read treatment tags... 
+INFO  @ 12 Aug 2026 09:35:27: [69 MB]  1000000 reads parsed 
+INFO  @ 12 Aug 2026 09:35:29: [76 MB]  2000000 reads parsed 
+INFO  @ 12 Aug 2026 09:35:31: [82 MB]  3000000 reads parsed 
+INFO  @ 12 Aug 2026 09:35:32: [89 MB]  4000000 reads parsed 
+INFO  @ 12 Aug 2026 09:35:34: [89 MB]  5000000 reads parsed 
+INFO  @ 12 Aug 2026 09:35:36: [92 MB]  6000000 reads parsed 
+INFO  @ 12 Aug 2026 09:35:38: [97 MB]  7000000 reads parsed 
+INFO  @ 12 Aug 2026 09:35:39: [103 MB]  8000000 reads parsed 
+INFO  @ 12 Aug 2026 09:35:41: [107 MB]  9000000 reads parsed 
+INFO  @ 12 Aug 2026 09:35:43: [108 MB]  10000000 reads parsed 
+INFO  @ 12 Aug 2026 09:35:44: [118 MB]  11000000 reads parsed 
+INFO  @ 12 Aug 2026 09:35:46: [122 MB]  12000000 reads parsed 
+INFO  @ 12 Aug 2026 09:35:48: [125 MB]  13000000 reads parsed 
+INFO  @ 12 Aug 2026 09:35:49: [127 MB]  14000000 reads parsed 
+INFO  @ 12 Aug 2026 09:35:51: [132 MB]  15000000 reads parsed 
+INFO  @ 12 Aug 2026 09:35:53: [140 MB]  16000000 reads parsed 
+INFO  @ 12 Aug 2026 09:35:54: [140 MB]  17000000 reads parsed 
+INFO  @ 12 Aug 2026 09:35:56: [144 MB]  18000000 reads parsed 
+INFO  @ 12 Aug 2026 09:35:58: [145 MB]  19000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:00: [152 MB]  20000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:01: [157 MB]  21000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:03: [162 MB]  22000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:05: [165 MB]  23000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:06: [170 MB]  24000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:08: [172 MB]  25000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:10: [179 MB]  26000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:11: [182 MB]  27000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:13: [184 MB]  28000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:15: [192 MB]  29000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:16: [192 MB]  30000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:18: [200 MB]  31000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:20: [204 MB]  32000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:21: [212 MB]  33000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:23: [214 MB]  34000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:25: [214 MB]  35000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:26: [215 MB]  36000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:28: [221 MB]  37000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:30: [223 MB]  38000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:31: [228 MB]  39000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:33: [236 MB]  40000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:35: [237 MB]  41000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:37: [246 MB]  42000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:38: [248 MB]  43000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:40: [252 MB]  44000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:42: [255 MB]  45000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:44: [263 MB]  46000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:45: [265 MB]  47000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:47: [272 MB]  48000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:49: [294 MB]  49000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:50: [398 MB]  50000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:52: [457 MB] 50366875 reads have been read. 
+INFO  @ 12 Aug 2026 09:36:52: [457 MB] #1.2 read input tags... 
+INFO  @ 12 Aug 2026 09:36:54: [462 MB]  1000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:56: [468 MB]  2000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:58: [473 MB]  3000000 reads parsed 
+INFO  @ 12 Aug 2026 09:36:59: [475 MB]  4000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:01: [482 MB]  5000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:03: [487 MB]  6000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:05: [487 MB]  7000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:06: [496 MB]  8000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:08: [496 MB]  9000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:10: [500 MB]  10000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:12: [508 MB]  11000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:14: [509 MB]  12000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:15: [519 MB]  13000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:17: [520 MB]  14000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:19: [525 MB]  15000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:21: [532 MB]  16000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:23: [538 MB]  17000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:24: [544 MB]  18000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:26: [544 MB]  19000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:28: [544 MB]  20000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:29: [546 MB]  21000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:31: [555 MB]  22000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:33: [555 MB]  23000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:35: [558 MB]  24000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:37: [568 MB]  25000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:38: [568 MB]  26000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:40: [576 MB]  27000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:42: [576 MB]  28000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:44: [581 MB]  29000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:45: [581 MB]  30000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:47: [586 MB]  31000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:49: [590 MB]  32000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:51: [596 MB]  33000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:53: [600 MB]  34000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:54: [603 MB]  35000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:56: [608 MB]  36000000 reads parsed 
+INFO  @ 12 Aug 2026 09:37:58: [612 MB]  37000000 reads parsed 
+INFO  @ 12 Aug 2026 09:38:00: [616 MB]  38000000 reads parsed 
+INFO  @ 12 Aug 2026 09:38:02: [719 MB]  39000000 reads parsed 
+INFO  @ 12 Aug 2026 09:38:03: [798 MB] 39604342 reads have been read. 
+INFO  @ 12 Aug 2026 09:38:03: [798 MB] #1 tag size is determined as 50 bps 
+INFO  @ 12 Aug 2026 09:38:03: [798 MB] #1 tag size = 50.0 
+INFO  @ 12 Aug 2026 09:38:03: [798 MB] #1  total tags in treatment: 50366875 
+INFO  @ 12 Aug 2026 09:38:03: [798 MB] #1 user defined the maximum tags... 
+INFO  @ 12 Aug 2026 09:38:03: [798 MB] #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ 12 Aug 2026 09:38:04: [1117 MB] #1  tags after filtering in treatment: 31815274 
+INFO  @ 12 Aug 2026 09:38:04: [1117 MB] #1  Redundant rate of treatment: 0.37 
+INFO  @ 12 Aug 2026 09:38:04: [1117 MB] #1  total tags in control: 39604342 
+INFO  @ 12 Aug 2026 09:38:04: [1117 MB] #1 user defined the maximum tags... 
+INFO  @ 12 Aug 2026 09:38:04: [1117 MB] #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ 12 Aug 2026 09:38:04: [1446 MB] #1  tags after filtering in control: 37278594 
+INFO  @ 12 Aug 2026 09:38:04: [1446 MB] #1  Redundant rate of control: 0.06 
+INFO  @ 12 Aug 2026 09:38:04: [1446 MB] #1 finished! 
+INFO  @ 12 Aug 2026 09:38:04: [1446 MB] #2 Build Peak Model... 
+INFO  @ 12 Aug 2026 09:38:04: [1446 MB] #2 looking for paired plus/minus strand peaks... 
+INFO  @ 12 Aug 2026 09:38:18: [1450 MB] #2 Total number of paired peaks: 52220 
+INFO  @ 12 Aug 2026 09:38:19: [1451 MB] #2 Model building with cross-correlation: Done 
+INFO  @ 12 Aug 2026 09:38:19: [1451 MB] #2 finished! 
+INFO  @ 12 Aug 2026 09:38:19: [1451 MB] #2 predicted fragment length is 235 bps 
+INFO  @ 12 Aug 2026 09:38:19: [1451 MB] #2 alternative fragment length(s) may be 235 bps 
+INFO  @ 12 Aug 2026 09:38:19: [1451 MB] #2.2 Generate R script for model : /gpfs/projects/b1042/LauberthLab/BenFolder/fastqchip_macs3_results/peaks/p53_0hr/p53_0hr_model.r 
+INFO  @ 12 Aug 2026 09:38:19: [1451 MB] #3 Call peaks... 
+INFO  @ 12 Aug 2026 09:38:19: [1451 MB] #3 Pre-compute pvalue-qvalue table... 
+INFO  @ 12 Aug 2026 09:41:51: [2732 MB] #3 Call peaks for each chromosome... 
+INFO  @ 12 Aug 2026 09:43:09: [2732 MB] #4 Write output xls file... /gpfs/projects/b1042/LauberthLab/BenFolder/fastqchip_macs3_results/peaks/p53_0hr/p53_0hr_peaks.xls 
+INFO  @ 12 Aug 2026 09:43:10: [2732 MB] #4 Write peak in narrowPeak format file... /gpfs/projects/b1042/LauberthLab/BenFolder/fastqchip_macs3_results/peaks/p53_0hr/p53_0hr_peaks.narrowPeak 
+INFO  @ 12 Aug 2026 09:43:10: [2732 MB] #4 Write summits bed file... /gpfs/projects/b1042/LauberthLab/BenFolder/fastqchip_macs3_results/peaks/p53_0hr/p53_0hr_summits.bed 
+INFO  @ 12 Aug 2026 09:43:11: [2732 MB] Done! 
+
+
+>> Using Genome: hg38 ...
+>> Using Genome: hg38 ...
+>> Using Genome: hg38 ...
+'select()' returned 1:many mapping between keys and columns
+Wrote: /gpfs/projects/b1042/LauberthLab/BenFolder/fastqchip_macs3_results/chipseeker/p53_0hr_peaks_annotated.tsv
+Warning messages:
+1: In .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': GL000194.1, GL000195.1, GL000205.2, GL000218.1, GL000220.1, GL000250.2, GL000251.2, GL000252.2, GL000253.2, GL000254.2, GL000255.2, GL000256.2, GL000257.2, GL000258.2, GL339449.2, GL383518.1, GL383519.1, GL383520.2, GL383521.1, GL383522.1, GL383526.1, GL383530.1, GL383534.2, GL383540.1, GL383541.1, GL383542.1, GL383545.1, GL383546.1, GL383549.1, GL383550.2, GL383551.1, GL383554.1, GL383555.2, GL383556.1, GL383557.1, GL383563.3, GL383564.2, GL383565.1, GL383566.1, GL383567.1, GL383568.1, GL383570.1, GL383571.1, GL383573.1, GL383574.1, GL383575.2, GL383577.2, GL383579.2, GL383580.2, GL383581.2, GL383582.2, GL383583.2, GL582966.2, GL877875.1, GL877876.1, GL949746.1, GL949747.2, GL949748.2, GL949749.2, GL949750.2, GL949751.2, GL949752.1, GL949753.2, JH159146.1, JH636055.2, KB021644.2, KB663609.1, KI270711.1, KI270712.1, KI270713.1, KI270714.1, KI270717.1, KI270718.1, KI270721.1, KI270725.1, KI270726.1, KI27072 [... truncated]
+2: In .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': GL000194.1, GL000195.1, GL000205.2, GL000218.1, GL000220.1, GL000250.2, GL000251.2, GL000252.2, GL000253.2, GL000254.2, GL000255.2, GL000256.2, GL000257.2, GL000258.2, GL339449.2, GL383518.1, GL383519.1, GL383520.2, GL383521.1, GL383522.1, GL383526.1, GL383530.1, GL383534.2, GL383540.1, GL383541.1, GL383542.1, GL383545.1, GL383546.1, GL383549.1, GL383550.2, GL383551.1, GL383554.1, GL383555.2, GL383556.1, GL383557.1, GL383563.3, GL383564.2, GL383565.1, GL383566.1, GL383567.1, GL383568.1, GL383570.1, GL383571.1, GL383573.1, GL383574.1, GL383575.2, GL383577.2, GL383579.2, GL383580.2, GL383581.2, GL383582.2, GL383583.2, GL582966.2, GL877875.1, GL877876.1, GL949746.1, GL949747.2, GL949748.2, GL949749.2, GL949750.2, GL949751.2, GL949752.1, GL949753.2, JH159146.1, JH636055.2, KB021644.2, KB663609.1, KI270711.1, KI270712.1, KI270713.1, KI270714.1, KI270717.1, KI270718.1, KI270721.1, KI270725.1, KI270726.1, KI27072 [... truncated]
+3: In .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': GL000194.1, GL000195.1, GL000205.2, GL000218.1, GL000220.1, GL000250.2, GL000251.2, GL000252.2, GL000253.2, GL000254.2, GL000255.2, GL000256.2, GL000257.2, GL000258.2, GL339449.2, GL383518.1, GL383519.1, GL383520.2, GL383521.1, GL383522.1, GL383526.1, GL383530.1, GL383534.2, GL383540.1, GL383541.1, GL383542.1, GL383545.1, GL383546.1, GL383549.1, GL383550.2, GL383551.1, GL383554.1, GL383555.2, GL383556.1, GL383557.1, GL383563.3, GL383564.2, GL383565.1, GL383566.1, GL383567.1, GL383568.1, GL383570.1, GL383571.1, GL383573.1, GL383574.1, GL383575.2, GL383577.2, GL383579.2, GL383580.2, GL383581.2, GL383582.2, GL383583.2, GL582966.2, GL877875.1, GL877876.1, GL949746.1, GL949747.2, GL949748.2, GL949749.2, GL949750.2, GL949751.2, GL949752.1, GL949753.2, JH159146.1, JH636055.2, KB021644.2, KB663609.1, KI270711.1, KI270712.1, KI270713.1, KI270714.1, KI270717.1, KI270718.1, KI270721.1, KI270725.1, KI270726.1, KI27072 [... truncated]
+4: In .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': GL000194.1, GL000195.1, GL000205.2, GL000218.1, GL000220.1, GL000250.2, GL000251.2, GL000252.2, GL000253.2, GL000254.2, GL000255.2, GL000256.2, GL000257.2, GL000258.2, GL339449.2, GL383518.1, GL383519.1, GL383520.2, GL383521.1, GL383522.1, GL383526.1, GL383530.1, GL383534.2, GL383540.1, GL383541.1, GL383542.1, GL383545.1, GL383546.1, GL383549.1, GL383550.2, GL383551.1, GL383554.1, GL383555.2, GL383556.1, GL383557.1, GL383563.3, GL383564.2, GL383565.1, GL383566.1, GL383567.1, GL383568.1, GL383570.1, GL383571.1, GL383573.1, GL383574.1, GL383575.2, GL383577.2, GL383579.2, GL383580.2, GL383581.2, GL383582.2, GL383583.2, GL582966.2, GL877875.1, GL877876.1, GL949746.1, GL949747.2, GL949748.2, GL949749.2, GL949750.2, GL949751.2, GL949752.1, GL949753.2, JH159146.1, JH636055.2, KB021644.2, KB663609.1, KI270711.1, KI270712.1, KI270713.1, KI270714.1, KI270717.1, KI270718.1, KI270721.1, KI270725.1, KI270726.1, KI27072 [... truncated]
+5: In .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': GL000194.1, GL000195.1, GL000205.2, GL000218.1, GL000220.1, GL000250.2, GL000251.2, GL000252.2, GL000253.2, GL000254.2, GL000255.2, GL000256.2, GL000257.2, GL000258.2, GL339449.2, GL383518.1, GL383519.1, GL383520.2, GL383521.1, GL383522.1, GL383526.1, GL383530.1, GL383534.2, GL383540.1, GL383541.1, GL383542.1, GL383545.1, GL383546.1, GL383549.1, GL383550.2, GL383551.1, GL383554.1, GL383555.2, GL383556.1, GL383557.1, GL383563.3, GL383564.2, GL383565.1, GL383566.1, GL383567.1, GL383568.1, GL383570.1, GL383571.1, GL383573.1, GL383574.1, GL383575.2, GL383577.2, GL383579.2, GL383580.2, GL383581.2, GL383582.2, GL383583.2, GL582966.2, GL877875.1, GL877876.1, GL949746.1, GL949747.2, GL949748.2, GL949749.2, GL949750.2, GL949751.2, GL949752.1, GL949753.2, JH159146.1, JH636055.2, KB021644.2, KB663609.1, KI270711.1, KI270712.1, KI270713.1, KI270714.1, KI270717.1, KI270718.1, KI270721.1, KI270725.1, KI270726.1, KI27072 [... truncated]
+Warning message:
+`aes_string()` was deprecated in ggplot2 3.0.0.
+ℹ Please use tidy evaluation idioms with `aes()`.
+ℹ See also `vignette("ggplot2-in-packages")` for more information.
+ℹ The deprecated feature was likely used in the ChIPseeker package.
+  Please report the issue at <https://github.com/YuLab-SMU/ChIPseeker/issues>. 
+$rect
+$rect$w
+[1] 0.6027
+
+$rect$h
+[1] 0.2744471
+
+$rect$left
+[1] 0.19865
+
+$rect$top
+[1] 0.6372235
+
+
+$text
+$text$x
+ [1] 0.2914318 0.2914318 0.2914318 0.2914318 0.2914318 0.2914318 0.2914318
+ [8] 0.2914318 0.2914318 0.2914318 0.2914318
+
+$text$y
+ [1] 0.6143529 0.5914824 0.5686118 0.5457412 0.5228706 0.5000000 0.4771294
+ [8] 0.4542588 0.4313882 0.4085176 0.3856471
+
+
+null device 
+          1 
+Wrote ChIPseeker results to: /gpfs/projects/b1042/LauberthLab/BenFolder/fastqchip_macs3_results/chipseeker

@@ -1,0 +1,696 @@
+[bam_sort_core] merging from 24 files and 8 in-memory blocks...
+[bam_sort_core] merging from 24 files and 8 in-memory blocks...
+[bam_sort_core] merging from 24 files and 8 in-memory blocks...
+[bam_sort_core] merging from 24 files and 8 in-memory blocks...
+[bam_sort_core] merging from 16 files and 8 in-memory blocks...
+[bam_sort_core] merging from 24 files and 8 in-memory blocks...
+[bam_sort_core] merging from 40 files and 8 in-memory blocks...
+[bam_sort_core] merging from 24 files and 8 in-memory blocks...
+bamFilesList: ['macs3_results/dedup_bam/H4K16ac_Scrameble_ChIP1_S155_L003_sorted_downsampled.bam']
+binLength: 50
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 8
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 50
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+bamFilesList: ['macs3_results/dedup_bam/scramble_Input_rep1_S151_L003_sorted_downsampled.bam']
+binLength: 50
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 8
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 50
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+bamFilesList: ['macs3_results/dedup_bam/H4K16ac_Scrameble_ChIP2_S156_L003_sorted_downsampled.bam']
+binLength: 50
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 8
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 50
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+bamFilesList: ['macs3_results/dedup_bam/scramble_Input_rep2_S152_L003_sorted_downsampled.bam']
+binLength: 50
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 8
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 50
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+bamFilesList: ['macs3_results/dedup_bam/H4K16ac_YEATS2_shRNA#3_ChIP1_S157_L003_sorted_downsampled.bam']
+binLength: 50
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 8
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 50
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+bamFilesList: ['macs3_results/dedup_bam/YEATS2_shRNA#3_Input1_S153_L003_sorted_downsampled.bam']
+binLength: 50
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 8
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 50
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+bamFilesList: ['macs3_results/dedup_bam/H4K16ac_YEATS2_shRNA#3_ChIP2_S158_L003_sorted_downsampled.bam']
+binLength: 50
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 8
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 50
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+bamFilesList: ['macs3_results/dedup_bam/YEATS2_shRNA#3_Input2_S154_L003_sorted_downsampled.bam']
+binLength: 50
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 8
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 50
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+INFO  @ 06 Aug 2026 17:14:04: [31 MB] 
+# Command line: callpeak -t macs3_results/dedup_bam/H4K16ac_Scrameble_ChIP1_S155_L003_sorted_downsampled.bam -c macs3_results/dedup_bam/scramble_Input_rep1_S151_L003_sorted_downsampled.bam -f BAMPE -g hs -n Scramble_H4K16ac_rep1 --outdir macs3_results/peaks/Scramble_H4K16ac_rep1 --broad --broad-cutoff 0.1
+# ARGUMENTS LIST:
+# name = Scramble_H4K16ac_rep1
+# format = BAMPE
+# ChIP-seq file = ['macs3_results/dedup_bam/H4K16ac_Scrameble_ChIP1_S155_L003_sorted_downsampled.bam']
+# control file = ['macs3_results/dedup_bam/scramble_Input_rep1_S151_L003_sorted_downsampled.bam']
+# effective genome size = 2.91e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is on
+# Paired-End mode is on
+ 
+INFO  @ 06 Aug 2026 17:14:04: [31 MB] #1 read fragment files... 
+INFO  @ 06 Aug 2026 17:14:04: [31 MB] #1 read treatment fragments... 
+INFO  @ 06 Aug 2026 17:14:07: [76 MB]  1000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:14:11: [82 MB]  2000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:14:14: [92 MB]  3000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:14:17: [100 MB]  4000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:14:21: [108 MB]  5000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:14:24: [117 MB]  6000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:14:27: [124 MB]  7000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:14:31: [130 MB]  8000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:14:34: [139 MB]  9000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:14:38: [147 MB]  10000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:14:41: [156 MB]  11000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:14:44: [163 MB]  12000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:14:48: [171 MB]  13000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:14:51: [180 MB]  14000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:14:55: [188 MB]  15000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:14:58: [196 MB]  16000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:15:01: [204 MB]  17000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:15:05: [212 MB]  18000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:15:08: [220 MB]  19000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:15:12: [228 MB]  20000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:15:15: [236 MB]  21000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:15:18: [243 MB]  22000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:15:22: [251 MB]  23000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:15:25: [261 MB]  24000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:15:29: [269 MB]  25000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:15:32: [277 MB]  26000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:15:35: [290 MB]  27000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:15:50: [387 MB] 27753001 fragments have been read. 
+INFO  @ 06 Aug 2026 17:16:06: [387 MB] #1.2 read input fragments... 
+INFO  @ 06 Aug 2026 17:16:10: [390 MB]  1000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:16:14: [399 MB]  2000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:16:17: [407 MB]  3000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:16:21: [414 MB]  4000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:16:25: [421 MB]  5000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:16:28: [429 MB]  6000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:16:32: [437 MB]  7000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:16:36: [445 MB]  8000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:16:39: [453 MB]  9000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:16:43: [461 MB]  10000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:16:46: [468 MB]  11000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:16:50: [477 MB]  12000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:16:54: [484 MB]  13000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:16:57: [493 MB]  14000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:17:01: [499 MB]  15000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:17:04: [509 MB]  16000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:17:08: [515 MB]  17000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:17:12: [524 MB]  18000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:17:15: [531 MB]  19000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:17:19: [541 MB]  20000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:17:23: [549 MB]  21000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:17:26: [557 MB]  22000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:17:30: [639 MB]  23000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:17:36: [651 MB] 23034765 fragments have been read. 
+INFO  @ 06 Aug 2026 17:17:48: [651 MB] #1 mean fragment size is determined as 377.5 bp from treatment 
+INFO  @ 06 Aug 2026 17:17:48: [651 MB] #1 note: mean fragment size in control is 347.2 bp -- value ignored 
+INFO  @ 06 Aug 2026 17:17:48: [651 MB] #1 fragment size = 377.5 
+INFO  @ 06 Aug 2026 17:17:48: [651 MB] #1  total fragments in treatment: 27753001 
+INFO  @ 06 Aug 2026 17:17:48: [651 MB] #1 user defined the maximum fragments... 
+INFO  @ 06 Aug 2026 17:17:48: [651 MB] #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ 06 Aug 2026 17:18:18: [651 MB] #1  fragments after filtering in treatment: 11691716 
+INFO  @ 06 Aug 2026 17:18:18: [651 MB] #1  Redundant rate of treatment: 0.58 
+INFO  @ 06 Aug 2026 17:18:18: [651 MB] #1  total fragments in control: 23034765 
+INFO  @ 06 Aug 2026 17:18:18: [651 MB] #1 user defined the maximum fragments... 
+INFO  @ 06 Aug 2026 17:18:18: [651 MB] #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ 06 Aug 2026 17:18:42: [651 MB] #1  fragments after filtering in control: 19384312 
+INFO  @ 06 Aug 2026 17:18:42: [651 MB] #1  Redundant rate of control: 0.16 
+INFO  @ 06 Aug 2026 17:18:42: [651 MB] #1 finished! 
+INFO  @ 06 Aug 2026 17:18:42: [651 MB] #2 Build Peak Model... 
+INFO  @ 06 Aug 2026 17:18:42: [651 MB] #2 Skipped... 
+INFO  @ 06 Aug 2026 17:18:42: [651 MB] #3 Call peaks... 
+INFO  @ 06 Aug 2026 17:18:42: [651 MB] #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ 06 Aug 2026 17:18:42: [651 MB] #3 Pre-compute pvalue-qvalue table... 
+INFO  @ 06 Aug 2026 17:20:44: [2513 MB] #3 Call peaks for each chromosome... 
+INFO  @ 06 Aug 2026 17:21:30: [2513 MB] #4 Write output xls file... macs3_results/peaks/Scramble_H4K16ac_rep1/Scramble_H4K16ac_rep1_peaks.xls 
+INFO  @ 06 Aug 2026 17:21:30: [2513 MB] #4 Write broad peak in broadPeak format file... macs3_results/peaks/Scramble_H4K16ac_rep1/Scramble_H4K16ac_rep1_peaks.broadPeak 
+INFO  @ 06 Aug 2026 17:21:30: [2513 MB] #4 Write broad peak in bed12/gappedPeak format file... macs3_results/peaks/Scramble_H4K16ac_rep1/Scramble_H4K16ac_rep1_peaks.gappedPeak 
+INFO  @ 06 Aug 2026 17:21:30: [2513 MB] Done! 
+INFO  @ 06 Aug 2026 17:21:31: [30 MB] 
+# Command line: callpeak -t macs3_results/dedup_bam/H4K16ac_Scrameble_ChIP2_S156_L003_sorted_downsampled.bam -c macs3_results/dedup_bam/scramble_Input_rep2_S152_L003_sorted_downsampled.bam -f BAMPE -g hs -n Scramble_H4K16ac_rep2 --outdir macs3_results/peaks/Scramble_H4K16ac_rep2 --broad --broad-cutoff 0.1
+# ARGUMENTS LIST:
+# name = Scramble_H4K16ac_rep2
+# format = BAMPE
+# ChIP-seq file = ['macs3_results/dedup_bam/H4K16ac_Scrameble_ChIP2_S156_L003_sorted_downsampled.bam']
+# control file = ['macs3_results/dedup_bam/scramble_Input_rep2_S152_L003_sorted_downsampled.bam']
+# effective genome size = 2.91e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is on
+# Paired-End mode is on
+ 
+INFO  @ 06 Aug 2026 17:21:31: [30 MB] #1 read fragment files... 
+INFO  @ 06 Aug 2026 17:21:31: [30 MB] #1 read treatment fragments... 
+INFO  @ 06 Aug 2026 17:21:34: [75 MB]  1000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:21:37: [82 MB]  2000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:21:41: [92 MB]  3000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:21:44: [98 MB]  4000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:21:47: [106 MB]  5000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:21:51: [116 MB]  6000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:21:54: [123 MB]  7000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:21:58: [131 MB]  8000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:22:01: [140 MB]  9000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:22:04: [148 MB]  10000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:22:08: [155 MB]  11000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:22:11: [161 MB]  12000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:22:14: [171 MB]  13000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:22:18: [178 MB]  14000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:22:21: [185 MB]  15000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:22:25: [194 MB]  16000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:22:28: [202 MB]  17000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:22:31: [209 MB]  18000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:22:35: [217 MB]  19000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:22:38: [225 MB]  20000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:22:41: [234 MB]  21000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:22:45: [241 MB]  22000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:22:48: [250 MB]  23000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:22:52: [258 MB]  24000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:22:55: [266 MB]  25000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:22:58: [274 MB]  26000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:23:02: [283 MB]  27000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:23:05: [292 MB]  28000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:23:09: [316 MB]  29000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:23:22: [422 MB] 29730927 fragments have been read. 
+INFO  @ 06 Aug 2026 17:23:39: [422 MB] #1.2 read input fragments... 
+INFO  @ 06 Aug 2026 17:23:43: [426 MB]  1000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:23:46: [434 MB]  2000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:23:50: [442 MB]  3000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:23:54: [450 MB]  4000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:23:57: [457 MB]  5000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:24:01: [466 MB]  6000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:24:04: [473 MB]  7000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:24:08: [481 MB]  8000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:24:12: [489 MB]  9000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:24:15: [496 MB]  10000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:24:19: [504 MB]  11000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:24:22: [513 MB]  12000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:24:26: [520 MB]  13000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:24:29: [528 MB]  14000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:24:33: [535 MB]  15000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:24:37: [544 MB]  16000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:24:40: [551 MB]  17000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:24:44: [560 MB]  18000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:24:47: [568 MB]  19000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:24:51: [576 MB]  20000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:24:54: [584 MB]  21000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:24:58: [592 MB]  22000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:25:01: [599 MB]  23000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:25:05: [608 MB]  24000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:25:09: [615 MB]  25000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:25:12: [624 MB]  26000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:25:16: [634 MB]  27000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:25:20: [641 MB]  28000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:25:23: [732 MB]  29000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:25:29: [733 MB] 29003287 fragments have been read. 
+INFO  @ 06 Aug 2026 17:25:45: [733 MB] #1 mean fragment size is determined as 371.0 bp from treatment 
+INFO  @ 06 Aug 2026 17:25:45: [733 MB] #1 note: mean fragment size in control is 342.2 bp -- value ignored 
+INFO  @ 06 Aug 2026 17:25:45: [733 MB] #1 fragment size = 371.0 
+INFO  @ 06 Aug 2026 17:25:45: [733 MB] #1  total fragments in treatment: 29730927 
+INFO  @ 06 Aug 2026 17:25:45: [733 MB] #1 user defined the maximum fragments... 
+INFO  @ 06 Aug 2026 17:25:45: [733 MB] #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ 06 Aug 2026 17:26:17: [733 MB] #1  fragments after filtering in treatment: 11859723 
+INFO  @ 06 Aug 2026 17:26:17: [733 MB] #1  Redundant rate of treatment: 0.60 
+INFO  @ 06 Aug 2026 17:26:17: [733 MB] #1  total fragments in control: 29003287 
+INFO  @ 06 Aug 2026 17:26:17: [733 MB] #1 user defined the maximum fragments... 
+INFO  @ 06 Aug 2026 17:26:17: [733 MB] #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ 06 Aug 2026 17:26:47: [733 MB] #1  fragments after filtering in control: 23431040 
+INFO  @ 06 Aug 2026 17:26:47: [733 MB] #1  Redundant rate of control: 0.19 
+INFO  @ 06 Aug 2026 17:26:47: [733 MB] #1 finished! 
+INFO  @ 06 Aug 2026 17:26:47: [733 MB] #2 Build Peak Model... 
+INFO  @ 06 Aug 2026 17:26:47: [733 MB] #2 Skipped... 
+INFO  @ 06 Aug 2026 17:26:47: [733 MB] #3 Call peaks... 
+INFO  @ 06 Aug 2026 17:26:47: [733 MB] #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ 06 Aug 2026 17:26:47: [733 MB] #3 Pre-compute pvalue-qvalue table... 
+INFO  @ 06 Aug 2026 17:29:11: [2752 MB] #3 Call peaks for each chromosome... 
+INFO  @ 06 Aug 2026 17:30:05: [2752 MB] #4 Write output xls file... macs3_results/peaks/Scramble_H4K16ac_rep2/Scramble_H4K16ac_rep2_peaks.xls 
+INFO  @ 06 Aug 2026 17:30:05: [2752 MB] #4 Write broad peak in broadPeak format file... macs3_results/peaks/Scramble_H4K16ac_rep2/Scramble_H4K16ac_rep2_peaks.broadPeak 
+INFO  @ 06 Aug 2026 17:30:05: [2752 MB] #4 Write broad peak in bed12/gappedPeak format file... macs3_results/peaks/Scramble_H4K16ac_rep2/Scramble_H4K16ac_rep2_peaks.gappedPeak 
+INFO  @ 06 Aug 2026 17:30:05: [2752 MB] Done! 
+INFO  @ 06 Aug 2026 17:30:05: [36 MB] 
+# Command line: callpeak -t macs3_results/dedup_bam/H4K16ac_YEATS2_shRNA#3_ChIP1_S157_L003_sorted_downsampled.bam -c macs3_results/dedup_bam/YEATS2_shRNA#3_Input1_S153_L003_sorted_downsampled.bam -f BAMPE -g hs -n YEATS2KD_H4K16ac_rep1 --outdir macs3_results/peaks/YEATS2KD_H4K16ac_rep1 --broad --broad-cutoff 0.1
+# ARGUMENTS LIST:
+# name = YEATS2KD_H4K16ac_rep1
+# format = BAMPE
+# ChIP-seq file = ['macs3_results/dedup_bam/H4K16ac_YEATS2_shRNA#3_ChIP1_S157_L003_sorted_downsampled.bam']
+# control file = ['macs3_results/dedup_bam/YEATS2_shRNA#3_Input1_S153_L003_sorted_downsampled.bam']
+# effective genome size = 2.91e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is on
+# Paired-End mode is on
+ 
+INFO  @ 06 Aug 2026 17:30:05: [36 MB] #1 read fragment files... 
+INFO  @ 06 Aug 2026 17:30:05: [36 MB] #1 read treatment fragments... 
+INFO  @ 06 Aug 2026 17:30:08: [78 MB]  1000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:30:12: [86 MB]  2000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:30:15: [97 MB]  3000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:30:18: [102 MB]  4000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:30:22: [110 MB]  5000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:30:25: [120 MB]  6000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:30:28: [126 MB]  7000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:30:32: [136 MB]  8000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:30:35: [143 MB]  9000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:30:38: [148 MB]  10000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:30:42: [159 MB]  11000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:30:45: [167 MB]  12000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:30:48: [173 MB]  13000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:30:51: [182 MB]  14000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:30:55: [190 MB]  15000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:30:58: [198 MB]  16000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:31:01: [206 MB]  17000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:31:05: [214 MB]  18000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:31:08: [223 MB]  19000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:31:11: [230 MB]  20000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:31:15: [239 MB]  21000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:31:18: [247 MB]  22000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:31:21: [255 MB]  23000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:31:25: [263 MB]  24000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:31:28: [271 MB]  25000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:31:31: [279 MB]  26000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:31:35: [287 MB]  27000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:31:38: [301 MB]  28000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:31:51: [383 MB] 28734092 fragments have been read. 
+INFO  @ 06 Aug 2026 17:32:08: [383 MB] #1.2 read input fragments... 
+INFO  @ 06 Aug 2026 17:32:12: [387 MB]  1000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:32:15: [395 MB]  2000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:32:19: [402 MB]  3000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:32:22: [411 MB]  4000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:32:26: [418 MB]  5000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:32:29: [426 MB]  6000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:32:33: [434 MB]  7000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:32:36: [442 MB]  8000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:32:40: [449 MB]  9000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:32:43: [457 MB]  10000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:32:47: [465 MB]  11000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:32:50: [473 MB]  12000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:32:54: [480 MB]  13000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:32:58: [488 MB]  14000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:33:01: [496 MB]  15000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:33:05: [503 MB]  16000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:33:08: [511 MB]  17000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:33:12: [518 MB]  18000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:33:15: [526 MB]  19000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:33:19: [534 MB]  20000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:33:22: [541 MB]  21000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:33:26: [550 MB]  22000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:33:29: [557 MB]  23000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:33:33: [565 MB]  24000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:33:36: [573 MB]  25000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:33:40: [581 MB]  26000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:33:43: [589 MB]  27000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:33:47: [597 MB]  28000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:33:50: [605 MB]  29000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:33:54: [612 MB]  30000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:33:57: [620 MB]  31000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:34:01: [628 MB]  32000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:34:04: [636 MB]  33000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:34:08: [644 MB]  34000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:34:11: [652 MB]  35000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:34:15: [661 MB]  36000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:34:18: [667 MB]  37000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:34:22: [677 MB]  38000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:34:25: [685 MB]  39000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:34:29: [693 MB]  40000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:34:33: [701 MB]  41000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:34:36: [711 MB]  42000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:34:40: [786 MB]  43000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:34:49: [800 MB] 43085477 fragments have been read. 
+INFO  @ 06 Aug 2026 17:35:14: [800 MB] #1 mean fragment size is determined as 377.2 bp from treatment 
+INFO  @ 06 Aug 2026 17:35:14: [800 MB] #1 note: mean fragment size in control is 345.1 bp -- value ignored 
+INFO  @ 06 Aug 2026 17:35:14: [800 MB] #1 fragment size = 377.2 
+INFO  @ 06 Aug 2026 17:35:14: [800 MB] #1  total fragments in treatment: 28734092 
+INFO  @ 06 Aug 2026 17:35:14: [800 MB] #1 user defined the maximum fragments... 
+INFO  @ 06 Aug 2026 17:35:14: [800 MB] #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ 06 Aug 2026 17:35:46: [800 MB] #1  fragments after filtering in treatment: 8551174 
+INFO  @ 06 Aug 2026 17:35:46: [800 MB] #1  Redundant rate of treatment: 0.70 
+INFO  @ 06 Aug 2026 17:35:46: [800 MB] #1  total fragments in control: 43085477 
+INFO  @ 06 Aug 2026 17:35:46: [800 MB] #1 user defined the maximum fragments... 
+INFO  @ 06 Aug 2026 17:35:46: [800 MB] #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ 06 Aug 2026 17:36:30: [800 MB] #1  fragments after filtering in control: 34233407 
+INFO  @ 06 Aug 2026 17:36:30: [800 MB] #1  Redundant rate of control: 0.21 
+INFO  @ 06 Aug 2026 17:36:30: [800 MB] #1 finished! 
+INFO  @ 06 Aug 2026 17:36:30: [800 MB] #2 Build Peak Model... 
+INFO  @ 06 Aug 2026 17:36:30: [800 MB] #2 Skipped... 
+INFO  @ 06 Aug 2026 17:36:30: [800 MB] #3 Call peaks... 
+INFO  @ 06 Aug 2026 17:36:30: [800 MB] #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ 06 Aug 2026 17:36:30: [800 MB] #3 Pre-compute pvalue-qvalue table... 
+INFO  @ 06 Aug 2026 17:39:49: [3354 MB] #3 Call peaks for each chromosome... 
+INFO  @ 06 Aug 2026 17:41:02: [3354 MB] #4 Write output xls file... macs3_results/peaks/YEATS2KD_H4K16ac_rep1/YEATS2KD_H4K16ac_rep1_peaks.xls 
+INFO  @ 06 Aug 2026 17:41:02: [3354 MB] #4 Write broad peak in broadPeak format file... macs3_results/peaks/YEATS2KD_H4K16ac_rep1/YEATS2KD_H4K16ac_rep1_peaks.broadPeak 
+INFO  @ 06 Aug 2026 17:41:02: [3354 MB] #4 Write broad peak in bed12/gappedPeak format file... macs3_results/peaks/YEATS2KD_H4K16ac_rep1/YEATS2KD_H4K16ac_rep1_peaks.gappedPeak 
+INFO  @ 06 Aug 2026 17:41:02: [3354 MB] Done! 
+INFO  @ 06 Aug 2026 17:41:03: [30 MB] 
+# Command line: callpeak -t macs3_results/dedup_bam/H4K16ac_YEATS2_shRNA#3_ChIP2_S158_L003_sorted_downsampled.bam -c macs3_results/dedup_bam/YEATS2_shRNA#3_Input2_S154_L003_sorted_downsampled.bam -f BAMPE -g hs -n YEATS2KD_H4K16ac_rep2 --outdir macs3_results/peaks/YEATS2KD_H4K16ac_rep2 --broad --broad-cutoff 0.1
+# ARGUMENTS LIST:
+# name = YEATS2KD_H4K16ac_rep2
+# format = BAMPE
+# ChIP-seq file = ['macs3_results/dedup_bam/H4K16ac_YEATS2_shRNA#3_ChIP2_S158_L003_sorted_downsampled.bam']
+# control file = ['macs3_results/dedup_bam/YEATS2_shRNA#3_Input2_S154_L003_sorted_downsampled.bam']
+# effective genome size = 2.91e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is on
+# Paired-End mode is on
+ 
+INFO  @ 06 Aug 2026 17:41:03: [30 MB] #1 read fragment files... 
+INFO  @ 06 Aug 2026 17:41:03: [30 MB] #1 read treatment fragments... 
+INFO  @ 06 Aug 2026 17:41:06: [75 MB]  1000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:41:09: [82 MB]  2000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:41:13: [91 MB]  3000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:41:16: [98 MB]  4000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:41:20: [109 MB]  5000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:41:23: [116 MB]  6000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:41:26: [123 MB]  7000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:41:30: [132 MB]  8000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:41:33: [141 MB]  9000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:41:37: [148 MB]  10000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:41:40: [155 MB]  11000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:41:44: [164 MB]  12000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:41:47: [173 MB]  13000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:41:51: [180 MB]  14000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:41:54: [189 MB]  15000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:41:57: [196 MB]  16000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:42:01: [205 MB]  17000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:42:04: [212 MB]  18000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:42:08: [221 MB]  19000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:42:11: [229 MB]  20000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:42:15: [238 MB]  21000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:42:18: [245 MB]  22000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:42:21: [254 MB]  23000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:42:25: [263 MB]  24000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:42:28: [286 MB]  25000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:42:40: [357 MB] 25516617 fragments have been read. 
+INFO  @ 06 Aug 2026 17:42:55: [357 MB] #1.2 read input fragments... 
+INFO  @ 06 Aug 2026 17:42:59: [361 MB]  1000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:43:02: [369 MB]  2000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:43:06: [377 MB]  3000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:43:10: [385 MB]  4000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:43:13: [393 MB]  5000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:43:17: [401 MB]  6000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:43:20: [409 MB]  7000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:43:24: [416 MB]  8000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:43:28: [424 MB]  9000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:43:31: [432 MB]  10000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:43:35: [439 MB]  11000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:43:38: [447 MB]  12000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:43:42: [455 MB]  13000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:43:46: [463 MB]  14000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:43:49: [470 MB]  15000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:43:53: [477 MB]  16000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:43:56: [486 MB]  17000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:44:00: [493 MB]  18000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:44:04: [502 MB]  19000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:44:07: [509 MB]  20000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:44:11: [518 MB]  21000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:44:14: [525 MB]  22000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:44:18: [534 MB]  23000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:44:22: [541 MB]  24000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:44:25: [550 MB]  25000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:44:29: [558 MB]  26000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:44:33: [567 MB]  27000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:44:36: [576 MB]  28000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:44:40: [598 MB]  29000000 fragments parsed 
+INFO  @ 06 Aug 2026 17:44:49: [673 MB] 29605119 fragments have been read. 
+INFO  @ 06 Aug 2026 17:45:06: [673 MB] #1 mean fragment size is determined as 377.3 bp from treatment 
+INFO  @ 06 Aug 2026 17:45:06: [673 MB] #1 note: mean fragment size in control is 346.3 bp -- value ignored 
+INFO  @ 06 Aug 2026 17:45:06: [673 MB] #1 fragment size = 377.3 
+INFO  @ 06 Aug 2026 17:45:06: [673 MB] #1  total fragments in treatment: 25516617 
+INFO  @ 06 Aug 2026 17:45:06: [673 MB] #1 user defined the maximum fragments... 
+INFO  @ 06 Aug 2026 17:45:06: [673 MB] #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ 06 Aug 2026 17:45:33: [673 MB] #1  fragments after filtering in treatment: 10002564 
+INFO  @ 06 Aug 2026 17:45:33: [673 MB] #1  Redundant rate of treatment: 0.61 
+INFO  @ 06 Aug 2026 17:45:33: [673 MB] #1  total fragments in control: 29605119 
+INFO  @ 06 Aug 2026 17:45:33: [673 MB] #1 user defined the maximum fragments... 
+INFO  @ 06 Aug 2026 17:45:33: [673 MB] #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ 06 Aug 2026 17:46:04: [673 MB] #1  fragments after filtering in control: 24906496 
+INFO  @ 06 Aug 2026 17:46:04: [673 MB] #1  Redundant rate of control: 0.16 
+INFO  @ 06 Aug 2026 17:46:04: [673 MB] #1 finished! 
+INFO  @ 06 Aug 2026 17:46:04: [673 MB] #2 Build Peak Model... 
+INFO  @ 06 Aug 2026 17:46:04: [673 MB] #2 Skipped... 
+INFO  @ 06 Aug 2026 17:46:04: [673 MB] #3 Call peaks... 
+INFO  @ 06 Aug 2026 17:46:04: [673 MB] #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ 06 Aug 2026 17:46:04: [673 MB] #3 Pre-compute pvalue-qvalue table... 
+INFO  @ 06 Aug 2026 17:48:34: [2810 MB] #3 Call peaks for each chromosome... 
+INFO  @ 06 Aug 2026 17:49:28: [2810 MB] #4 Write output xls file... macs3_results/peaks/YEATS2KD_H4K16ac_rep2/YEATS2KD_H4K16ac_rep2_peaks.xls 
+INFO  @ 06 Aug 2026 17:49:29: [2810 MB] #4 Write broad peak in broadPeak format file... macs3_results/peaks/YEATS2KD_H4K16ac_rep2/YEATS2KD_H4K16ac_rep2_peaks.broadPeak 
+INFO  @ 06 Aug 2026 17:49:29: [2810 MB] #4 Write broad peak in bed12/gappedPeak format file... macs3_results/peaks/YEATS2KD_H4K16ac_rep2/YEATS2KD_H4K16ac_rep2_peaks.gappedPeak 
+INFO  @ 06 Aug 2026 17:49:29: [2810 MB] Done! 
+
+
+>> loading peak file...				 2026-08-06 05:49:44 PM 
+>> preparing features information...		 2026-08-06 05:49:45 PM 
+>> Using Genome: hg38 ...
+>> identifying nearest features...		 2026-08-06 05:49:47 PM 
+>> calculating distance from peak to TSS...	 2026-08-06 05:49:48 PM 
+>> assigning genomic annotation...		 2026-08-06 05:49:48 PM 
+>> Using Genome: hg38 ...
+>> Using Genome: hg38 ...
+>> adding gene annotation...			 2026-08-06 05:50:24 PM 
+'select()' returned 1:many mapping between keys and columns
+>> assigning chromosome lengths			 2026-08-06 05:50:24 PM 
+>> done...					 2026-08-06 05:50:24 PM 
+Wrote: macs3_results/peaks/Scramble_H4K16ac_rep1/Scramble_H4K16ac_rep1_peaks_annotated.tsv
+>> loading peak file...				 2026-08-06 05:50:25 PM 
+>> preparing features information...		 2026-08-06 05:50:25 PM 
+>> Using Genome: hg38 ...
+>> identifying nearest features...		 2026-08-06 05:50:25 PM 
+>> calculating distance from peak to TSS...	 2026-08-06 05:50:26 PM 
+>> assigning genomic annotation...		 2026-08-06 05:50:26 PM 
+>> Using Genome: hg38 ...
+>> Using Genome: hg38 ...
+>> adding gene annotation...			 2026-08-06 05:50:32 PM 
+'select()' returned 1:many mapping between keys and columns
+>> assigning chromosome lengths			 2026-08-06 05:50:32 PM 
+>> done...					 2026-08-06 05:50:32 PM 
+Wrote: macs3_results/peaks/Scramble_H4K16ac_rep2/Scramble_H4K16ac_rep2_peaks_annotated.tsv
+>> loading peak file...				 2026-08-06 05:50:32 PM 
+>> preparing features information...		 2026-08-06 05:50:32 PM 
+>> Using Genome: hg38 ...
+>> identifying nearest features...		 2026-08-06 05:50:32 PM 
+>> calculating distance from peak to TSS...	 2026-08-06 05:50:33 PM 
+>> assigning genomic annotation...		 2026-08-06 05:50:33 PM 
+>> Using Genome: hg38 ...
+>> Using Genome: hg38 ...
+>> adding gene annotation...			 2026-08-06 05:50:39 PM 
+'select()' returned 1:many mapping between keys and columns
+>> assigning chromosome lengths			 2026-08-06 05:50:39 PM 
+>> done...					 2026-08-06 05:50:39 PM 
+Wrote: macs3_results/peaks/YEATS2KD_H4K16ac_rep1/YEATS2KD_H4K16ac_rep1_peaks_annotated.tsv
+>> loading peak file...				 2026-08-06 05:50:40 PM 
+>> preparing features information...		 2026-08-06 05:50:40 PM 
+>> Using Genome: hg38 ...
+>> identifying nearest features...		 2026-08-06 05:50:40 PM 
+>> calculating distance from peak to TSS...	 2026-08-06 05:50:41 PM 
+>> assigning genomic annotation...		 2026-08-06 05:50:41 PM 
+>> Using Genome: hg38 ...
+>> Using Genome: hg38 ...
+>> adding gene annotation...			 2026-08-06 05:50:48 PM 
+'select()' returned 1:many mapping between keys and columns
+>> assigning chromosome lengths			 2026-08-06 05:50:48 PM 
+>> done...					 2026-08-06 05:50:48 PM 
+Wrote: macs3_results/peaks/YEATS2KD_H4K16ac_rep2/YEATS2KD_H4K16ac_rep2_peaks_annotated.tsv
+There were 20 warnings (use warnings() to see them)

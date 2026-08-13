@@ -1,0 +1,1164 @@
+Using an excessive number of cores has a diminishing return! It is recommended not to exceed 8 cores per trimming process (you asked for 30 cores). Please consider re-specifying
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 4.2
+Could not detect version of Python used by Cutadapt from the first line of Cutadapt (but found this: >>>#!/bin/sh<<<)
+Letting the (modified) Cutadapt deal with the Python version instead
+pigz 2.6
+Parallel gzip (pigz) detected. Proceeding with multicore (de)compression using 30 cores
+
+igzip command line interface 2.30.0
+igzip detected. Using igzip for decompressing
+
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /gpfs/projects/b1042/LauberthLab/BenFolder/trimmeddir/
+Writing report to '/gpfs/projects/b1042/LauberthLab/BenFolder/trimmeddir/21161D-57-01_S151_L003_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: 21161-57-08012024_165948_H4k16ac_CHIP_Y2KD/21161D-57-01_S151_L003_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.2
+Python version: could not detect
+Number of cores used for trimming: 30
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 4.2). Setting -j 30
+Writing final adapter and quality trimmed output to 21161D-57-01_S151_L003_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file 21161-57-08012024_165948_H4k16ac_CHIP_Y2KD/21161D-57-01_S151_L003_R1_001.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+This is cutadapt 4.2 with Python 3.8.16
+Command line parameters: -j 30 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC 21161-57-08012024_165948_H4k16ac_CHIP_Y2KD/21161D-57-01_S151_L003_R1_001.fastq.gz
+Processing single-end reads on 30 cores ...
+Finished in 55.603 s (1.754 µs/read; 34.21 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              31,702,215
+Reads with adapters:                12,687,632 (40.0%)
+Reads written (passing filters):    31,702,215 (100.0%)
+
+Total basepairs processed: 4,787,034,465 bp
+Quality-trimmed:              30,134,957 bp (0.6%)
+Total written (filtered):  4,703,250,883 bp (98.2%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 12687632 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 33.5%
+  C: 24.5%
+  G: 18.6%
+  T: 23.4%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	8350678	7925553.8	0	8350678
+2	2077776	1981388.4	0	2077776
+3	716597	495347.1	0	716597
+4	187345	123836.8	0	187345
+5	66993	30959.2	0	66993
+6	45906	7739.8	0	45906
+7	39265	1934.9	0	39265
+8	40692	483.7	0	40692
+9	48713	120.9	0	48294 419
+10	30847	30.2	1	29227 1620
+11	42492	7.6	1	40455 2037
+12	33612	1.9	1	32274 1338
+13	38274	0.5	1	36566 1708
+14	34464	0.5	1	32971 1493
+15	34774	0.5	1	33193 1581
+16	32212	0.5	1	30914 1298
+17	32643	0.5	1	31152 1491
+18	28818	0.5	1	27868 950
+19	30315	0.5	1	29166 1149
+20	28273	0.5	1	27165 1108
+21	30267	0.5	1	28960 1307
+22	25882	0.5	1	25047 835
+23	28078	0.5	1	26970 1108
+24	24795	0.5	1	23933 862
+25	29311	0.5	1	28153 1158
+26	19869	0.5	1	19211 658
+27	24034	0.5	1	23138 896
+28	24150	0.5	1	23135 1015
+29	22616	0.5	1	21765 851
+30	20459	0.5	1	19825 634
+31	19944	0.5	1	19248 696
+32	22933	0.5	1	21982 951
+33	18019	0.5	1	17399 620
+34	19408	0.5	1	18673 735
+35	16606	0.5	1	16007 599
+36	21700	0.5	1	20885 815
+37	12854	0.5	1	12366 488
+38	16526	0.5	1	15910 616
+39	14968	0.5	1	14413 555
+40	15030	0.5	1	14416 614
+41	16461	0.5	1	15811 650
+42	13229	0.5	1	12734 495
+43	13580	0.5	1	13075 505
+44	22683	0.5	1	22045 638
+45	6539	0.5	1	6230 309
+46	7288	0.5	1	7024 264
+47	11082	0.5	1	10760 322
+48	10935	0.5	1	10579 356
+49	10948	0.5	1	10554 394
+50	10969	0.5	1	10555 414
+51	10675	0.5	1	10313 362
+52	11938	0.5	1	11535 403
+53	12518	0.5	1	12105 413
+54	9888	0.5	1	9584 304
+55	13615	0.5	1	13283 332
+56	18099	0.5	1	17773 326
+57	16574	0.5	1	16300 274
+58	10701	0.5	1	10476 225
+59	5537	0.5	1	5380 157
+60	3516	0.5	1	3420 96
+61	2254	0.5	1	2170 84
+62	2453	0.5	1	2365 88
+63	2100	0.5	1	2026 74
+64	1592	0.5	1	1525 67
+65	1323	0.5	1	1248 75
+66	1008	0.5	1	956 52
+67	1503	0.5	1	1421 82
+68	2343	0.5	1	2282 61
+69	2678	0.5	1	2606 72
+70	2459	0.5	1	2384 75
+71	2395	0.5	1	2315 80
+72	2311	0.5	1	2240 71
+73	2594	0.5	1	2533 61
+74	2782	0.5	1	2703 79
+75	2763	0.5	1	2668 95
+76	2776	0.5	1	2690 86
+77	2710	0.5	1	2624 86
+78	2539	0.5	1	2451 88
+79	2507	0.5	1	2420 87
+80	2420	0.5	1	2335 85
+81	2229	0.5	1	2147 82
+82	2098	0.5	1	2040 58
+83	1994	0.5	1	1937 57
+84	1918	0.5	1	1845 73
+85	1859	0.5	1	1781 78
+86	1677	0.5	1	1620 57
+87	1714	0.5	1	1657 57
+88	1529	0.5	1	1473 56
+89	1452	0.5	1	1397 55
+90	1346	0.5	1	1289 57
+91	1231	0.5	1	1167 64
+92	1165	0.5	1	1119 46
+93	1164	0.5	1	1126 38
+94	1004	0.5	1	959 45
+95	1033	0.5	1	990 43
+96	935	0.5	1	888 47
+97	870	0.5	1	826 44
+98	854	0.5	1	815 39
+99	753	0.5	1	718 35
+100	714	0.5	1	686 28
+101	622	0.5	1	586 36
+102	631	0.5	1	602 29
+103	582	0.5	1	545 37
+104	501	0.5	1	471 30
+105	463	0.5	1	433 30
+106	455	0.5	1	430 25
+107	374	0.5	1	353 21
+108	341	0.5	1	323 18
+109	357	0.5	1	316 41
+110	279	0.5	1	247 32
+111	238	0.5	1	211 27
+112	239	0.5	1	217 22
+113	204	0.5	1	184 20
+114	171	0.5	1	154 17
+115	160	0.5	1	144 16
+116	147	0.5	1	136 11
+117	155	0.5	1	136 19
+118	124	0.5	1	111 13
+119	134	0.5	1	119 15
+120	118	0.5	1	97 21
+121	114	0.5	1	87 27
+122	112	0.5	1	92 20
+123	90	0.5	1	77 13
+124	87	0.5	1	70 17
+125	99	0.5	1	82 17
+126	100	0.5	1	79 21
+127	78	0.5	1	66 12
+128	70	0.5	1	54 16
+129	90	0.5	1	65 25
+130	62	0.5	1	49 13
+131	64	0.5	1	48 16
+132	70	0.5	1	57 13
+133	58	0.5	1	41 17
+134	41	0.5	1	31 10
+135	44	0.5	1	28 16
+136	38	0.5	1	20 18
+137	51	0.5	1	36 15
+138	28	0.5	1	14 14
+139	35	0.5	1	26 9
+140	27	0.5	1	18 9
+141	28	0.5	1	18 10
+142	23	0.5	1	11 12
+143	21	0.5	1	16 5
+144	39	0.5	1	23 16
+145	36	0.5	1	23 13
+146	40	0.5	1	24 16
+147	37	0.5	1	28 9
+148	31	0.5	1	15 16
+149	28	0.5	1	15 13
+150	51	0.5	1	33 18
+151	1683	0.5	1	418 1265
+
+RUN STATISTICS FOR INPUT FILE: 21161-57-08012024_165948_H4k16ac_CHIP_Y2KD/21161D-57-01_S151_L003_R1_001.fastq.gz
+=============================================
+31702215 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/gpfs/projects/b1042/LauberthLab/BenFolder/trimmeddir/21161D-57-01_S151_L003_R2_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: 21161-57-08012024_165948_H4k16ac_CHIP_Y2KD/21161D-57-01_S151_L003_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.2
+Python version: could not detect
+Number of cores used for trimming: 30
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 4.2). Setting -j -j 30
+Writing final adapter and quality trimmed output to 21161D-57-01_S151_L003_R2_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file 21161-57-08012024_165948_H4k16ac_CHIP_Y2KD/21161D-57-01_S151_L003_R2_001.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+This is cutadapt 4.2 with Python 3.8.16
+Command line parameters: -j 30 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC 21161-57-08012024_165948_H4k16ac_CHIP_Y2KD/21161D-57-01_S151_L003_R2_001.fastq.gz
+Processing single-end reads on 30 cores ...
+Finished in 54.695 s (1.725 µs/read; 34.78 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              31,702,215
+Reads with adapters:                12,241,841 (38.6%)
+Reads written (passing filters):    31,702,215 (100.0%)
+
+Total basepairs processed: 4,787,034,465 bp
+Quality-trimmed:              69,162,224 bp (1.4%)
+Total written (filtered):  4,667,948,442 bp (97.5%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 12241841 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 33.3%
+  C: 24.3%
+  G: 18.8%
+  T: 23.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	8021709	7925553.8	0	8021709
+2	2004662	1981388.4	0	2004662
+3	683653	495347.1	0	683653
+4	178576	123836.8	0	178576
+5	65740	30959.2	0	65740
+6	45120	7739.8	0	45120
+7	40263	1934.9	0	40263
+8	41049	483.7	0	41049
+9	47200	120.9	0	46728 472
+10	34028	30.2	1	32223 1805
+11	40599	7.6	1	38538 2061
+12	54288	1.9	1	52204 2084
+13	18530	0.5	1	17414 1116
+14	35443	0.5	1	32941 2502
+15	39065	0.5	1	35816 3249
+16	30472	0.5	1	28513 1959
+17	33829	0.5	1	31323 2506
+18	31339	0.5	1	28994 2345
+19	69585	0.5	1	64995 4590
+20	17704	0.5	1	16213 1491
+21	7550	0.5	1	6788 762
+22	25301	0.5	1	23747 1554
+23	28028	0.5	1	26060 1968
+24	64051	0.5	1	59014 5037
+25	15696	0.5	1	14224 1472
+26	29850	0.5	1	27991 1859
+27	64851	0.5	1	61884 2967
+28	16195	0.5	1	15047 1148
+29	25366	0.5	1	24285 1081
+30	30339	0.5	1	28856 1483
+31	8294	0.5	1	7653 641
+32	31067	0.5	1	29510 1557
+33	48374	0.5	1	46834 1540
+34	36725	0.5	1	35493 1232
+35	8971	0.5	1	8501 470
+36	9710	0.5	1	9212 498
+37	20352	0.5	1	19783 569
+38	16785	0.5	1	16157 628
+39	5880	0.5	1	5521 359
+40	4913	0.5	1	4596 317
+41	5543	0.5	1	5267 276
+42	2441	0.5	1	2190 251
+43	17036	0.5	1	16330 706
+44	2126	0.5	1	1847 279
+45	21875	0.5	1	21059 816
+46	4158	0.5	1	3848 310
+47	2714	0.5	1	2497 217
+48	13007	0.5	1	12605 402
+49	3586	0.5	1	3334 252
+50	6762	0.5	1	6483 279
+51	2514	0.5	1	2325 189
+52	7132	0.5	1	6850 282
+53	1126	0.5	1	976 150
+54	3602	0.5	1	3385 217
+55	8893	0.5	1	8552 341
+56	2849	0.5	1	2663 186
+57	4693	0.5	1	4486 207
+58	9689	0.5	1	9365 324
+59	3044	0.5	1	2850 194
+60	1313	0.5	1	1190 123
+61	3904	0.5	1	3699 205
+62	8089	0.5	1	7804 285
+63	836	0.5	1	713 123
+64	4042	0.5	1	3871 171
+65	1702	0.5	1	1575 127
+66	1810	0.5	1	1658 152
+67	4468	0.5	1	4299 169
+68	2120	0.5	1	1955 165
+69	1140	0.5	1	1013 127
+70	2712	0.5	1	2571 141
+71	1648	0.5	1	1506 142
+72	1970	0.5	1	1854 116
+73	2946	0.5	1	2775 171
+74	3919	0.5	1	3750 169
+75	3489	0.5	1	3367 122
+76	786	0.5	1	727 59
+77	699	0.5	1	627 72
+78	1327	0.5	1	1235 92
+79	1817	0.5	1	1716 101
+80	2101	0.5	1	1994 107
+81	2006	0.5	1	1894 112
+82	1931	0.5	1	1823 108
+83	1914	0.5	1	1805 109
+84	1880	0.5	1	1796 84
+85	1809	0.5	1	1700 109
+86	1666	0.5	1	1570 96
+87	1684	0.5	1	1591 93
+88	1516	0.5	1	1417 99
+89	1433	0.5	1	1338 95
+90	1370	0.5	1	1283 87
+91	1205	0.5	1	1120 85
+92	1175	0.5	1	1091 84
+93	1158	0.5	1	1084 74
+94	1017	0.5	1	946 71
+95	1031	0.5	1	957 74
+96	978	0.5	1	904 74
+97	859	0.5	1	797 62
+98	880	0.5	1	813 67
+99	771	0.5	1	701 70
+100	728	0.5	1	668 60
+101	662	0.5	1	615 47
+102	632	0.5	1	575 57
+103	590	0.5	1	538 52
+104	513	0.5	1	460 53
+105	466	0.5	1	420 46
+106	464	0.5	1	415 49
+107	393	0.5	1	340 53
+108	385	0.5	1	332 53
+109	353	0.5	1	303 50
+110	281	0.5	1	239 42
+111	246	0.5	1	222 24
+112	266	0.5	1	222 44
+113	225	0.5	1	182 43
+114	187	0.5	1	144 43
+115	172	0.5	1	135 37
+116	160	0.5	1	114 46
+117	173	0.5	1	131 42
+118	131	0.5	1	101 30
+119	128	0.5	1	98 30
+120	110	0.5	1	83 27
+121	96	0.5	1	72 24
+122	93	0.5	1	67 26
+123	87	0.5	1	65 22
+124	72	0.5	1	47 25
+125	93	0.5	1	63 30
+126	83	0.5	1	55 28
+127	56	0.5	1	40 16
+128	57	0.5	1	43 14
+129	63	0.5	1	47 16
+130	47	0.5	1	34 13
+131	45	0.5	1	35 10
+132	42	0.5	1	27 15
+133	37	0.5	1	21 16
+134	46	0.5	1	21 25
+135	37	0.5	1	19 18
+136	20	0.5	1	10 10
+137	46	0.5	1	33 13
+138	27	0.5	1	13 14
+139	30	0.5	1	17 13
+140	21	0.5	1	11 10
+141	28	0.5	1	15 13
+142	21	0.5	1	8 13
+143	17	0.5	1	6 11
+144	15	0.5	1	9 6
+145	27	0.5	1	16 11
+146	20	0.5	1	12 8
+147	22	0.5	1	12 10
+148	20	0.5	1	4 16
+149	11	0.5	1	7 4
+150	10	0.5	1	7 3
+151	224	0.5	1	182 42
+
+RUN STATISTICS FOR INPUT FILE: 21161-57-08012024_165948_H4k16ac_CHIP_Y2KD/21161D-57-01_S151_L003_R2_001.fastq.gz
+=============================================
+31702215 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 21161D-57-01_S151_L003_R1_001_trimmed.fq.gz and 21161D-57-01_S151_L003_R2_001_trimmed.fq.gz
+file_1: 21161D-57-01_S151_L003_R1_001_trimmed.fq.gz, file_2: 21161D-57-01_S151_L003_R2_001_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 21161D-57-01_S151_L003_R1_001_trimmed.fq.gz and 21161D-57-01_S151_L003_R2_001_trimmed.fq.gz <<<<<
+Writing validated paired-end Read 1 reads to 21161D-57-01_S151_L003_R1_001_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 21161D-57-01_S151_L003_R2_001_val_2.fq.gz
+
+Total number of sequences analysed: 31702215
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 23476 (0.07%)
+
+Deleting both intermediate output files 21161D-57-01_S151_L003_R1_001_trimmed.fq.gz and 21161D-57-01_S151_L003_R2_001_trimmed.fq.gz
+
+====================================================================================================
+
+Using an excessive number of cores has a diminishing return! It is recommended not to exceed 8 cores per trimming process (you asked for 30 cores). Please consider re-specifying
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 4.2
+Could not detect version of Python used by Cutadapt from the first line of Cutadapt (but found this: >>>#!/bin/sh<<<)
+Letting the (modified) Cutadapt deal with the Python version instead
+pigz 2.6
+Parallel gzip (pigz) detected. Proceeding with multicore (de)compression using 30 cores
+
+igzip command line interface 2.30.0
+igzip detected. Using igzip for decompressing
+
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /gpfs/projects/b1042/LauberthLab/BenFolder/trimmeddir/
+Writing report to '/gpfs/projects/b1042/LauberthLab/BenFolder/trimmeddir/21161D-57-02_S152_L003_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: 21161-57-08012024_165948_H4k16ac_CHIP_Y2KD/21161D-57-02_S152_L003_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.2
+Python version: could not detect
+Number of cores used for trimming: 30
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 4.2). Setting -j 30
+Writing final adapter and quality trimmed output to 21161D-57-02_S152_L003_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file 21161-57-08012024_165948_H4k16ac_CHIP_Y2KD/21161D-57-02_S152_L003_R1_001.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+This is cutadapt 4.2 with Python 3.8.16
+Command line parameters: -j 30 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC 21161-57-08012024_165948_H4k16ac_CHIP_Y2KD/21161D-57-02_S152_L003_R1_001.fastq.gz
+Processing single-end reads on 30 cores ...
+Finished in 58.758 s (1.722 µs/read; 34.84 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              34,117,350
+Reads with adapters:                13,871,405 (40.7%)
+Reads written (passing filters):    34,117,350 (100.0%)
+
+Total basepairs processed: 5,151,719,850 bp
+Quality-trimmed:              32,048,984 bp (0.6%)
+Total written (filtered):  5,051,146,834 bp (98.0%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 13871405 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 33.1%
+  C: 24.0%
+  G: 19.1%
+  T: 23.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	8923513	8529337.5	0	8923513
+2	2210312	2132334.4	0	2210312
+3	773239	533083.6	0	773239
+4	206044	133270.9	0	206044
+5	77206	33317.7	0	77206
+6	55410	8329.4	0	55410
+7	47268	2082.4	0	47268
+8	48996	520.6	0	48996
+9	59379	130.1	0	58937 442
+10	37458	32.5	1	35596 1862
+11	53002	8.1	1	50587 2415
+12	40491	2.0	1	38865 1626
+13	47434	0.5	1	45413 2021
+14	41680	0.5	1	39949 1731
+15	43050	0.5	1	41185 1865
+16	39710	0.5	1	38155 1555
+17	40589	0.5	1	38810 1779
+18	35974	0.5	1	34820 1154
+19	37611	0.5	1	36219 1392
+20	35433	0.5	1	33992 1441
+21	38380	0.5	1	36716 1664
+22	32680	0.5	1	31609 1071
+23	35815	0.5	1	34418 1397
+24	31527	0.5	1	30430 1097
+25	36887	0.5	1	35473 1414
+26	25672	0.5	1	24881 791
+27	31021	0.5	1	29970 1051
+28	31144	0.5	1	29837 1307
+29	29458	0.5	1	28385 1073
+30	26642	0.5	1	25836 806
+31	26418	0.5	1	25488 930
+32	30017	0.5	1	28772 1245
+33	23689	0.5	1	22853 836
+34	25730	0.5	1	24826 904
+35	22248	0.5	1	21551 697
+36	29088	0.5	1	27988 1100
+37	16968	0.5	1	16385 583
+38	22304	0.5	1	21498 806
+39	19974	0.5	1	19265 709
+40	20525	0.5	1	19721 804
+41	22300	0.5	1	21493 807
+42	17974	0.5	1	17352 622
+43	18238	0.5	1	17563 675
+44	31341	0.5	1	30511 830
+45	9011	0.5	1	8634 377
+46	9946	0.5	1	9617 329
+47	15524	0.5	1	15061 463
+48	15536	0.5	1	15043 493
+49	15635	0.5	1	15031 604
+50	15257	0.5	1	14713 544
+51	14774	0.5	1	14258 516
+52	16705	0.5	1	16148 557
+53	17601	0.5	1	17107 494
+54	14376	0.5	1	13977 399
+55	20246	0.5	1	19790 456
+56	26794	0.5	1	26316 478
+57	24774	0.5	1	24374 400
+58	15977	0.5	1	15637 340
+59	8355	0.5	1	8131 224
+60	5207	0.5	1	5046 161
+61	3470	0.5	1	3364 106
+62	3582	0.5	1	3470 112
+63	3251	0.5	1	3150 101
+64	2441	0.5	1	2330 111
+65	1813	0.5	1	1718 95
+66	1508	0.5	1	1416 92
+67	2283	0.5	1	2198 85
+68	3691	0.5	1	3586 105
+69	4058	0.5	1	3937 121
+70	3650	0.5	1	3543 107
+71	3631	0.5	1	3526 105
+72	3661	0.5	1	3551 110
+73	4075	0.5	1	3961 114
+74	4286	0.5	1	4187 99
+75	4440	0.5	1	4304 136
+76	4303	0.5	1	4189 114
+77	4193	0.5	1	4090 103
+78	4115	0.5	1	4000 115
+79	3879	0.5	1	3777 102
+80	3806	0.5	1	3707 99
+81	3518	0.5	1	3437 81
+82	3518	0.5	1	3408 110
+83	3214	0.5	1	3134 80
+84	3024	0.5	1	2931 93
+85	2874	0.5	1	2784 90
+86	2725	0.5	1	2642 83
+87	2576	0.5	1	2507 69
+88	2426	0.5	1	2354 72
+89	2356	0.5	1	2289 67
+90	2216	0.5	1	2145 71
+91	2154	0.5	1	2081 73
+92	1973	0.5	1	1909 64
+93	1847	0.5	1	1786 61
+94	1730	0.5	1	1675 55
+95	1647	0.5	1	1596 51
+96	1534	0.5	1	1477 57
+97	1481	0.5	1	1428 53
+98	1441	0.5	1	1382 59
+99	1189	0.5	1	1144 45
+100	1197	0.5	1	1149 48
+101	1060	0.5	1	1020 40
+102	968	0.5	1	929 39
+103	967	0.5	1	917 50
+104	840	0.5	1	798 42
+105	787	0.5	1	751 36
+106	661	0.5	1	631 30
+107	620	0.5	1	603 17
+108	588	0.5	1	552 36
+109	507	0.5	1	479 28
+110	446	0.5	1	415 31
+111	368	0.5	1	345 23
+112	338	0.5	1	319 19
+113	309	0.5	1	282 27
+114	254	0.5	1	223 31
+115	211	0.5	1	191 20
+116	154	0.5	1	134 20
+117	149	0.5	1	124 25
+118	118	0.5	1	104 14
+119	126	0.5	1	93 33
+120	101	0.5	1	79 22
+121	74	0.5	1	55 19
+122	77	0.5	1	64 13
+123	77	0.5	1	54 23
+124	51	0.5	1	37 14
+125	57	0.5	1	36 21
+126	46	0.5	1	29 17
+127	54	0.5	1	36 18
+128	41	0.5	1	23 18
+129	41	0.5	1	23 18
+130	35	0.5	1	22 13
+131	29	0.5	1	17 12
+132	29	0.5	1	15 14
+133	35	0.5	1	19 16
+134	27	0.5	1	14 13
+135	22	0.5	1	11 11
+136	16	0.5	1	8 8
+137	28	0.5	1	12 16
+138	17	0.5	1	4 13
+139	11	0.5	1	6 5
+140	10	0.5	1	1 9
+141	25	0.5	1	10 15
+142	15	0.5	1	6 9
+143	13	0.5	1	3 10
+144	9	0.5	1	4 5
+145	19	0.5	1	8 11
+146	30	0.5	1	8 22
+147	19	0.5	1	10 9
+148	16	0.5	1	7 9
+149	21	0.5	1	7 14
+150	15	0.5	1	10 5
+151	541	0.5	1	78 463
+
+RUN STATISTICS FOR INPUT FILE: 21161-57-08012024_165948_H4k16ac_CHIP_Y2KD/21161D-57-02_S152_L003_R1_001.fastq.gz
+=============================================
+34117350 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/gpfs/projects/b1042/LauberthLab/BenFolder/trimmeddir/21161D-57-02_S152_L003_R2_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: 21161-57-08012024_165948_H4k16ac_CHIP_Y2KD/21161D-57-02_S152_L003_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.2
+Python version: could not detect
+Number of cores used for trimming: 30
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 4.2). Setting -j -j 30
+Writing final adapter and quality trimmed output to 21161D-57-02_S152_L003_R2_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file 21161-57-08012024_165948_H4k16ac_CHIP_Y2KD/21161D-57-02_S152_L003_R2_001.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+This is cutadapt 4.2 with Python 3.8.16
+Command line parameters: -j 30 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC 21161-57-08012024_165948_H4k16ac_CHIP_Y2KD/21161D-57-02_S152_L003_R2_001.fastq.gz
+Processing single-end reads on 30 cores ...
+Finished in 58.861 s (1.725 µs/read; 34.78 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              34,117,350
+Reads with adapters:                13,439,917 (39.4%)
+Reads written (passing filters):    34,117,350 (100.0%)
+
+Total basepairs processed: 5,151,719,850 bp
+Quality-trimmed:              71,314,667 bp (1.4%)
+Total written (filtered):  5,014,739,959 bp (97.3%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 13439917 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 32.9%
+  C: 23.8%
+  G: 19.3%
+  T: 24.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	8587600	8529337.5	0	8587600
+2	2149717	2132334.4	0	2149717
+3	742554	533083.6	0	742554
+4	197018	133270.9	0	197018
+5	76168	33317.7	0	76168
+6	54315	8329.4	0	54315
+7	48913	2082.4	0	48913
+8	49419	520.6	0	49419
+9	56833	130.1	0	56395 438
+10	41286	32.5	1	39241 2045
+11	50315	8.1	1	47996 2319
+12	54003	2.0	1	51843 2160
+13	34957	0.5	1	33585 1372
+14	43048	0.5	1	40860 2188
+15	45006	0.5	1	42645 2361
+16	40789	0.5	1	38824 1965
+17	40606	0.5	1	38610 1996
+18	40072	0.5	1	38066 2006
+19	83787	0.5	1	80358 3429
+20	23291	0.5	1	21949 1342
+21	9859	0.5	1	9210 649
+22	31034	0.5	1	29904 1130
+23	34804	0.5	1	33251 1553
+24	56310	0.5	1	53461 2849
+25	17668	0.5	1	16816 852
+26	33756	0.5	1	32278 1478
+27	74110	0.5	1	71628 2482
+28	14276	0.5	1	13433 843
+29	44964	0.5	1	43781 1183
+30	30625	0.5	1	29768 857
+31	13191	0.5	1	12699 492
+32	18740	0.5	1	18021 719
+33	45741	0.5	1	44624 1117
+34	11503	0.5	1	10987 516
+35	34270	0.5	1	33357 913
+36	11998	0.5	1	11501 497
+37	36349	0.5	1	35456 893
+38	9962	0.5	1	9580 382
+39	22258	0.5	1	21544 714
+40	80345	0.5	1	79106 1239
+41	21022	0.5	1	20408 614
+42	4211	0.5	1	3958 253
+43	15794	0.5	1	15476 318
+44	3654	0.5	1	3389 265
+45	43488	0.5	1	42885 603
+46	7052	0.5	1	6771 281
+47	5256	0.5	1	5019 237
+48	23819	0.5	1	23504 315
+49	5591	0.5	1	5359 232
+50	10918	0.5	1	10682 236
+51	6112	0.5	1	5922 190
+52	13581	0.5	1	13372 209
+53	1629	0.5	1	1481 148
+54	4999	0.5	1	4828 171
+55	14590	0.5	1	14317 273
+56	3954	0.5	1	3810 144
+57	7253	0.5	1	7068 185
+58	15790	0.5	1	15576 214
+59	4096	0.5	1	3944 152
+60	1850	0.5	1	1741 109
+61	5008	0.5	1	4872 136
+62	11967	0.5	1	11769 198
+63	971	0.5	1	882 89
+64	6433	0.5	1	6303 130
+65	2042	0.5	1	1936 106
+66	2850	0.5	1	2728 122
+67	6451	0.5	1	6323 128
+68	3412	0.5	1	3288 124
+69	1681	0.5	1	1585 96
+70	4944	0.5	1	4833 111
+71	2409	0.5	1	2306 103
+72	3340	0.5	1	3243 97
+73	5043	0.5	1	4922 121
+74	6206	0.5	1	6068 138
+75	4933	0.5	1	4814 119
+76	1049	0.5	1	975 74
+77	1094	0.5	1	1021 73
+78	2330	0.5	1	2260 70
+79	3034	0.5	1	2939 95
+80	3378	0.5	1	3261 117
+81	3337	0.5	1	3231 106
+82	3358	0.5	1	3268 90
+83	3123	0.5	1	3053 70
+84	2984	0.5	1	2898 86
+85	2800	0.5	1	2714 86
+86	2704	0.5	1	2617 87
+87	2596	0.5	1	2496 100
+88	2413	0.5	1	2328 85
+89	2388	0.5	1	2312 76
+90	2187	0.5	1	2130 57
+91	2148	0.5	1	2084 64
+92	2003	0.5	1	1933 70
+93	1864	0.5	1	1808 56
+94	1744	0.5	1	1686 58
+95	1653	0.5	1	1595 58
+96	1587	0.5	1	1538 49
+97	1505	0.5	1	1453 52
+98	1446	0.5	1	1404 42
+99	1192	0.5	1	1135 57
+100	1217	0.5	1	1168 49
+101	1086	0.5	1	1037 49
+102	1020	0.5	1	975 45
+103	984	0.5	1	948 36
+104	865	0.5	1	821 44
+105	825	0.5	1	788 37
+106	680	0.5	1	655 25
+107	644	0.5	1	612 32
+108	597	0.5	1	566 31
+109	530	0.5	1	493 37
+110	474	0.5	1	442 32
+111	387	0.5	1	361 26
+112	349	0.5	1	327 22
+113	333	0.5	1	300 33
+114	256	0.5	1	234 22
+115	222	0.5	1	207 15
+116	174	0.5	1	144 30
+117	146	0.5	1	126 20
+118	134	0.5	1	113 21
+119	124	0.5	1	101 23
+120	111	0.5	1	89 22
+121	81	0.5	1	64 17
+122	93	0.5	1	72 21
+123	78	0.5	1	60 18
+124	63	0.5	1	41 22
+125	60	0.5	1	48 12
+126	58	0.5	1	42 16
+127	61	0.5	1	45 16
+128	37	0.5	1	26 11
+129	40	0.5	1	23 17
+130	31	0.5	1	20 11
+131	30	0.5	1	20 10
+132	32	0.5	1	18 14
+133	38	0.5	1	24 14
+134	27	0.5	1	11 16
+135	33	0.5	1	12 21
+136	19	0.5	1	7 12
+137	30	0.5	1	12 18
+138	19	0.5	1	4 15
+139	15	0.5	1	3 12
+140	13	0.5	1	0 13
+141	14	0.5	1	9 5
+142	8	0.5	1	5 3
+143	5	0.5	1	3 2
+144	7	0.5	1	3 4
+145	12	0.5	1	4 8
+146	14	0.5	1	6 8
+147	16	0.5	1	6 10
+148	14	0.5	1	2 12
+149	12	0.5	1	4 8
+150	11	0.5	1	4 7
+151	62	0.5	1	32 30
+
+RUN STATISTICS FOR INPUT FILE: 21161-57-08012024_165948_H4k16ac_CHIP_Y2KD/21161D-57-02_S152_L003_R2_001.fastq.gz
+=============================================
+34117350 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 21161D-57-02_S152_L003_R1_001_trimmed.fq.gz and 21161D-57-02_S152_L003_R2_001_trimmed.fq.gz
+file_1: 21161D-57-02_S152_L003_R1_001_trimmed.fq.gz, file_2: 21161D-57-02_S152_L003_R2_001_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 21161D-57-02_S152_L003_R1_001_trimmed.fq.gz and 21161D-57-02_S152_L003_R2_001_trimmed.fq.gz <<<<<
+Writing validated paired-end Read 1 reads to 21161D-57-02_S152_L003_R1_001_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 21161D-57-02_S152_L003_R2_001_val_2.fq.gz
+
+Total number of sequences analysed: 34117350
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 22509 (0.07%)
+
+Deleting both intermediate output files 21161D-57-02_S152_L003_R1_001_trimmed.fq.gz and 21161D-57-02_S152_L003_R2_001_trimmed.fq.gz
+
+====================================================================================================
+
+Using an excessive number of cores has a diminishing return! It is recommended not to exceed 8 cores per trimming process (you asked for 30 cores). Please consider re-specifying
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 4.2
+Could not detect version of Python used by Cutadapt from the first line of Cutadapt (but found this: >>>#!/bin/sh<<<)
+Letting the (modified) Cutadapt deal with the Python version instead
+pigz 2.6
+Parallel gzip (pigz) detected. Proceeding with multicore (de)compression using 30 cores
+
+igzip command line interface 2.30.0
+igzip detected. Using igzip for decompressing
+
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /gpfs/projects/b1042/LauberthLab/BenFolder/trimmeddir/
+Writing report to '/gpfs/projects/b1042/LauberthLab/BenFolder/trimmeddir/21161D-57-03_S155_L003_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: 21161-57-08012024_165948_H4k16ac_CHIP_Y2KD/21161D-57-03_S155_L003_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.2
+Python version: could not detect
+Number of cores used for trimming: 30
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 4.2). Setting -j 30
+Writing final adapter and quality trimmed output to 21161D-57-03_S155_L003_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file 21161-57-08012024_165948_H4k16ac_CHIP_Y2KD/21161D-57-03_S155_L003_R1_001.fastq.gz <<< 
+This is cutadapt 4.2 with Python 3.8.16
+Command line parameters: -j 30 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC 21161-57-08012024_165948_H4k16ac_CHIP_Y2KD/21161D-57-03_S155_L003_R1_001.fastq.gz
+Processing single-end reads on 30 cores ...
+ERROR: Traceback (most recent call last):
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/cutadapt/pipeline.py", line 764, in run
+    for chunk_index, chunk in enumerate(
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/dnaio/chunks.py", line 110, in read_chunks
+    bufend = f.readinto(memoryview(buf)[start:]) + start  # type: ignore
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/gzip.py", line 292, in read
+    return self._buffer.read(size)
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/isal/igzip.py", line 297, in read
+    raise EOFError("Compressed file ended before the "
+EOFError: Compressed file ended before the end-of-stream marker was reached
+
+ERROR: Traceback (most recent call last):
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/cutadapt/pipeline.py", line 764, in run
+    for chunk_index, chunk in enumerate(
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/dnaio/chunks.py", line 110, in read_chunks
+    bufend = f.readinto(memoryview(buf)[start:]) + start  # type: ignore
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/gzip.py", line 292, in read
+    return self._buffer.read(size)
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/isal/igzip.py", line 297, in read
+    raise EOFError("Compressed file ended before the "
+EOFError: Compressed file ended before the end-of-stream marker was reached
+
+ERROR: Traceback (most recent call last):
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/cutadapt/pipeline.py", line 764, in run
+    for chunk_index, chunk in enumerate(
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/dnaio/chunks.py", line 110, in read_chunks
+    bufend = f.readinto(memoryview(buf)[start:]) + start  # type: ignore
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/gzip.py", line 292, in read
+    return self._buffer.read(size)
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/isal/igzip.py", line 297, in read
+    raise EOFError("Compressed file ended before the "
+EOFError: Compressed file ended before the end-of-stream marker was reached
+
+ERROR: Traceback (most recent call last):
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/cutadapt/pipeline.py", line 764, in run
+    for chunk_index, chunk in enumerate(
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/dnaio/chunks.py", line 110, in read_chunks
+    bufend = f.readinto(memoryview(buf)[start:]) + start  # type: ignore
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/gzip.py", line 292, in read
+    return self._buffer.read(size)
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/isal/igzip.py", line 297, in read
+    raise EOFError("Compressed file ended before the "
+EOFError: Compressed file ended before the end-of-stream marker was reached
+
+ERROR: Traceback (most recent call last):
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/cutadapt/pipeline.py", line 764, in run
+    for chunk_index, chunk in enumerate(
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/dnaio/chunks.py", line 110, in read_chunks
+    bufend = f.readinto(memoryview(buf)[start:]) + start  # type: ignore
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/gzip.py", line 292, in read
+    return self._buffer.read(size)
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/isal/igzip.py", line 297, in read
+    raise EOFError("Compressed file ended before the "
+EOFError: Compressed file ended before the end-of-stream marker was reached
+
+ERROR: Traceback (most recent call last):
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/cutadapt/pipeline.py", line 764, in run
+    for chunk_index, chunk in enumerate(
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/dnaio/chunks.py", line 110, in read_chunks
+    bufend = f.readinto(memoryview(buf)[start:]) + start  # type: ignore
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/gzip.py", line 292, in read
+    return self._buffer.read(size)
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/isal/igzip.py", line 297, in read
+    raise EOFError("Compressed file ended before the "
+EOFError: Compressed file ended before the end-of-stream marker was reached
+
+ERROR: Traceback (most recent call last):
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/cutadapt/pipeline.py", line 764, in run
+    for chunk_index, chunk in enumerate(
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/dnaio/chunks.py", line 110, in read_chunks
+    bufend = f.readinto(memoryview(buf)[start:]) + start  # type: ignore
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/gzip.py", line 292, in read
+    return self._buffer.read(size)
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/isal/igzip.py", line 297, in read
+    raise EOFError("Compressed file ended before the "
+EOFError: Compressed file ended before the end-of-stream marker was reached
+
+ERROR: Traceback (most recent call last):
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/cutadapt/pipeline.py", line 764, in run
+    for chunk_index, chunk in enumerate(
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/dnaio/chunks.py", line 110, in read_chunks
+    bufend = f.readinto(memoryview(buf)[start:]) + start  # type: ignore
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/gzip.py", line 292, in read
+    return self._buffer.read(size)
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/isal/igzip.py", line 297, in read
+    raise EOFError("Compressed file ended before the "
+EOFError: Compressed file ended before the end-of-stream marker was reached
+
+ERROR: Traceback (most recent call last):
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/cutadapt/pipeline.py", line 764, in run
+    for chunk_index, chunk in enumerate(
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/dnaio/chunks.py", line 110, in read_chunks
+    bufend = f.readinto(memoryview(buf)[start:]) + start  # type: ignore
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/gzip.py", line 292, in read
+    return self._buffer.read(size)
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/isal/igzip.py", line 297, in read
+    raise EOFError("Compressed file ended before the "
+EOFError: Compressed file ended before the end-of-stream marker was reached
+
+ERROR: Traceback (most recent call last):
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/cutadapt/pipeline.py", line 764, in run
+    for chunk_index, chunk in enumerate(
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/dnaio/chunks.py", line 110, in read_chunks
+    bufend = f.readinto(memoryview(buf)[start:]) + start  # type: ignore
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/gzip.py", line 292, in read
+    return self._buffer.read(size)
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/isal/igzip.py", line 297, in read
+    raise EOFError("Compressed file ended before the "
+EOFError: Compressed file ended before the end-of-stream marker was reached
+
+ERROR: Traceback (most recent call last):
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/cutadapt/pipeline.py", line 764, in run
+    for chunk_index, chunk in enumerate(
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/dnaio/chunks.py", line 110, in read_chunks
+    bufend = f.readinto(memoryview(buf)[start:]) + start  # type: ignore
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/gzip.py", line 292, in read
+    return self._buffer.read(size)
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/isal/igzip.py", line 297, in read
+    raise EOFError("Compressed file ended before the "
+EOFError: Compressed file ended before the end-of-stream marker was reached
+
+ERROR: Traceback (most recent call last):
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/cutadapt/pipeline.py", line 764, in run
+    for chunk_index, chunk in enumerate(
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/dnaio/chunks.py", line 110, in read_chunks
+    bufend = f.readinto(memoryview(buf)[start:]) + start  # type: ignore
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/gzip.py", line 292, in read
+    return self._buffer.read(size)
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/isal/igzip.py", line 297, in read
+    raise EOFError("Compressed file ended before the "
+EOFError: Compressed file ended before the end-of-stream marker was reached
+
+ERROR: Traceback (most recent call last):
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/cutadapt/pipeline.py", line 764, in run
+    for chunk_index, chunk in enumerate(
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/dnaio/chunks.py", line 110, in read_chunks
+    bufend = f.readinto(memoryview(buf)[start:]) + start  # type: ignore
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/gzip.py", line 292, in read
+    return self._buffer.read(size)
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/isal/igzip.py", line 297, in read
+    raise EOFError("Compressed file ended before the "
+EOFError: Compressed file ended before the end-of-stream marker was reached
+
+ERROR: Traceback (most recent call last):
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/cutadapt/pipeline.py", line 764, in run
+    for chunk_index, chunk in enumerate(
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/dnaio/chunks.py", line 110, in read_chunks
+    bufend = f.readinto(memoryview(buf)[start:]) + start  # type: ignore
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/gzip.py", line 292, in read
+    return self._buffer.read(size)
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/site-packages/isal/igzip.py", line 297, in read
+    raise EOFError("Compressed file ended before the "
+EOFError: Compressed file ended before the end-of-stream marker was reached
+
+ERROR: Compressed file ended before the end-of-stream marker was reached
+
+
+Cutadapt terminated with exit signal: '256'.
+Terminating Trim Galore run, please check error message(s) to get an idea what went wrong...
+
+trimming 21161D-57-01_S151_L003_R1_001.fastq.gz and 21161D-57-01_S151_L003_R2_001.fastq.gz
+trimming 21161D-57-02_S152_L003_R1_001.fastq.gz and 21161D-57-02_S152_L003_R2_001.fastq.gz
+trimming 21161D-57-03_S155_L003_R1_001.fastq.gz and 21161D-57-03_S155_L003_R2_001.fastq.gz
+Traceback (most recent call last):
+  File "qctrimqc.py", line 85, in <module>
+    main()
+  File "qctrimqc.py", line 78, in main
+    runtrimgalore(r1path, r2path, trimmeddir, threads=30)
+  File "qctrimqc.py", line 34, in runtrimgalore
+    subprocess.check_call(cmd)
+  File "/software/miniconda3/bioinformatics-miniconda3/cutadapt_4.2/lib/python3.8/subprocess.py", line 364, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['trim_galore', '--paired', '--illumina', '--cores', '30', '--output_dir', 'trimmeddir', '21161-57-08012024_165948_H4k16ac_CHIP_Y2KD/21161D-57-03_S155_L003_R1_001.fastq.gz', '21161-57-08012024_165948_H4k16ac_CHIP_Y2KD/21161D-57-03_S155_L003_R2_001.fastq.gz']' returned non-zero exit status 1.

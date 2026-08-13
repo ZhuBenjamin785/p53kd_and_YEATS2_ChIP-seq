@@ -1,0 +1,7 @@
+
+ERROR: invalid parameter: 'BAMfiles/21161R-62-01_S274_L008.bam'
+
+Traceback (most recent call last):
+  File "featureCountscleanup.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'

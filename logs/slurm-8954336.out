@@ -1,0 +1,6 @@
+/software/anaconda3/2022.05/lib/python3.9/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.2
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+Traceback (most recent call last):
+  File "/gpfs/projects/b1042/LauberthLab/BenFolder/pybw.py", line 12, in <module>
+    import pyBigWig
+ModuleNotFoundError: No module named 'pyBigWig'

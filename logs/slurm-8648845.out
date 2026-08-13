@@ -1,0 +1,19 @@
+[bam_sort_core] merging from 32 files and 8 in-memory blocks...
+[bam_sort_core] merging from 32 files and 8 in-memory blocks...
+[bam_sort_core] merging from 0 files and 8 in-memory blocks...
+[E::hts_open_format] Failed to open file macs3_results/dedup_bam/H4K16ac_YEATS2_shRNA#3_ChIP2_S158_L003_sorted_downsampled.bam.tmp.0007.bam
+[E::hts_open_format] Failed to open file macs3_results/dedup_bam/H4K16ac_YEATS2_shRNA#3_ChIP2_S158_L003_sorted_downsampled.bam.tmp.0006.bam
+[E::hts_open_format] Failed to open file macs3_results/dedup_bam/H4K16ac_YEATS2_shRNA#3_ChIP2_S158_L003_sorted_downsampled.bam.tmp.0001.bam
+[E::hts_open_format] Failed to open file macs3_results/dedup_bam/H4K16ac_YEATS2_shRNA#3_ChIP2_S158_L003_sorted_downsampled.bam.tmp.0005.bam
+[E::hts_open_format] Failed to open file macs3_results/dedup_bam/H4K16ac_YEATS2_shRNA#3_ChIP2_S158_L003_sorted_downsampled.bam.tmp.0002.bam
+[E::hts_open_format] Failed to open file macs3_results/dedup_bam/H4K16ac_YEATS2_shRNA#3_ChIP2_S158_L003_sorted_downsampled.bam.tmp.0000.bam
+samtools sort: failed to create temporary file "macs3_results/dedup_bam/H4K16ac_YEATS2_shRNA#3_ChIP2_S158_L003_sorted_downsampled.bam.tmp.0000.bam": File exists
+samtools sort: failed to create temporary file "macs3_results/dedup_bam/H4K16ac_YEATS2_shRNA#3_ChIP2_S158_L003_sorted_downsampled.bam.tmp.0001.bam": File exists
+samtools sort: failed to create temporary file "macs3_results/dedup_bam/H4K16ac_YEATS2_shRNA#3_ChIP2_S158_L003_sorted_downsampled.bam.tmp.0002.bam": File exists
+[E::hts_open_format] Failed to open file macs3_results/dedup_bam/H4K16ac_YEATS2_shRNA#3_ChIP2_S158_L003_sorted_downsampled.bam.tmp.0004.bam
+[E::hts_open_format] Failed to open file macs3_results/dedup_bam/H4K16ac_YEATS2_shRNA#3_ChIP2_S158_L003_sorted_downsampled.bam.tmp.0003.bam
+samtools sort: failed to create temporary file "macs3_results/dedup_bam/H4K16ac_YEATS2_shRNA#3_ChIP2_S158_L003_sorted_downsampled.bam.tmp.0003.bam": File exists
+samtools sort: failed to create temporary file "macs3_results/dedup_bam/H4K16ac_YEATS2_shRNA#3_ChIP2_S158_L003_sorted_downsampled.bam.tmp.0004.bam": File exists
+samtools sort: failed to create temporary file "macs3_results/dedup_bam/H4K16ac_YEATS2_shRNA#3_ChIP2_S158_L003_sorted_downsampled.bam.tmp.0005.bam": File exists
+samtools sort: failed to create temporary file "macs3_results/dedup_bam/H4K16ac_YEATS2_shRNA#3_ChIP2_S158_L003_sorted_downsampled.bam.tmp.0006.bam": File exists
+samtools sort: failed to create temporary file "macs3_results/dedup_bam/H4K16ac_YEATS2_shRNA#3_ChIP2_S158_L003_sorted_downsampled.bam.tmp.0007.bam": File exists

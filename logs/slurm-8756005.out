@@ -1,0 +1,26 @@
+
+The following have been reloaded with a version change:
+  1) anaconda3/2018.12 => anaconda3/2022.05
+
+/var/spool/slurmd/job8756005/slurm_script: line 28: p53kd1: command not found
+/var/spool/slurmd/job8756005/slurm_script: line 29: p53kd2: command not found
+/var/spool/slurmd/job8756005/slurm_script: line 30: scramble1: command not found
+/var/spool/slurmd/job8756005/slurm_script: line 31: scramble2: command not found
+***** WARNING: File macs3_results_p53kd/peaks/Scramble_H4K16ac_rep2/Scramble_H4K16ac_rep2_peaks.broadPeak has inconsistent naming convention for record:
+chr1	10001	10326	Scramble_H4K16ac_rep2_peak_1039	33	.	4.66903	6.26151	3.30334
+
+***** WARNING: File macs3_results_p53kd/peaks/Scramble_H4K16ac_rep2/Scramble_H4K16ac_rep2_peaks.broadPeak has inconsistent naming convention for record:
+chr1	10001	10326	Scramble_H4K16ac_rep2_peak_1039	33	.	4.66903	6.26151	3.30334
+
+***** WARNING: File macs3_results_p53kd/peaks/p53KD_H4K16ac_rep2/p53KD_H4K16ac_rep2_peaks.broadPeak has inconsistent naming convention for record:
+chr1	10013	10360	p53KD_H4K16ac_rep2_peak_700	47	.	5.49097	7.77949	4.70337
+
+***** WARNING: File macs3_results_p53kd/peaks/p53KD_H4K16ac_rep2/p53KD_H4K16ac_rep2_peaks.broadPeak has inconsistent naming convention for record:
+chr1	10013	10360	p53KD_H4K16ac_rep2_peak_700	47	.	5.49097	7.77949	4.70337
+
+***** WARNING: File p53kd_consensus.bed has inconsistent naming convention for record:
+chr1	10013	10360	p53KD_H4K16ac_rep1_peak_699	39	.	5.14691	6.94692	3.96167
+
+***** WARNING: File p53kd_consensus.bed has inconsistent naming convention for record:
+chr1	10013	10360	p53KD_H4K16ac_rep1_peak_699	39	.	5.14691	6.94692	3.96167
+

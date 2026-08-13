@@ -1,0 +1,114 @@
+normalization: BPM
+normalization: BPM
+bamFilesList: ['macs3_results_p53kd/normalized_bam/P53_H4K16ac_1_S0_L001.spikein_normalized.bam', 'macs3_results_p53kd/normalized_bam/MutP53_Input1_S0_L001.spikein_normalized.bam']
+binLength: 25
+numberOfSamples: 0
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 32
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 25
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+[bwGetOverlappingIntervalsCore] Got an error
+[bwGetOverlappingIntervalsCore] Got an error
+normalization: BPM
+normalization: BPM
+bamFilesList: ['macs3_results_p53kd/normalized_bam/P53_H4K16ac_2_S0_L001.spikein_normalized.bam', 'macs3_results_p53kd/normalized_bam/MutP53_Input2_S0_L001.spikein_normalized.bam']
+binLength: 25
+numberOfSamples: 0
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 32
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 25
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+normalization: BPM
+normalization: BPM
+bamFilesList: ['macs3_results_p53kd/normalized_bam/Scr_H4K16ac_1_S0_L001.spikein_normalized.bam', 'macs3_results_p53kd/normalized_bam/Scr_Input1_S0_L001.spikein_normalized.bam']
+binLength: 25
+numberOfSamples: 0
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 32
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 25
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+normalization: BPM
+normalization: BPM
+bamFilesList: ['macs3_results_p53kd/normalized_bam/Scr_H4K16ac_2_S0_L001.spikein_normalized.bam', 'macs3_results_p53kd/normalized_bam/Scr_Input2_S0_L001.spikein_normalized.bam']
+binLength: 25
+numberOfSamples: 0
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 32
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 25
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000

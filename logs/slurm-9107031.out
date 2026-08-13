@@ -1,0 +1,22 @@
+Aligning SRR5944053 to dm6
+[E::hts_open_format] Failed to open file "/gpfs/projects/b1042/LauberthLab/BenFolder/fastqchip_bamfiles/dm6/SRR5944053.sorted.bam.tmp.0002.bam" : File exists
+[E::hts_open_format] Failed to open file "/gpfs/projects/b1042/LauberthLab/BenFolder/fastqchip_bamfiles/dm6/SRR5944053.sorted.bam.tmp.0001.bam" : File exists
+[E::hts_open_format] Failed to open file "/gpfs/projects/b1042/LauberthLab/BenFolder/fastqchip_bamfiles/dm6/SRR5944053.sorted.bam.tmp.0000.bam" : File exists
+15288573 reads; of these:
+  15288573 (100.00%) were unpaired; of these:
+    15274050 (99.91%) aligned 0 times
+    4162 (0.03%) aligned exactly 1 time
+    10361 (0.07%) aligned >1 times
+0.09% overall alignment rate
+[bam_sort_core] merging from 3 files and 3 in-memory blocks...
+[E::bgzf_read_block] Invalid BGZF header at offset 384037613
+[E::bgzf_read] Read block operation failed with error 6 after 0 of 4 bytes
+samtools index: failed to create index for "/gpfs/projects/b1042/LauberthLab/BenFolder/fastqchip_bamfiles/dm6/SRR5944053.sorted.bam": No such file or directory
+Traceback (most recent call last):
+  File "/gpfs/projects/b1042/LauberthLab/BenFolder/alignment_fasterqchip_dm6.py", line 79, in <module>
+    main()
+  File "/gpfs/projects/b1042/LauberthLab/BenFolder/alignment_fasterqchip_dm6.py", line 75, in main
+    subprocess.check_call(["samtools", "index", "-@", str(sort_threads), str(bam)])
+  File "/software/bowtie2/2.5.4/lib/python3.12/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['samtools', 'index', '-@', '3', '/gpfs/projects/b1042/LauberthLab/BenFolder/fastqchip_bamfiles/dm6/SRR5944053.sorted.bam']' returned non-zero exit status 1.

@@ -1,0 +1,22 @@
+
+The following have been reloaded with a version change:
+  1) anaconda3/2018.12 => anaconda3/2022.05
+
+***** WARNING: File macs3_results/peaks/Scramble_H4K16ac_rep2/Scramble_H4K16ac_rep2_peaks.broadPeak has inconsistent naming convention for record:
+chr1	12418	22795	Scramble_H4K16ac_rep2_peak_1610	22	.	3.44694	4.65337	2.28019
+
+***** WARNING: File macs3_results/peaks/Scramble_H4K16ac_rep2/Scramble_H4K16ac_rep2_peaks.broadPeak has inconsistent naming convention for record:
+chr1	12418	22795	Scramble_H4K16ac_rep2_peak_1610	22	.	3.44694	4.65337	2.28019
+
+***** WARNING: File macs3_results/peaks/YEATS2KD_H4K16ac_rep2/YEATS2KD_H4K16ac_rep2_peaks.broadPeak has inconsistent naming convention for record:
+chr1	12917	39788	YEATS2KD_H4K16ac_rep2_peak_2773	38	.	4.14107	6.36411	3.84642
+
+***** WARNING: File macs3_results/peaks/YEATS2KD_H4K16ac_rep2/YEATS2KD_H4K16ac_rep2_peaks.broadPeak has inconsistent naming convention for record:
+chr1	12917	39788	YEATS2KD_H4K16ac_rep2_peak_2773	38	.	4.14107	6.36411	3.84642
+
+***** WARNING: File yeats2kd_consensus.bed has inconsistent naming convention for record:
+chr1	12917	18679	YEATS2KD_H4K16ac_rep1_peak_914	19	.	3.61168	4.4832	1.95526
+
+***** WARNING: File yeats2kd_consensus.bed has inconsistent naming convention for record:
+chr1	12917	18679	YEATS2KD_H4K16ac_rep1_peak_914	19	.	3.61168	4.4832	1.95526
+

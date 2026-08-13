@@ -1,0 +1,1 @@
+Error: trimming is not finished. Missing finalized paired outputs for: Scr_H4K16ac_2_S0_L001, Scr_Input1_S0_L001, Scr_Input2_S0_L001. Wait for qctrimqc.sh to finish before running endtoend.sh.

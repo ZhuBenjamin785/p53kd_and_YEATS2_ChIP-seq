@@ -1,0 +1,44 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.3
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 4 BAM files                                      ||
+||                                                                            ||
+||                           21161R-62-01_S274_L008.bam                       ||
+||                           21161R-62-02_S275_L008.bam                       ||
+||                           21161R-62-03_S276_L008.bam                       ||
+||                           21161R-62-04_S277_L008.bam                       ||
+||                                                                            ||
+||             Output file : featureCounts.txt                                ||
+||                 Summary : featureCounts.txt.summary                        ||
+||              Paired-end : no                                               ||
+||        Count read pairs : no                                               ||
+||              Annotation : gencode.v50.basic.annotation.gtf (GTF)           ||
+||      Dir for temp files : results                                          ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file gencode.v50.basic.annotation.gtf ...                  ||
+||    Features : 3122490                                                      ||
+||    Meta-features : 78733                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file 21161R-62-01_S274_L008.bam...                             ||
+||    Strand specific : reversely stranded                                    ||
+ERROR: Paired-end reads were detected in single-end read library : BAMfiles/21161R-62-01_S274_L008.bam
+ERROR: Paired-end reads were detected in single-end read library : BAMfiles/21161R-62-01_S274_L008.bam

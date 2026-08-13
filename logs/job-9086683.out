@@ -1,0 +1,23 @@
+Running DESeq2 on 4 samples and 18123 genes.
+Fitting size factors...
+Using None as control genes, passed at DeseqDataSet initialization
+... done in 0.00 seconds.
+
+Traceback (most recent call last):
+  File "/gpfs/projects/b1042/LauberthLab/BenFolder/dea.py", line 162, in <module>
+    main()
+  File "/gpfs/projects/b1042/LauberthLab/BenFolder/dea.py", line 155, in main
+    results, output_dir = run_dea(
+                          ^^^^^^^^
+  File "/gpfs/projects/b1042/LauberthLab/BenFolder/dea.py", line 120, in run_dea
+    dds.deseq2()
+  File "/home/nqp9093/.conda/envs/pydeseq2/lib/python3.11/site-packages/pydeseq2/dds.py", line 543, in deseq2
+    self.fit_genewise_dispersions()
+  File "/home/nqp9093/.conda/envs/pydeseq2/lib/python3.11/site-packages/pydeseq2/dds.py", line 737, in fit_genewise_dispersions
+    self._fit_MoM_dispersions()
+  File "/home/nqp9093/.conda/envs/pydeseq2/lib/python3.11/site-packages/pydeseq2/dds.py", line 1152, in _fit_MoM_dispersions
+    rde = self.inference.fit_rough_dispersions(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nqp9093/.conda/envs/pydeseq2/lib/python3.11/site-packages/pydeseq2/utils.py", line 840, in fit_rough_dispersions
+    raise ValueError(
+ValueError: The number of samples and the number of design variables are equal, i.e., there are no replicates to estimate the dispersion. Please use a design with fewer variables.

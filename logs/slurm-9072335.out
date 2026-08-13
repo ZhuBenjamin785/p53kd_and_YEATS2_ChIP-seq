@@ -1,0 +1,35 @@
+Using R: /home/nqp9093/.conda/envs/chipseeker/bin/Rscript
+Creating missing BAM index: BAMfiles/dm6/H4K16ac_Scrameble_ChIP1_S155_L003_sorted.bam.bai
+Creating missing BAM index: BAMfiles/dm6/H4K16ac_Scrameble_ChIP2_S156_L003_sorted.bam.bai
+Creating missing BAM index: BAMfiles/dm6/H4K16ac_YEATS2_shRNA#3_ChIP1_S157_L003_sorted.bam.bai
+Creating missing BAM index: BAMfiles/dm6/H4K16ac_YEATS2_shRNA#3_ChIP2_S158_L003_sorted.bam.bai
+null device 
+          1 
+null device 
+          1 
+>> preparing features information...		 2026-08-11 11:53:53 AM 
+>> Using Genome: hg38 ...
+>> identifying nearest features...		 2026-08-11 11:53:54 AM 
+>> calculating distance from peak to TSS...	 2026-08-11 11:53:57 AM 
+>> assigning genomic annotation...		 2026-08-11 11:53:57 AM 
+>> Using Genome: hg38 ...
+>> Using Genome: hg38 ...
+>> adding gene annotation...			 2026-08-11 11:54:52 AM 
+>> assigning chromosome lengths			 2026-08-11 11:54:53 AM 
+>> done...					 2026-08-11 11:54:53 AM 
+>> preparing features information...		 2026-08-11 11:54:53 AM 
+>> Using Genome: hg38 ...
+>> identifying nearest features...		 2026-08-11 11:54:53 AM 
+>> calculating distance from peak to TSS...	 2026-08-11 11:54:54 AM 
+>> assigning genomic annotation...		 2026-08-11 11:54:54 AM 
+>> Using Genome: hg38 ...
+>> Using Genome: hg38 ...
+>> adding gene annotation...			 2026-08-11 11:55:04 AM 
+>> assigning chromosome lengths			 2026-08-11 11:55:04 AM 
+>> done...					 2026-08-11 11:55:04 AM 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 

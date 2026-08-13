@@ -1,0 +1,16 @@
+
+
+  2169 genes were dropped because they have exons located on both strands of
+  the same reference sequence or on more than one reference sequence, so cannot
+  be represented by a single genomic range.
+  Use 'single.strand.genes.only=FALSE' to get all the genes in a GRangesList
+  object, or use suppressMessages() to suppress this message.
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Completed p53KD
+Error in fail_missing(cfg$peaks, paste(dataset, "peaks")) : 
+  YEATS2KD peaks missing or empty:
+macs3_results_yeats2/peaks/YEATS2KD_rep2/YEATS2KD_rep2_peaks.broadPeak
+Execution halted
