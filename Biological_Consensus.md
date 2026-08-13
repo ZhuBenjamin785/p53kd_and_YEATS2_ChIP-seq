@@ -37,7 +37,6 @@ In this system, p53 and YEATS2 appear to influence the H4K16ac chromatin state, 
 
 6. **The p53KD and YEATS2KD effects are not the same local program.** The supplied overlap analysis finds 0 exact overlapping peak pairs among 217 p53KD and 61 YEATS2KD significant peaks. It also finds no shared nearby genes within 10 kb and no shared promoter-neighborhood genes. The one shared ChIPseeker-annotated gene is too little to establish biological convergence, and GO testing correctly reports the shared set as too small.
 
-<img width="484" height="286" alt="peak_annotation_barplot" src="https://github.com/user-attachments/assets/477602e0-b9dd-42c7-9cc5-b13f90b54abb" />
 <img width="352" height="297" alt="shared_gene_overlap_venn" src="https://github.com/user-attachments/assets/68363f55-ef6b-4d8a-9f29-d2274b10219b" />
 <img width="352" height="297" alt="promoter_gene_overlap_venn" src="https://github.com/user-attachments/assets/30292f9c-a760-43de-adab-30eec1da9e79" />
 <img width="352" height="297" alt="exact_peak_overlap_venn" src="https://github.com/user-attachments/assets/f21c5bfb-4d92-465a-93e1-7c800f464ee6" />
