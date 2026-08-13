@@ -30,6 +30,8 @@ In this system, p53 and YEATS2 appear to influence the H4K16ac chromatin state, 
 <img width="364" height="264" alt="peak_intensity_log2FC_distribution" src="https://github.com/user-attachments/assets/64f3b3a0-5ebd-4311-9a93-233a3f57e3b4" />
 <img width="437" height="264" alt="peak_annotation_summary_barplot" src="https://github.com/user-attachments/assets/46ea9ab1-8392-4127-b288-9f84d5415c08" />
 <img width="389" height="264" alt="TSS_average_profile" src="https://github.com/user-attachments/assets/22d3e698-62ae-4256-8749-0f056d4d2add" />
+<img width="364" height="264" alt="volcano_plot" src="https://github.com/user-attachments/assets/6a1104af-6e51-4c88-bdf0-e0047617b801" />
+<img width="364" height="264" alt="MA_plot" src="https://github.com/user-attachments/assets/9a506a07-4b04-458b-8049-4820cc7ee04d" />
 
 
 
