@@ -71,7 +71,6 @@ If the immediate goal is simply to explain the current H4K16ac findings, the bet
 
 ## Intended Claim
 
-Use:
 
 > p53 and YEATS2 perturbation are associated with distinct H4K16ac redistribution patterns, with p53 knockdown showing a stronger promoter-proximal loss-dominant response.
 
