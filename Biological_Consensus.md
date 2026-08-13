@@ -29,6 +29,8 @@ In this system, p53 and YEATS2 appear to influence the H4K16ac chromatin state, 
 
 5. **YEATS2 knockdown also changes H4K16ac, but on a smaller and different set of loci.** It has 61 significant peaks: 42 losses and 19 gains. Its significant peaks are distributed across intronic, promoter, distal-intergenic, exon, and UTR categories rather than showing the same strongly promoter-focused pattern.
 
+
+
 6. **The p53KD and YEATS2KD effects are not the same local program.** The supplied overlap analysis finds 0 exact overlapping peak pairs among 217 p53KD and 61 YEATS2KD significant peaks. It also finds no shared nearby genes within 10 kb and no shared promoter-neighborhood genes. The one shared ChIPseeker-annotated gene is too little to establish biological convergence, and GO testing correctly reports the shared set as too small.
 
 7. **The safest consensus is therefore “distinct chromatin responses,” not “one common p53–YEATS2 pathway.”** A possible model is that p53 and YEATS2 affect H4K16ac through different locus sets or regulatory routes. They may still converge at a broader chromatin or cellular state, but that is a hypothesis, not a result of the current overlap analysis.
