@@ -1,5 +1,0 @@
-comparison,YEATS2KD_only,shared,p53KD_only
-ChIPseeker_annotated_genes,55,1,191
-bedtools_closest_TSS_genes,60,0,213
-promoter_genes_within_2kb,13,0,159
-nearest_genes_within_10kb,36,0,187
