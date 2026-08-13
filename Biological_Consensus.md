@@ -16,15 +16,14 @@ In this system, p53 and YEATS2 appear to influence the H4K16ac chromatin state, 
 
 
 
-3. The p53KD loss is largely promoter-proximal. Of the 208 annotated loss peaks, 153 are within 1 kb of a TSS, with additional promoter peaks in the 1–2 kb and 2–3 kb windows. This is consistent with p53 knockdown changing H4K16ac at many promoter-associated regulatory regions. It does not by itself prove that transcription changed or that p53 directly binds every affected promoter.
+2. The discovered loss in p53KD is largely near promoter sites. Of the 208 loss peaks I found, 153 were found within 1kb of a Trascription Start Site (TSS) with additional loss peaks in that 1-2kb and 2-3kb window. This is consistent with the idea of p53 knockdown changing H4k16ac at many promoter related regulatory regions. It does not, however, prove that transcription changed or that p53 directly binds every affected promoter.
    <img width="437" height="264" alt="peak_annotation_summary_barplot" src="https://github.com/user-attachments/assets/0839b95a-e223-4e96-a6de-d5a93e79541c" />
    <img width="389" height="264" alt="TSS_average_profile" src="https://github.com/user-attachments/assets/f283ad92-c63a-45c1-9d0d-d21f263c1574" />
 
 
 
 
-5. YEATS2 knockdown also changes H4K16ac, but on a smaller and different set of loci. It has 61 significant peaks: 42 losses and 19 gains. Its significant peaks are distributed across intronic, promoter, distal-intergenic, exon, and UTR categories rather than showing the same strongly promoter-focused pattern.
-
+3. Knocking down YEATS2 was also found to change H4K16ac, however it was on smaller and different loci. I found 61 significant peaks, 42 were losses and 19 were gains, distributed more evenly across intronic, promoter, distal intergenic, exon and UTR, compared to p53 which showed the same strongly promoter focused pattern.
 <img width="364" height="264" alt="peak_intensity_log2FC_distribution" src="https://github.com/user-attachments/assets/64f3b3a0-5ebd-4311-9a93-233a3f57e3b4" />
 <img width="437" height="264" alt="peak_annotation_summary_barplot" src="https://github.com/user-attachments/assets/46ea9ab1-8392-4127-b288-9f84d5415c08" />
 <img width="389" height="264" alt="TSS_average_profile" src="https://github.com/user-attachments/assets/22d3e698-62ae-4256-8749-0f056d4d2add" />
@@ -33,8 +32,7 @@ In this system, p53 and YEATS2 appear to influence the H4K16ac chromatin state, 
 
 
 
-6. The p53KD and YEATS2KD effects are not the same local program. The supplied overlap analysis finds 0 exact overlapping peak pairs among 217 p53KD and 61 YEATS2KD significant peaks. It also finds no shared nearby genes within 10 kb and no shared promoter-neighborhood genes. The one shared ChIPseeker-annotated gene is too little to establish biological convergence, and GO testing correctly reports the shared set as too small.
-
+4. I found the effects of p53KD and YEATS2KD to not be on the same local program. When an overlap analysis was conducted, 0 exact overlapping peak pairs were found amoung 217 p53KD and 61 YEATS2KD significant peaks. Additionally, it finds no shared nearby genes within 10 kb and no shared promoter-neighborhood genes. I did find 1 shared ChIPseeker-annotated gene, however it was too small to establish any type of biological convergence. GO testing also reported the shared set as too small.
 <img width="352" height="297" alt="shared_gene_overlap_venn" src="https://github.com/user-attachments/assets/68363f55-ef6b-4d8a-9f29-d2274b10219b" />
 <img width="352" height="297" alt="promoter_gene_overlap_venn" src="https://github.com/user-attachments/assets/30292f9c-a760-43de-adab-30eec1da9e79" />
 <img width="352" height="297" alt="exact_peak_overlap_venn" src="https://github.com/user-attachments/assets/f21c5bfb-4d92-465a-93e1-7c800f464ee6" />
