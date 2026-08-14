@@ -10,6 +10,7 @@ At the reciprocal level, MOF loss is not associated with H4K16ac gain. H4K16 ac 
 
 
 <img width="400" height="400" alt="H4K16ac_at_MOF_metaplot" src="https://github.com/user-attachments/assets/4c269831-916f-46fd-86b1-2df3510a34e1" />
+<img width="400" height="400" alt="MOF_at_H4K16ac_metaplot" src="https://github.com/user-attachments/assets/51cc36d6-6bdb-47d8-a2b1-25c0df79f8ac" />
 
 
 
