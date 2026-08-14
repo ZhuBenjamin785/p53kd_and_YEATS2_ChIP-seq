@@ -1,0 +1,5 @@
+"SampleID","Condition","Replicate","bamReads","bamControl","Spikein","Peaks","PeakCaller"
+"Scr_MOF_rep1","Scr_MOF",1,"MOF_bamfiles/human/Scr_MOF_1.sorted.bam","MOF_bamfiles/human/Scr_Input1_S0_L001.sorted.bam","MOF_bamfiles/dm6/Scr_MOF_1.sorted.bam","mof_macs3_results/peaks/Scr_MOF_rep1/Scr_MOF_rep1_peaks.broadPeak","macs"
+"Scr_MOF_rep2","Scr_MOF",2,"MOF_bamfiles/human/Scr_MOF_2.sorted.bam","MOF_bamfiles/human/Scr_Input2_S0_L001.sorted.bam","MOF_bamfiles/dm6/Scr_MOF_2.sorted.bam","mof_macs3_results/peaks/Scr_MOF_rep2/Scr_MOF_rep2_peaks.broadPeak","macs"
+"p53sh_MOF_rep1","p53sh_MOF",1,"MOF_bamfiles/human/p53sh_MOF_1.sorted.bam","MOF_bamfiles/human/MutP53_Input1_S0_L001.sorted.bam","MOF_bamfiles/dm6/p53sh_MOF_1.sorted.bam","mof_macs3_results/peaks/p53sh_MOF_rep1/p53sh_MOF_rep1_peaks.broadPeak","macs"
+"p53sh_MOF_rep2","p53sh_MOF",2,"MOF_bamfiles/human/p53sh_MOF_2.sorted.bam","MOF_bamfiles/human/MutP53_Input2_S0_L001.sorted.bam","MOF_bamfiles/dm6/p53sh_MOF_2.sorted.bam","mof_macs3_results/peaks/p53sh_MOF_rep2/p53sh_MOF_rep2_peaks.broadPeak","macs"

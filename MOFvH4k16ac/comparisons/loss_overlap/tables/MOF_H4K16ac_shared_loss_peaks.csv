@@ -1,0 +1,1 @@
+chromosome,start,end,MOF_peak_id,H4K16ac_peak_id,MOF_log2FC,H4K16ac_log2FC,MOF_FDR,H4K16ac_FDR,nearest_gene,genomic_annotation,distance_to_TSS

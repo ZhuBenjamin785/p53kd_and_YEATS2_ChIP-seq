@@ -1,0 +1,2 @@
+"seqnames","start","end","width","strand","Conc","Conc_p53sh_MOF","Conc_Scr_MOF","Fold","p.value","FDR","annotation","geneChr","geneStart","geneEnd","geneLength","geneStrand","geneId","transcriptId","distanceToTSS","ENSEMBL","SYMBOL","GENENAME"
+"chr1",234971054,234971554,501,"*",4.18192124196013,5.18192124196013,0,3.56894039393942,0.000256205802803165,0.00525221895746489,"Promoter (<=1kb)",1,234959666,234970062,10397,2,"101927851","ENST00000451766.2",-992,"ENSG00000238005","LNCATV","lncRNA negative regulator of antiviral signaling"

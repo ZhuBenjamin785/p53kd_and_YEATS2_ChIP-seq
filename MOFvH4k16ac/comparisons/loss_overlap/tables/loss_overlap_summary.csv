@@ -1,0 +1,2 @@
+total_MOF_loss_peaks,total_H4K16ac_loss_peaks,overlapping_MOF_peaks,overlapping_H4K16ac_peaks,overlap_pairs,MOF_only_peaks,H4K16ac_only_peaks,MOF_overlap_percentage,H4K16ac_overlap_percentage,permutation_observed
+34,208,0,0,0,34,208,0.0,0.0,0

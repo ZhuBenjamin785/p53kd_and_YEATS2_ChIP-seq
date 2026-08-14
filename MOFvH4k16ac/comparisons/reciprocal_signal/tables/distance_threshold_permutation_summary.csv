@@ -1,0 +1,5 @@
+threshold_bp,observed_MOF_peaks,observed_percentage,mean_random_MOF_peaks,enrichment_fold,empirical_p_value,permutations,seed
+1000,0,0.0,0.007,0.0,1.0,1000,12345
+2000,0,0.0,0.008,0.0,1.0,1000,12345
+5000,0,0.0,0.014,0.0,1.0,1000,12345
+10000,0,0.0,0.028,0.0,1.0,1000,12345

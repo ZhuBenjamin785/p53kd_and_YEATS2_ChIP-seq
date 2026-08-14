@@ -1,0 +1,4 @@
+Signal tracks are log2(ChIP/Input), generated from dm6 spike-in-normalized BAMs.
+TSS-to-TES metaplots show the mean gene-body signal with a SEM ribbon.
+TSS-to-TES heatmap rows are the 3,000 highest-absolute-signal protein-coding genes, not peaks or differential genes.
+Differential plots use DiffBind-normalized binding results where available.

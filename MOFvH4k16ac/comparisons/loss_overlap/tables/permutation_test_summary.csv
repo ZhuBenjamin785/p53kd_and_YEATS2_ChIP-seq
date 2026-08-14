@@ -1,0 +1,2 @@
+iterations,seed,MOF_peaks_tested,H4K16ac_peaks_tested,observed_overlapping_MOF_peaks,mean_random_overlapping_MOF_peaks,enrichment_fold,z_score,empirical_p_value
+1000,12345,34,208,0,0.0,,,1.0
