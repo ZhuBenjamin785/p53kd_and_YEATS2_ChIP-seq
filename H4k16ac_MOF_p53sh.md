@@ -1,4 +1,4 @@
-After p53 knockdown, MOF occupancy is largely preserved across gene bodies, with only a modest overall reduction in signal. The MOF dataset shows 34 significant loss peaks but only 1 significant gain peak, indicating that MOF redistribution is limited and highly locus-specific rather than genome-wide.
+After silencing p53, MOF occupancy is still largely presenved across gene bodies, with only a small reduction in signal. The MOF dataset showed 34 significant lossed peaks but only 1 gain peak. This indicates that MOF redistribution is limited and locus specific rather than genome wide.
 
 The MOF losses do not generally coincide with H4K16ac losses:
  - 34 MOF-loss peaks were detected.
