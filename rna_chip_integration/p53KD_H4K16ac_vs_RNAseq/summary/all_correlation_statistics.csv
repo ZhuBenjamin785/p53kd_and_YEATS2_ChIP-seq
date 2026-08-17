@@ -1,0 +1,5 @@
+"Analysis","Method","N","Correlation","P_value"
+"all_peaks","Pearson",26,-0.0211155240954234,0.918451623277582
+"all_peaks","Spearman",26,-0.0577777777777778,0.779205259956945
+"promoter_peaks","Pearson",18,-0.222860088983689,0.374062200171875
+"promoter_peaks","Spearman",18,-0.234262125902993,0.349454142980642

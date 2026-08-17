@@ -1,0 +1,5 @@
+"Biological_category","Gene_count","Concordance"
+"H4K16ac loss + RNA down",14,"Concordant"
+"H4K16ac gain + RNA up",0,"Concordant"
+"H4K16ac loss + RNA up",4,"Discordant"
+"H4K16ac gain + RNA down",0,"Discordant"

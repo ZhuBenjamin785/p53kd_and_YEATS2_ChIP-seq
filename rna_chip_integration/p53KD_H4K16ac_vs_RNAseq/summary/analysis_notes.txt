@@ -1,0 +1,8 @@
+RNA-seq and H4K16ac integration
+RNA input: /gpfs/projects/b1042/LauberthLab/BenFolder/shared/rna_seq_dea/shp53_vs_shLacZ_0hr/significant_results.csv
+H4K16ac input: /gpfs/projects/b1042/LauberthLab/BenFolder/p53kdH4K16ac/diffbind_results/split_genes/significant_annotated.csv
+RNA threshold: padj < 0.05
+H4K16ac threshold: FDR < 0.05
+Duplicate peak rule: lowest FDR per gene; largest absolute Fold breaks ties.
+Positive Fold/log2FC = gain/up after p53 knockdown; negative = loss/down.
+Promoter analysis includes annotations containing the word 'Promoter'.
