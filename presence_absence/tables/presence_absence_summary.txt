@@ -1,0 +1,11 @@
+total_Scramble_peaks	5068
+total_KD_peaks	8449
+shared_overlap_loci	2673
+Scramble_peaks_with_overlap	2606
+KD_peaks_with_overlap	2349
+Scramble_only_peaks	2462
+KD_only_peaks	6100
+Scramble_only_percent	48.57932123125493
+KD_only_percent	72.19789324180377
+Scramble_shared_percent	51.42067876874507
+KD_shared_percent	27.802106758196235

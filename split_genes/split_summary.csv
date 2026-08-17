@@ -1,0 +1,2 @@
+"input_table","fdr_cutoff","logfc_cutoff","input_peaks","significant_peaks","up_peaks","down_peaks","up_gene_ids","down_gene_ids"
+"/gpfs/projects/b1042/LauberthLab/BenFolder/p53kdH4K16ac/diffbind_results/DiffBind_all_peaks.csv",0.05,0.05,3222,213,5,208,4,207

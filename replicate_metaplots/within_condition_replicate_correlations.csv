@@ -1,0 +1,3 @@
+condition,replicate_1,replicate_2,pearson_r,regions_with_both_values
+Scramble,Scramble replicate 1,Scramble replicate 2,0.7284800525314199,210
+p53KD,p53KD replicate 1,p53KD replicate 2,0.5185293821506823,210

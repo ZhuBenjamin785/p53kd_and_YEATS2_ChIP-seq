@@ -1,0 +1,5 @@
+"geneId","ENSEMBL","SYMBOL","GENENAME","direction","peak_count","strongest_abs_fold","minimum_FDR"
+"105372664",NA,"LOC105372664","uncharacterized LOC105372664","up",1,3.95072556144344,0.0191397092952585
+"51750","ENSG00000258366","RTEL1","regulator of telomere elongation helicase 1","up",1,2.88985837868417,0.043601945597182
+"7150","ENSG00000198900","TOP1","DNA topoisomerase I","up",2,3.2406678439062,1.14392280321193e-09
+"7151",NA,"TOP1P1","DNA topoisomerase I pseudogene 1","up",1,2.49751139854405,0.00200334216244036

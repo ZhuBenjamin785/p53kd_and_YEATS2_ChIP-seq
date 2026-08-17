@@ -1,0 +1,6 @@
+"stage","genes_or_peaks"
+"tested_peak_genes_before_conversion",2743
+"tested_peak_genes_after_Entrez_conversion",2743
+"significant_loss_peaks",208
+"unique_significant_loss_genes",207
+"selected_strongest_loss_genes",52
