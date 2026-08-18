@@ -1,0 +1,3 @@
+test,universe_genes,chip_genes,rna_genes,overlap,chip_and_rna,chip_and_not_rna,no_chip_and_rna,no_chip_and_not_rna,odds_ratio,fisher_p_value_greater
+H4K16ac loss vs RNA down,2087,163,203,20,20,143,183,1741,1.3305819863196913,0.15750703050614406
+H4K16ac gain vs RNA up,2087,3,49,0,0,3,49,2035,0.0,1.0

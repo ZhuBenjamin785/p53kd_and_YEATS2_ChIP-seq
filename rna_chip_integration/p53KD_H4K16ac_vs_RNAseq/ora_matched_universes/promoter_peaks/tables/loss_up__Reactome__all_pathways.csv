@@ -1,0 +1,5 @@
+"Gene_set","Database","Pathway_ID","Pathway","GeneRatio","BgRatio","Count","P_value","Adjusted_P_value_FDR","Genes"
+"loss_up","Reactome","R-HSA-8878171","Transcriptional regulation by RUNX1","1/1","24/1064",1,0.0225563909774434,0.0902255639097738,"ELF1"
+"loss_up","Reactome","R-HSA-212436","Generic Transcription Pathway","1/1","135/1064",1,0.12687969924812,0.172932330827068,"ELF1"
+"loss_up","Reactome","R-HSA-73857","RNA Polymerase II Transcription","1/1","159/1064",1,0.149436090225564,0.172932330827068,"ELF1"
+"loss_up","Reactome","R-HSA-74160","Gene expression (Transcription)","1/1","184/1064",1,0.172932330827068,0.172932330827068,"ELF1"

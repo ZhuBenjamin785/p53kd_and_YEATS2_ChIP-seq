@@ -1,0 +1,3 @@
+Scope,RNA_eligible_genes,ChIP_eligible_genes,Matched_universe_genes,Promoter_rule
+all_peaks,15536,2743,2087,not applicable
+promoter_peaks,15536,2248,1812,annotation contains promoter (case-insensitive)

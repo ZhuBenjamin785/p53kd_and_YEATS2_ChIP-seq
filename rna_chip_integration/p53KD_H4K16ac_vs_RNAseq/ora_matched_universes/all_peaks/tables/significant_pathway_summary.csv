@@ -1,0 +1,5 @@
+"Gene_set","Database","Pathway_ID","Pathway","GeneRatio","BgRatio","Count","P_value","Adjusted_P_value_FDR","Genes"
+"loss_down","KEGG","hsa04810","Regulation of actin cytoskeleton","5/10","31/927",5,6.7365072365433e-06,0.000485028521031118,"ACTR3B;C5;LIMK1;ACTR3C;FGF3"
+"loss_down","KEGG","hsa04666","Fc gamma R-mediated phagosome formation","3/10","16/927",3,0.000471438155398839,0.0169717735943582,"ACTR3B;LIMK1;ACTR3C"
+"loss_down","KEGG","hsa05135","Yersinia infection","3/10","22/927",3,0.00125256134302821,0.0300614722326771,"ACTR3B;LIMK1;ACTR3C"
+"loss_up","KEGG","hsa05202","Transcriptional misregulation in cancer","1/1","27/927",1,0.029126213592233,0.029126213592233,"ETV6"

@@ -1,0 +1,6 @@
+"Gene_set","Display_name","Input_symbols","Mapped_symbols","Unique_Entrez_IDs","Entrez_IDs_in_universe"
+"background","Background universe",1812,1800,1800,1800
+"loss_down","H4K16ac loss + RNA down",14,14,14,14
+"gain_up","H4K16ac gain + RNA up",0,0,0,0
+"loss_up","H4K16ac loss + RNA up",4,4,4,4
+"gain_down","H4K16ac gain + RNA down",0,0,0,0

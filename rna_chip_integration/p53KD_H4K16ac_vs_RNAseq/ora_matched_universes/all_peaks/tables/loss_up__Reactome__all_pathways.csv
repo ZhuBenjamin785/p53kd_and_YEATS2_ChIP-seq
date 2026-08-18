@@ -1,0 +1,7 @@
+"Gene_set","Database","Pathway_ID","Pathway","GeneRatio","BgRatio","Count","P_value","Adjusted_P_value_FDR","Genes"
+"loss_up","Reactome","R-HSA-8878171","Transcriptional regulation by RUNX1","1/2","28/1215",1,0.0455779960813827,0.273467976488296,"ELF1"
+"loss_up","Reactome","R-HSA-5663202","Diseases of signal transduction by growth factor receptors and second messengers","1/2","74/1215",1,0.1181483515366,0.354445054609799,"ETV6"
+"loss_up","Reactome","R-HSA-212436","Generic Transcription Pathway","1/2","154/1215",1,0.237523813397875,0.375835824841865,"ELF1"
+"loss_up","Reactome","R-HSA-73857","RNA Polymerase II Transcription","1/2","180/1215",1,0.274452376594057,0.375835824841865,"ELF1"
+"loss_up","Reactome","R-HSA-74160","Gene expression (Transcription)","1/2","208/1215",1,0.313196520701554,0.375835824841865,"ELF1"
+"loss_up","Reactome","R-HSA-1643685","Disease","1/2","336/1215",1,0.476775072711372,0.476775072711372,"ETV6"
