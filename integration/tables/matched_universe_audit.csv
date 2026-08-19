@@ -1,0 +1,3 @@
+scope,RNA_eligible_symbols,ChIP_eligible_symbols,matched_universe_symbols
+all_peaks,15627,2743,2100
+promoter_peaks,15627,2248,1828

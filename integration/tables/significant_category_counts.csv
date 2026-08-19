@@ -1,0 +1,9 @@
+scope,category,count
+all_peaks,loss_down,20
+all_peaks,gain_up,0
+all_peaks,loss_up,7
+all_peaks,gain_down,0
+promoter_peaks,loss_down,14
+promoter_peaks,gain_up,0
+promoter_peaks,loss_up,5
+promoter_peaks,gain_down,0

@@ -1,0 +1,15 @@
+{
+  "rna_input": "/gpfs/projects/b1042/LauberthLab/BenFolder/shared/rna_seq_dea/shp53_vs_shLacZ_0hr/results.csv",
+  "chip_input": "/gpfs/projects/b1042/LauberthLab/BenFolder/shared/chipseq_summary_plots/p53KD/diffbind_peak_annotations.csv",
+  "rna_fdr": 0.05,
+  "rna_min_abs_lfc": 1.0,
+  "chip_fdr": 0.05,
+  "fisher_alternative": "greater",
+  "primary_chip_gene_summary_for_correlation": "median Fold across all assigned tested peaks",
+  "sensitivity_chip_gene_summaries": [
+    "mean",
+    "nearest absolute distanceToTSS"
+  ],
+  "ambiguous_significant_chip_genes_excluded_from_directional_sets": [],
+  "ambiguous_significant_promoter_chip_genes_excluded_from_directional_sets": []
+}

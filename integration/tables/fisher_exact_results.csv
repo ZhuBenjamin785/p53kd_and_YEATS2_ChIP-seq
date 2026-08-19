@@ -1,0 +1,3 @@
+test,alternative,universe_genes,chip_genes,rna_genes,overlap,chip_and_rna,chip_and_not_rna,no_chip_and_rna,no_chip_and_not_rna,odds_ratio,fisher_p_value,BH_FDR_two_directional_tests
+H4K16ac loss vs RNA down,greater,2100,165,210,20,20,145,190,1745,1.2667876588021778,0.2055847399322489,0.4111694798644978
+H4K16ac gain vs RNA up,greater,2100,3,48,0,0,3,48,2049,0.0,1.0,1.0
